@@ -1,0 +1,5737 @@
+{
+  "version": "2.0.0",
+  "updatedAt": "2026-09-14",
+  "recipePolicy": {
+    "differentIngredients": "separate_recipe",
+    "differentTexture": "separate_recipe",
+    "preparationRequired": true,
+    "substitutions": "same_preparation_and_cook_time_only"
+  },
+  "recipes": [
+    {
+      "id": "recipe-kimchi-jjigae-001",
+      "name": "돼지고기 김치찌개",
+      "aliases": [
+        "김찌",
+        "김치 찌개"
+      ],
+      "cuisine": "한식",
+      "category": "찌개",
+      "tags": [
+        "얼큰한",
+        "돼지고기",
+        "밥도둑"
+      ],
+      "emoji": "🍲",
+      "color": "#f4c3ac",
+      "summary": "푹 익은 김치에 다시다와 미원으로 감칠맛을 단단히 잡은 진한 김치찌개입니다.",
+      "safety": "돼지고기 가장 두꺼운 부분이 63°C 이상에 도달한 뒤 3분 이상 익힘 상태를 유지하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.10000recipe.com/recipe/print.html?seq=7016953",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "신김치",
+          "text": "먹기 좋은 3~4cm 폭으로 자르고 김치국물은 따로 계량합니다."
+        },
+        {
+          "ingredient": "돼지고기 앞다리살",
+          "text": "2~3cm 한입 크기로 썰고 키친타월로 표면 핏물만 눌러 제거합니다. 물로 씻지 않습니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "흐르는 물에 씻어 0.5cm 폭으로 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "신김치",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "돼지고기 앞다리살",
+          "amount": 180,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "김치국물",
+          "amount": 60,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 500,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true,
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        },
+        {
+          "name": "국간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "액젓",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.2,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            },
+            {
+              "name": "연두 순",
+              "amount": 12,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.78,
+          "household": true,
+          "scaling": "taste",
+          "note": "먼저 넣고 마지막에 간보기",
+          "alternatives": [
+            {
+              "name": "멸치다시다",
+              "amount": 5,
+              "unit": "ml",
+              "density": 0.76,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "김치와 고기 맛이 충분하면 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 1,
+          "unit": "ml",
+          "density": 0.82,
+          "household": true,
+          "scaling": "taste",
+          "note": "감칠맛 보강",
+          "alternatives": [
+            {
+              "name": "연두 순",
+              "amount": 5,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "다시다를 사용할 경우 생략 가능"
+        },
+        {
+          "name": "대파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 110,
+          "optional": true,
+          "optionalReason": "향채이므로 없어도 조리 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "냄비를 1분 예열한 뒤 돼지고기와 김치를 넣고 볶습니다.",
+          "cue": "고기 겉면이 하얗게 익고 김치 가장자리가 투명해집니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "김치국물, 물, 고춧가루를 넣고 뚜껑을 열어 끓입니다.",
+          "cue": "냄비 전체에서 큰 기포가 연속으로 올라옵니다."
+        },
+        {
+          "heat": "중약불",
+          "minutes": 15,
+          "text": "국간장과 쇠고기다시다를 넣고 뚜껑을 살짝 걸쳐 끓입니다.",
+          "cue": "국물이 약 15% 줄고 돼지고기가 부드러워집니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 2,
+          "text": "대파와 미원을 넣고 짧게 끓인 뒤 불을 끄고 간을 봅니다.",
+          "cue": "대파 향이 올라오되 색이 선명하게 남아 있습니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "pressure-pot",
+          "label": "압력냄비",
+          "icon": "♨️",
+          "totalMinutes": 20,
+          "warning": "압력이 남아 있을 때 뚜껑을 강제로 열지 마세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.7
+            }
+          ],
+          "steps": [
+            {
+              "heat": "중불",
+              "minutes": 4,
+              "text": "뚜껑을 열고 돼지고기와 김치를 먼저 볶습니다.",
+              "cue": "김치가 부드러워집니다."
+            },
+            {
+              "heat": "센불",
+              "minutes": 4,
+              "text": "물과 양념을 넣고 뚜껑을 잠가 압력이 오를 때까지 가열합니다.",
+              "cue": "압력 표시핀이 올라오거나 추가 규칙적으로 흔들립니다."
+            },
+            {
+              "heat": "약불·고압",
+              "minutes": 6,
+              "text": "압력이 오른 시점부터 약불로 낮춰 유지합니다.",
+              "cue": "압력 추가 과격하지 않게 천천히 움직입니다."
+            },
+            {
+              "heat": "불 끔",
+              "minutes": 5,
+              "text": "불을 끄고 5분 자연 감압한 뒤 남은 압력을 안전하게 배출합니다. 대파와 미원을 넣고 뚜껑 없이 1분 끓입니다.",
+              "cue": "압력핀이 완전히 내려간 뒤에만 엽니다."
+            }
+          ]
+        },
+        {
+          "id": "rice-cooker",
+          "label": "압력밥솥",
+          "icon": "🍚",
+          "totalMinutes": 35,
+          "warning": "내솥의 최대 눈금을 넘기지 말고 자동 증기 배출이 끝난 뒤 여세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.65
+            }
+          ],
+          "steps": [
+            {
+              "heat": "밥솥·만능찜",
+              "minutes": 20,
+              "text": "대파와 미원을 제외한 모든 재료를 내솥에 넣고 만능찜 20분을 실행합니다.",
+              "cue": "프로그램 종료와 자동 증기 배출을 기다립니다."
+            },
+            {
+              "heat": "보온",
+              "minutes": 3,
+              "text": "안전하게 연 뒤 대파와 미원을 섞고 보온 상태로 둡니다.",
+              "cue": "대파가 살짝 숨이 죽으면 완성입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-jeyuk-001",
+      "name": "윤기 제육볶음",
+      "aliases": [
+        "아빠식 제육볶음",
+        "제육",
+        "국물 없는 제육볶음",
+        "돼지불백"
+      ],
+      "cuisine": "한식",
+      "category": "볶음",
+      "tags": [
+        "매콤한",
+        "돼지고기",
+        "술안주"
+      ],
+      "emoji": "🥘",
+      "color": "#f5b39c",
+      "summary": "채소 수분을 날리고 고추장 양념을 센 불에 볶아 국물 없이 윤기 나게 완성하는 제육볶음입니다.",
+      "safety": "돼지고기 가장 두꺼운 부분이 63°C 이상에 도달한 뒤 3분간 두세요. 색만으로 익힘을 판단하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.10000recipe.com/recipe/7056510",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 25,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "돼지고기 앞다리살",
+          "text": "볶음용 3~4mm 두께로 썰고 키친타월로 표면 핏물을 눌러 제거합니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "껍질과 뿌리를 제거하고 1cm 폭으로 채 썹니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "깨끗이 씻어 0.5cm 폭으로 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "돼지고기 앞다리살",
+          "amount": 400,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 285,
+          "optional": true,
+          "optionalReason": "고기만 볶아도 가능"
+        },
+        {
+          "name": "대파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 110,
+          "optional": true,
+          "optionalReason": "파기름 향이 필요 없으면 생략"
+        },
+        {
+          "name": "고추장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 10,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "scaling": "taste",
+          "note": "간을 둥글게 잡아줍니다",
+          "alternatives": [
+            {
+              "name": "굴소스",
+              "amount": 7.5,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "간장 양념만으로도 가능"
+        },
+        {
+          "name": "미원",
+          "amount": 1,
+          "unit": "ml",
+          "density": 0.82,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "쇠고기다시다",
+              "amount": 2.5,
+              "unit": "ml",
+              "density": 0.78,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "연두 또는 다시다 사용 시 생략 가능"
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "scaling": "fixed",
+          "note": "팬 크기에 따라 조절",
+          "optional": true,
+          "optionalReason": "삼겹살이나 코팅 팬 사용 시 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 사용 없음",
+          "minutes": 2,
+          "text": "고추장, 간장, 고춧가루, 설탕, 마늘, 연두, 미원을 섞습니다.",
+          "cue": "고추장 덩어리가 보이지 않습니다."
+        },
+        {
+          "heat": "불 사용 없음",
+          "minutes": 10,
+          "text": "고기에 양념 절반을 버무려 둡니다.",
+          "cue": "고기 표면에 양념이 고르게 묻습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "팬을 1분 예열하고 식용유와 대파를 넣어 볶습니다.",
+          "cue": "대파 가장자리가 노릇해지고 향이 납니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 6,
+          "text": "고기를 넓게 펼쳐 2분 건드리지 않고 익힌 뒤 뒤집어 볶습니다.",
+          "cue": "고기 표면이 갈색으로 구워집니다."
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "양파와 남은 양념을 넣고 수분이 날아갈 때까지 볶습니다.",
+          "cue": "팬 바닥에 묽은 국물이 거의 남지 않습니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "🔥",
+          "totalMinutes": 30,
+          "warning": "양념의 설탕이 쉽게 타므로 마지막 5분부터 확인하세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "식용유",
+              "factor": 0.5
+            }
+          ],
+          "steps": [
+            {
+              "heat": "오븐 220°C",
+              "minutes": 10,
+              "text": "오븐을 예열하고 고기와 모든 양념을 버무립니다.",
+              "cue": "오븐이 220°C에 도달합니다."
+            },
+            {
+              "heat": "220°C",
+              "minutes": 10,
+              "text": "종이호일을 깐 넓은 팬에 고기를 겹치지 않게 펼쳐 굽습니다.",
+              "cue": "가장자리 고기가 갈색으로 변합니다."
+            },
+            {
+              "heat": "220°C",
+              "minutes": 8,
+              "text": "고기를 뒤집고 양파와 대파를 섞어 더 굽습니다.",
+              "cue": "고기가 완전히 익고 양념이 꾸덕해집니다."
+            },
+            {
+              "heat": "그릴·선택",
+              "minutes": 2,
+              "text": "불맛을 원하면 상단 그릴로 짧게 마무리합니다.",
+              "cue": "끝부분에 살짝 탄 색이 생깁니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-soegogi-miyeokguk-001",
+      "name": "소고기 미역국",
+      "aliases": [
+        "미역국",
+        "생일국"
+      ],
+      "cuisine": "한식",
+      "category": "국",
+      "tags": [
+        "담백한",
+        "소고기",
+        "생일"
+      ],
+      "emoji": "🥣",
+      "color": "#c7d7bd",
+      "summary": "소고기와 미역을 충분히 볶고 연두로 깊이를 더한 맑은 미역국입니다.",
+      "safety": "압력 조리 시 표시핀이 완전히 내려가고 증기가 멎은 뒤 제조사 설명서대로 뚜껑을 여세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.10000recipe.com/recipe/print.html?seq=7029092",
+          "https://cuckooamerica.com/pages/support-faq"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 35,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "마른 미역",
+          "text": "찬물에 10분 불린 뒤 두 번 헹구고 물기를 꼭 짜서 4cm 길이로 자릅니다."
+        },
+        {
+          "ingredient": "소고기 국거리",
+          "text": "2cm 크기로 썰고 키친타월로 표면 핏물을 눌러 제거합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "마른 미역",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.18
+        },
+        {
+          "name": "소고기 국거리",
+          "amount": 150,
+          "unit": "g",
+          "density": 1.05,
+          "optional": true,
+          "optionalReason": "고기 없이 미역만 끓여도 가능"
+        },
+        {
+          "name": "물",
+          "amount": 1200,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "국간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "참치액",
+              "amount": 20,
+              "unit": "ml",
+              "density": 1.16,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "연두 순",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "국간장",
+              "amount": 12,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "국간장으로 간이 충분하면 생략"
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true,
+          "optional": true,
+          "optionalReason": "맑은 맛을 원하면 생략"
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "scaling": "fixed"
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.82,
+          "household": true,
+          "scaling": "taste",
+          "optional": true,
+          "optionalReason": "연두를 사용하면 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 사용 없음",
+          "minutes": 10,
+          "text": "미역을 찬물에 불린 뒤 두 번 씻어서 물기를 꼭 짭니다.",
+          "cue": "미역이 부드럽게 펴지고 질긴 심이 없습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "냄비에 참기름, 소고기, 미역을 넣고 볶습니다.",
+          "cue": "고기 겉면이 익고 미역 색이 짙어집니다."
+        },
+        {
+          "heat": "센불→약불",
+          "minutes": 22,
+          "text": "물과 국간장을 넣어 센불로 끓인 뒤, 끓으면 약불로 낮춰 뚜껑을 살짝 열고 끓입니다.",
+          "cue": "미역이 충분히 부드럽고 국물이 뽀얘집니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 5,
+          "text": "연두, 마늘, 미원을 넣고 더 끓여 간을 맞춥니다.",
+          "cue": "마늘의 생향이 사라집니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "pressure-pot",
+          "label": "압력냄비",
+          "icon": "♨️",
+          "totalMinutes": 22,
+          "warning": "미역은 불면 부피가 커지므로 냄비의 절반을 넘기지 말고, 압력이 완전히 빠진 뒤 여세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.8
+            }
+          ],
+          "steps": [
+            {
+              "heat": "중불",
+              "minutes": 5,
+              "text": "뚜껑을 열고 참기름에 소고기와 불린 미역을 볶습니다.",
+              "cue": "고기 겉면이 익습니다."
+            },
+            {
+              "heat": "센불",
+              "minutes": 4,
+              "text": "물과 국간장을 넣고 잠근 뒤 압력이 오를 때까지 가열합니다.",
+              "cue": "압력 표시핀이 올라옵니다."
+            },
+            {
+              "heat": "약불·고압",
+              "minutes": 5,
+              "text": "압력을 유지하며 끓인 뒤 불을 끕니다.",
+              "cue": "약한 증기가 일정하게 나옵니다."
+            },
+            {
+              "heat": "자연 감압→약불",
+              "minutes": 6,
+              "text": "자연 감압 후 열어 연두, 마늘, 미원을 넣고 1분 끓입니다.",
+              "cue": "압력핀이 완전히 내려갑니다."
+            }
+          ]
+        },
+        {
+          "id": "rice-cooker",
+          "label": "압력밥솥",
+          "icon": "🍚",
+          "totalMinutes": 35,
+          "warning": "미역과 물을 합쳐 내솥의 절반을 넘기지 말고, 자동 증기 배출이 끝난 뒤 여세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.8
+            }
+          ],
+          "steps": [
+            {
+              "heat": "팬·중불",
+              "minutes": 5,
+              "text": "별도 팬에서 참기름에 소고기와 미역을 볶아 내솥으로 옮깁니다.",
+              "cue": "고기 겉면이 익습니다."
+            },
+            {
+              "heat": "밥솥·만능찜",
+              "minutes": 20,
+              "text": "물과 국간장을 넣고 만능찜 20분을 실행합니다.",
+              "cue": "자동 증기 배출이 끝납니다."
+            },
+            {
+              "heat": "보온",
+              "minutes": 3,
+              "text": "연두, 마늘, 미원을 섞고 보온으로 둡니다.",
+              "cue": "마늘 향이 국물에 어우러집니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-egg-fried-rice-001",
+      "name": "파기름 계란볶음밥",
+      "aliases": [
+        "계란밥",
+        "볶음밥"
+      ],
+      "cuisine": "한식",
+      "category": "밥",
+      "tags": [
+        "초간단",
+        "계란",
+        "혼밥"
+      ],
+      "emoji": "🍳",
+      "color": "#f6dfa3",
+      "summary": "대파를 충분히 볶아 향을 내고 미원 한 꼬집으로 완성하는 빠른 볶음밥입니다.",
+      "safety": "달걀은 반숙 상태가 남지 않게 중심 71°C 이상으로 완전히 익히고, 전자레인지 용기는 밀폐하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.youtube.com/watch?v=qUDEyONQaCA",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 12,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "찬밥",
+          "text": "냉장 밥은 큰 덩어리가 없도록 주걱으로 미리 풀어 둡니다."
+        },
+        {
+          "ingredient": "달걀",
+          "text": "깨끗한 그릇에 하나씩 깨서 껍데기 조각과 이상 여부를 확인한 뒤 섞습니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "씻어서 물기를 닦고 0.3cm 폭으로 잘게 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "찬밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.78
+        },
+        {
+          "name": "달걀",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 52,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "대파",
+          "amount": 0.35,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 110,
+          "alternatives": [
+            {
+              "name": "쪽파",
+              "amount": 2,
+              "unit": "count",
+              "countLabel": "줄기",
+              "gramsPerUnit": 8,
+              "mlPerUnit": 10,
+              "samePreparation": true,
+              "preparation": "씻어 물기를 닦고 원재료 대파와 같은 두께로 썹니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "파향 없이 담백하게 먹을 때"
+        },
+        {
+          "name": "진간장",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "굴소스",
+              "amount": 5,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "scaling": "fixed"
+        },
+        {
+          "name": "미원",
+          "amount": 0.6,
+          "unit": "ml",
+          "density": 0.82,
+          "household": true,
+          "scaling": "taste",
+          "note": "한 꼬집 정도",
+          "alternatives": [
+            {
+              "name": "연두 순",
+              "amount": 2.5,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "간장이나 굴소스 맛으로 충분하면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 사용 없음",
+          "minutes": 2,
+          "text": "찬밥의 덩어리를 풀고 대파를 잘게 썹니다.",
+          "cue": "밥알이 큰 덩어리 없이 흩어집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "팬을 30초 예열한 뒤 식용유와 대파를 넣어 볶습니다.",
+          "cue": "대파 가장자리가 노릇해집니다."
+        },
+        {
+          "heat": "중강불",
+          "minutes": 2,
+          "text": "달걀을 넣고 크게 저어 70% 정도 익힙니다.",
+          "cue": "표면은 익고 안쪽은 약간 촉촉합니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 4,
+          "text": "밥을 넣고 누르듯 펼친 뒤 볶습니다. 팬 가장자리에 간장을 둘러 20초 끓이고 미원을 섞습니다.",
+          "cue": "밥알이 고슬고슬하고 김이 세게 올라옵니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "microwave",
+          "label": "전자레인지",
+          "icon": "📡",
+          "totalMinutes": 9,
+          "warning": "프라이팬보다 불맛은 약하고 촉촉한 식감이 납니다. 반드시 전자레인지용 용기를 사용하세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "식용유",
+              "factor": 0.6
+            }
+          ],
+          "steps": [
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 2,
+              "text": "큰 용기에 달걀, 절반의 식용유, 대파를 섞어 덮개를 살짝 열고 가열합니다.",
+              "cue": "달걀 가장자리만 익기 시작합니다."
+            },
+            {
+              "heat": "섞기",
+              "minutes": 1,
+              "text": "달걀을 잘게 풀고 찬밥, 간장, 미원을 넣어 골고루 섞습니다.",
+              "cue": "밥알에 달걀이 고르게 묻습니다."
+            },
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 3,
+              "text": "덮개를 살짝 열어 가열하고 중간에 한 번 섞습니다.",
+              "cue": "전체에서 김이 나고 달걀이 완전히 익습니다."
+            },
+            {
+              "heat": "뜸",
+              "minutes": 1,
+              "text": "꺼내서 잘 섞고 1분 둡니다.",
+              "cue": "남은 수분이 밥알에 흡수됩니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-dak-bokkeumtang-001",
+      "name": "닭볶음탕",
+      "aliases": [
+        "닭도리탕",
+        "매운 닭"
+      ],
+      "cuisine": "한식",
+      "category": "찜",
+      "tags": [
+        "매콤한",
+        "닭고기",
+        "푸짐한"
+      ],
+      "emoji": "🍗",
+      "color": "#e9b09e",
+      "summary": "감자에 양념이 푹 배고 국물은 진득한 가족용 닭볶음탕입니다.",
+      "safety": "닭은 뼈를 피해 가장 두꺼운 살의 중심이 74°C 이상인지 확인하세요. 생닭을 물로 씻지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://m.10000recipe.com/recipe/7065403",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food-safety"
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 50,
+      "difficulty": "보통",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "볶음탕용 닭",
+          "text": "물로 씻지 말고 포장에서 집게로 바로 꺼냅니다. 큰 지방 덩어리만 가위로 제거하고 생닭 도구를 분리합니다."
+        },
+        {
+          "ingredient": "감자",
+          "text": "껍질과 싹을 제거하고 4~5cm로 큼직하게 썰어 찬물에 한 번 헹굽니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "껍질과 뿌리를 제거하고 6~8등분합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "볶음탕용 닭",
+          "amount": 1000,
+          "unit": "g",
+          "density": 1.04
+        },
+        {
+          "name": "감자",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 180,
+          "mlPerUnit": 250,
+          "optional": true,
+          "optionalReason": "채소 없이 닭만 조리 가능"
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 285
+        },
+        {
+          "name": "물",
+          "amount": 700,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "고추장",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 60,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.78,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.13,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "닭과 양념 맛이 충분하면 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 1,
+          "unit": "ml",
+          "density": 0.82,
+          "household": true,
+          "scaling": "taste",
+          "optional": true,
+          "optionalReason": "다시다 사용 시 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 2,
+          "text": "끓는 물에 닭을 2분 데친 뒤 집게로 건져 물기를 뺍니다. 생닭이 닿은 도구와 손은 바로 세척합니다.",
+          "cue": "닭 표면이 하얗게 변합니다. 물로 씻어 튀기지 않습니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 7,
+          "text": "냄비에 닭, 물, 양념을 넣고 뚜껑을 열어 끓입니다.",
+          "cue": "전체에서 큰 기포가 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 20,
+          "text": "감자를 넣고 뚜껑을 덮되 약간의 틈을 두어 끓입니다.",
+          "cue": "젓가락이 감자 중간까지 부드럽게 들어갑니다."
+        },
+        {
+          "heat": "중강불",
+          "minutes": 10,
+          "text": "양파를 넣고 뚜껑을 연 채 국물을 졸입니다.",
+          "cue": "국물이 처음의 절반 정도로 줄고 닭에 윤기가 납니다. 가장 두꺼운 살이 74°C 이상이어야 합니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "pressure-pot",
+          "label": "압력냄비",
+          "icon": "♨️",
+          "totalMinutes": 28,
+          "warning": "감자를 크게 썰고, 조리 뒤 압력이 완전히 빠지기 전에는 뚜껑을 열지 마세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.55
+            }
+          ],
+          "steps": [
+            {
+              "heat": "센불",
+              "minutes": 4,
+              "text": "데친 닭, 큼직한 감자, 물, 양념을 넣고 잠가 압력을 올립니다.",
+              "cue": "압력 표시핀이 올라옵니다."
+            },
+            {
+              "heat": "약불·고압",
+              "minutes": 8,
+              "text": "압력이 오른 뒤 약불로 낮춰 유지합니다.",
+              "cue": "약한 증기가 일정하게 나옵니다."
+            },
+            {
+              "heat": "자연 감압",
+              "minutes": 7,
+              "text": "불을 끄고 7분 기다린 뒤 남은 압력을 배출합니다.",
+              "cue": "압력핀이 완전히 내려갑니다."
+            },
+            {
+              "heat": "중강불",
+              "minutes": 5,
+              "text": "뚜껑을 열고 양파를 넣어 원하는 농도로 졸입니다.",
+              "cue": "국물이 닭에 걸쭉하게 묻고 가장 두꺼운 살이 74°C 이상입니다."
+            }
+          ]
+        },
+        {
+          "id": "rice-cooker",
+          "label": "압력밥솥",
+          "icon": "🍚",
+          "totalMinutes": 45,
+          "warning": "내솥 최대 눈금을 넘기지 말고 뼈가 코팅을 긁지 않게 하며, 자동 증기 배출이 끝난 뒤 여세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.5
+            }
+          ],
+          "steps": [
+            {
+              "heat": "밥솥·만능찜",
+              "minutes": 25,
+              "text": "양파를 제외한 재료를 내솥에 넣고 만능찜 25분을 실행합니다.",
+              "cue": "자동 증기 배출이 끝납니다."
+            },
+            {
+              "heat": "재가열·뚜껑 열림",
+              "minutes": 7,
+              "text": "안전하게 연 뒤 양파를 넣고 재가열하거나 보온 상태에서 익힙니다.",
+              "cue": "양파가 투명해지고 국물이 걸쭉하며 닭 중심이 74°C 이상입니다."
+            }
+          ]
+        },
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "🔥",
+          "totalMinutes": 55,
+          "warning": "국물 요리보다 구이처럼 진하고 꾸덕한 결과가 납니다.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.3
+            }
+          ],
+          "steps": [
+            {
+              "heat": "오븐 200°C",
+              "minutes": 10,
+              "text": "오븐을 예열하고 데친 닭과 감자에 양념을 버무립니다.",
+              "cue": "오븐이 200°C에 도달합니다."
+            },
+            {
+              "heat": "200°C·덮기",
+              "minutes": 25,
+              "text": "깊은 오븐 용기에 담아 포일로 덮고 굽습니다.",
+              "cue": "감자에 젓가락이 들어가기 시작합니다."
+            },
+            {
+              "heat": "210°C·덮개 제거",
+              "minutes": 15,
+              "text": "양파를 섞고 덮개 없이 더 구워 양념을 졸입니다.",
+              "cue": "닭 표면이 갈색이고 가장 두꺼운 살의 중심이 74°C 이상입니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-doenjang-jjigae-001",
+      "name": "구수한 된장찌개",
+      "aliases": [
+        "된찌",
+        "된장 찌개"
+      ],
+      "cuisine": "한식",
+      "category": "찌개",
+      "tags": [
+        "구수한",
+        "두부",
+        "집밥"
+      ],
+      "emoji": "🫕",
+      "color": "#d7c69f",
+      "summary": "멸치다시다로 육수를 빠르게 내고 연두로 채소 맛을 살린 된장찌개입니다.",
+      "safety": "전자레인지 조리에는 1.5L 이상의 전용 용기를 쓰고, 덮개는 증기가 빠지도록 살짝 여세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://m.10000recipe.com/recipe/7074594",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs231&menu_grp=MENU_NEW01&menu_no=2694&ntctxt_no=1082132"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 20,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "두부",
+          "text": "포장수를 버리고 2cm 정육면체로 썹니다."
+        },
+        {
+          "ingredient": "애호박",
+          "text": "씻어 양 끝을 자르고 0.7cm 두께 반달 모양으로 썹니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "껍질과 뿌리를 제거하고 2cm 크기로 썹니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "깨끗이 씻어 0.5cm 폭으로 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "물",
+          "amount": 500,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "된장",
+          "amount": 35,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "두부",
+          "amount": 180,
+          "unit": "g",
+          "density": 1.02,
+          "optional": true,
+          "optionalReason": "없어도 국물 맛에는 영향이 적음"
+        },
+        {
+          "name": "애호박",
+          "amount": 0.3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 280,
+          "mlPerUnit": 350
+        },
+        {
+          "name": "양파",
+          "amount": 0.3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 285
+        },
+        {
+          "name": "멸치다시다",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.76,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "쇠고기다시다",
+              "amount": 4,
+              "unit": "ml",
+              "density": 0.78,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "멸치 육수를 사용하면 생략"
+        },
+        {
+          "name": "연두 순",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "국간장",
+              "amount": 5,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "된장 간이 충분하면 생략"
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "대파",
+          "amount": 0.3,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 110
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 4,
+          "text": "냄비에 물과 멸치다시다를 넣고 끓입니다.",
+          "cue": "국물 전체에서 큰 기포가 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "된장을 체에 풀거나 국자로 덩어리 없이 풉니다.",
+          "cue": "국물에 된장 덩어리가 보이지 않습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 7,
+          "text": "양파와 애호박을 넣고 뚜껑을 열어 끓인 뒤 두부와 마늘을 넣습니다.",
+          "cue": "애호박 가장자리가 반투명해집니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 3,
+          "text": "연두와 대파를 넣고 부드럽게 끓입니다.",
+          "cue": "두부가 따뜻해지고 대파 향이 올라옵니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "microwave",
+          "label": "전자레인지",
+          "icon": "📡",
+          "totalMinutes": 13,
+          "warning": "넘침 방지를 위해 1.5L 이상의 깊은 전자레인지용 용기를 사용하세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.8
+            }
+          ],
+          "steps": [
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 4,
+              "text": "큰 용기에 물, 다시다, 된장, 양파, 애호박을 넣고 덮개를 살짝 열어 가열합니다.",
+              "cue": "가장자리부터 끓기 시작합니다."
+            },
+            {
+              "heat": "섞기",
+              "minutes": 1,
+              "text": "조심해서 꺼내 된장을 다시 풀고 두부와 마늘을 넣습니다.",
+              "cue": "된장이 고르게 풀립니다."
+            },
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 4,
+              "text": "덮개를 살짝 열어 다시 가열합니다.",
+              "cue": "애호박이 부드러워집니다."
+            },
+            {
+              "heat": "뜸",
+              "minutes": 2,
+              "text": "연두와 대파를 섞고 2분 둡니다.",
+              "cue": "국물이 잔잔해진 뒤 안전하게 맛을 봅니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-tteokbokki-001",
+      "name": "학교 앞 떡볶이",
+      "aliases": [
+        "떡볶기",
+        "분식집 떡볶이"
+      ],
+      "cuisine": "한식",
+      "category": "분식",
+      "tags": [
+        "매콤달콤",
+        "간식",
+        "분식"
+      ],
+      "emoji": "🌶️",
+      "color": "#f3a58e",
+      "summary": "고추장과 다시다를 사용해 익숙하고 진한 학교 앞 분식집 맛을 냅니다.",
+      "safety": "전자레인지용 큰 용기를 사용하고 밀폐하지 마세요. 끓는 양념과 증기에 화상 입지 않도록 장갑을 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.10000recipe.com/recipe/6974157",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs231&menu_grp=MENU_NEW01&menu_no=2694&ntctxt_no=1082132"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 20,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "떡볶이 떡",
+          "text": "서로 붙은 떡을 떼고 딱딱한 냉장 떡은 찬물에 10분 담갔다가 물기를 뺍니다."
+        },
+        {
+          "ingredient": "사각 어묵",
+          "text": "한입 크기 삼각형이나 2cm 폭으로 자릅니다. 기름기가 부담되면 뜨거운 물을 짧게 끼얹습니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "깨끗이 씻어 1cm 폭으로 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "떡볶이 떡",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.92
+        },
+        {
+          "name": "사각 어묵",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 35,
+          "mlPerUnit": 45,
+          "optional": true,
+          "optionalReason": "떡만으로도 조리 가능"
+        },
+        {
+          "name": "물",
+          "amount": 500,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "고추장",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.78,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 7.5,
+              "unit": "ml",
+              "density": 1.13,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "어묵을 많이 넣으면 생략 가능"
+        },
+        {
+          "name": "미원",
+          "amount": 1,
+          "unit": "ml",
+          "density": 0.82,
+          "household": true,
+          "scaling": "taste",
+          "optional": true,
+          "optionalReason": "다시다 사용 시 생략 가능"
+        },
+        {
+          "name": "대파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 110,
+          "optional": true,
+          "optionalReason": "향채이므로 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 4,
+          "text": "냄비에 물과 모든 양념을 넣고 덩어리 없이 풀어 끓입니다.",
+          "cue": "양념물이 전체적으로 끓습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 7,
+          "text": "떡을 넣고 바닥에 붙지 않도록 1분마다 저어가며 끓입니다.",
+          "cue": "떡이 말랑해지고 떠오르기 시작합니다."
+        },
+        {
+          "heat": "중약불",
+          "minutes": 5,
+          "text": "어묵과 대파를 넣고 저어가며 졸입니다.",
+          "cue": "주걱으로 바닥을 그었을 때 길이 1초간 남습니다."
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "간을 보고 단맛이나 다시다를 소량 추가한 뒤 1분 뜸을 들입니다.",
+          "cue": "국물이 떡 표면에 고르게 묻습니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "microwave",
+          "label": "전자레인지",
+          "icon": "📡",
+          "totalMinutes": 14,
+          "warning": "떡과 양념이 넘칠 수 있으므로 큰 전자레인지용 용기와 살짝 열린 덮개를 사용하세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.7
+            }
+          ],
+          "steps": [
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 4,
+              "text": "큰 용기에 물과 양념을 풀고 떡을 넣어 덮개를 살짝 열고 가열합니다.",
+              "cue": "양념이 끓기 시작합니다."
+            },
+            {
+              "heat": "섞기",
+              "minutes": 1,
+              "text": "꺼내 바닥부터 잘 섞고 어묵을 넣습니다.",
+              "cue": "붙은 떡이 모두 떨어집니다."
+            },
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 4,
+              "text": "다시 가열한 뒤 꺼내서 섞습니다.",
+              "cue": "떡이 말랑하고 중심까지 뜨겁습니다."
+            },
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 2,
+              "text": "대파를 넣고 마지막으로 가열한 뒤 1분 둡니다.",
+              "cue": "국물이 걸쭉해집니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recipe-kongnamul-guk-001",
+      "name": "시원한 콩나물국",
+      "aliases": [
+        "콩나물 국",
+        "해장국"
+      ],
+      "cuisine": "한식",
+      "category": "국",
+      "tags": [
+        "시원한",
+        "해장",
+        "초간단"
+      ],
+      "emoji": "🌱",
+      "color": "#d5e2b9",
+      "summary": "멸치다시다와 연두를 소량 사용해 빠르면서도 개운하게 끓이는 콩나물국입니다.",
+      "safety": "전자레인지용 2L 이상 깊은 용기를 사용하고 밀폐하지 마세요. 출력에 따라 끓기 시작한 뒤 3분 이상 더 가열하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.10000recipe.com/recipe/7032935",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs231&menu_grp=MENU_NEW01&menu_no=2694&ntctxt_no=1082132"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 18,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "콩나물",
+          "text": "무른 줄기와 껍질을 골라내고 찬물에 살살 두 번 헹군 뒤 체에 밭칩니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "깨끗이 씻어 0.3cm 폭으로 송송 썹니다."
+        },
+        {
+          "ingredient": "청양고추",
+          "text": "씻어 꼭지를 떼고 0.3cm 폭으로 송송 썹니다. 매운맛을 줄이려면 씨를 털어냅니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "콩나물",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.35
+        },
+        {
+          "name": "물",
+          "amount": 1200,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "국간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "참치액",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.16,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "국간장과 다시다로 간이 충분하면 생략"
+        },
+        {
+          "name": "멸치다시다",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.76,
+          "household": true,
+          "scaling": "taste",
+          "alternatives": [
+            {
+              "name": "쇠고기다시다",
+              "amount": 4,
+              "unit": "ml",
+              "density": 0.78,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "멸치 육수를 사용하면 생략"
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "대파",
+          "amount": 0.4,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 110
+        },
+        {
+          "name": "청양고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 14,
+          "alternatives": [
+            {
+              "name": "홍고추",
+              "amount": 1,
+              "unit": "count",
+              "countLabel": "개",
+              "gramsPerUnit": 12,
+              "mlPerUnit": 16,
+              "samePreparation": true,
+              "preparation": "씻어 꼭지를 떼고 원재료 청양고추와 같은 두께로 썹니다."
+            }
+          ],
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 사용 없음",
+          "minutes": 3,
+          "text": "콩나물을 씻고 대파와 청양고추를 송송 썹니다.",
+          "cue": "콩나물 껍질과 무른 부분을 제거합니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 6,
+          "text": "냄비에 물, 콩나물, 멸치다시다를 넣고 처음부터 뚜껑을 연 채 끓입니다.",
+          "cue": "국물 전체에서 큰 기포가 납니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "계속 뚜껑을 연 채 끓이고 국간장, 연두, 마늘을 넣습니다.",
+          "cue": "콩나물 비린 향이 사라지고 줄기가 유연해집니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 2,
+          "text": "대파와 청양고추를 넣고 끓인 뒤 간을 맞춥니다.",
+          "cue": "고추와 대파 향이 올라옵니다."
+        }
+      ],
+      "cookerVariants": [
+        {
+          "id": "microwave",
+          "label": "전자레인지",
+          "icon": "📡",
+          "totalMinutes": 14,
+          "warning": "밀폐하지 말고 증기가 빠지는 전자레인지용 덮개를 사용하세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.65
+            }
+          ],
+          "steps": [
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 7,
+              "text": "큰 용기에 물, 콩나물, 다시다를 넣고 덮개를 살짝 열어 가열합니다.",
+              "cue": "국물이 끓고 콩나물 줄기가 유연해집니다."
+            },
+            {
+              "heat": "섞기",
+              "minutes": 1,
+              "text": "국간장, 연두, 마늘을 넣고 골고루 섞습니다.",
+              "cue": "간이 국물 전체에 퍼집니다."
+            },
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 3,
+              "text": "대파와 청양고추를 넣고 다시 가열합니다.",
+              "cue": "콩나물 비린 향이 남지 않습니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "국물 제육",
+        "촉촉 제육"
+      ],
+      "tags": [
+        "돼지고기",
+        "촉촉한",
+        "매콤한"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-moist-jeyuk-001",
+      "name": "촉촉한 제육볶음",
+      "cuisine": "한식",
+      "category": "볶음",
+      "summary": "양파와 양배추의 수분을 살려 밥에 비벼 먹기 좋은 자작한 제육볶음입니다.",
+      "safety": "돼지고기는 중심부 63°C 이상에 도달한 뒤 3분 이상 익힘 상태를 유지하고 생고기 집게와 완성 음식 집게를 구분하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/jeyuk-deopbap",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 30,
+      "preparation": [
+        {
+          "ingredient": "돼지고기 앞다리살",
+          "text": "4cm 길이, 0.4cm 두께로 썰고 키친타월로 표면 핏물을 눌러 제거합니다."
+        },
+        {
+          "ingredient": "양파·양배추",
+          "text": "양파는 1cm 채, 양배추는 4cm 사각으로 썰어 서로 섞지 않습니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "씻은 뒤 흰 부분과 초록 부분을 나누어 0.7cm 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "돼지고기 앞다리살",
+          "amount": 300,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "양배추",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "대파",
+          "amount": 45,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "고추장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 16,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 90,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "optional": true,
+          "optionalReason": "깔끔한 맛을 원하면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 2,
+          "text": "팬을 충분히 달군 뒤 식용유와 돼지고기를 넣어 겉면을 빠르게 볶습니다.",
+          "cue": "고기 표면의 분홍색이 절반 이상 사라짐"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "양파, 양배추, 대파 흰 부분을 넣어 숨이 살짝 죽을 때까지 볶습니다.",
+          "cue": "팬 바닥에 채소 수분이 자작하게 고임"
+        },
+        {
+          "heat": "중불",
+          "minutes": 6,
+          "text": "고추장, 고춧가루, 간장, 설탕, 마늘, 다시다, 미원, 물을 섞어 붓고 뒤집어가며 익힙니다.",
+          "cue": "소스가 숟가락으로 떠질 정도로 자작하고 고기 중심까지 익음"
+        },
+        {
+          "heat": "강불",
+          "minutes": 1,
+          "text": "대파 초록 부분과 참기름을 넣고 빠르게 섞어 불을 끕니다.",
+          "cue": "국물은 남지만 기름과 양념이 분리되지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "우삼겹 된찌"
+      ],
+      "tags": [
+        "소고기",
+        "구수한"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-beef-doenjang-001",
+      "name": "우삼겹 된장찌개",
+      "cuisine": "한식",
+      "category": "찌개",
+      "summary": "우삼겹 기름에 된장을 볶아 고소하고 진하게 끓이는 된장찌개입니다.",
+      "safety": "얇은 소고기는 겹친 부분까지 완전히 풀어 익히고 조리 후 상온에 2시간 넘게 두지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/sogogi-doenjang-jjigae",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "우삼겹",
+          "text": "냉동 상태라면 냉장 해동하고 5cm 길이로 잘라 겹친 조각을 분리합니다."
+        },
+        {
+          "ingredient": "애호박·양파",
+          "text": "애호박은 1cm 반달, 양파는 2cm 사각으로 썹니다."
+        },
+        {
+          "ingredient": "두부",
+          "text": "포장수를 버리고 2cm 정육면체로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "우삼겹",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.95,
+          "alternatives": [
+            {
+              "name": "차돌박이",
+              "amount": 180,
+              "unit": "g",
+              "density": 0.95,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "두부",
+          "amount": 180,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "애호박",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.92
+        },
+        {
+          "name": "양파",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "된장",
+          "amount": 35,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "고추장",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true,
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 520,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "매운맛이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "마른 냄비에 우삼겹을 풀어가며 볶아 기름을 냅니다.",
+          "cue": "고기 가장자리가 갈색이고 기름이 1숟가락가량 나옴"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 1,
+          "text": "된장과 고추장을 넣어 고기 기름에 타지 않게 볶습니다.",
+          "cue": "된장 날내가 줄고 고소한 향이 남"
+        },
+        {
+          "heat": "강불→중불",
+          "minutes": 9,
+          "text": "물과 다시다를 넣어 끓인 뒤 양파와 애호박을 넣고 중불로 끓입니다.",
+          "cue": "애호박 가장자리가 반투명해짐"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 5,
+          "text": "두부, 마늘, 미원, 청양고추를 넣고 부서지지 않게 끓입니다.",
+          "cue": "두부 중심이 뜨겁고 국물이 한층 걸쭉함"
+        }
+      ]
+    },
+    {
+      "aliases": [
+        "해물 된찌"
+      ],
+      "tags": [
+        "해산물",
+        "시원한"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-seafood-doenjang-001",
+      "name": "해물 된장찌개",
+      "cuisine": "한식",
+      "category": "찌개",
+      "summary": "바지락과 새우를 마지막에 익혀 질기지 않고 시원한 된장찌개입니다.",
+      "safety": "바지락은 깨진 것을 버리고 익혀도 열리지 않은 것은 먹지 마세요. 새우 살은 불투명해지고 해산물은 63°C 이상 익혀야 합니다.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/doenjang-jjigae",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        ]
+      },
+      "timeMinutes": 30,
+      "preparation": [
+        {
+          "ingredient": "바지락",
+          "text": "껍데기를 비벼 씻고 3% 소금물에 1시간 해감한 뒤 깨진 조개를 버립니다."
+        },
+        {
+          "ingredient": "새우",
+          "text": "등을 갈라 내장을 제거하고 찬물에 재빨리 헹군 뒤 물기를 닦습니다."
+        },
+        {
+          "ingredient": "애호박·두부",
+          "text": "애호박은 1cm 반달, 두부는 2cm 정육면체로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "바지락",
+          "amount": 250,
+          "unit": "g",
+          "density": 1.3
+        },
+        {
+          "name": "새우",
+          "amount": 120,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "두부",
+          "amount": 180,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "애호박",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.92
+        },
+        {
+          "name": "된장",
+          "amount": 35,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "시판 재래식 된장",
+              "amount": 35,
+              "unit": "ml",
+              "density": 1.2,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "고춧가루",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true,
+          "optional": true,
+          "optionalReason": "맑고 순하게 먹을 때 생략"
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 600,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "연두 순",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.55
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "물에 된장을 풀고 애호박을 넣어 뚜껑 없이 끓입니다.",
+          "cue": "국물이 크게 끓고 애호박 가장자리가 투명함"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "바지락을 넣고 입이 벌어지기 시작할 때까지 끓입니다.",
+          "cue": "바지락 대부분의 입이 열림"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "새우, 두부, 마늘, 연두, 미원을 넣고 살살 끓입니다.",
+          "cue": "새우가 C자로 말리고 살이 불투명함"
+        },
+        {
+          "heat": "강불",
+          "minutes": 1,
+          "text": "대파와 고춧가루를 넣고 한소끔 끓여 마칩니다.",
+          "cue": "국물이 다시 완전히 끓음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "바지락",
+        "순두부",
+        "얼큰한"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-clam-sundubu-001",
+      "name": "바지락 순두부찌개",
+      "cuisine": "한식",
+      "category": "찌개",
+      "summary": "고추기름에 바지락을 끓여 칼칼하고 부드러운 순두부찌개입니다.",
+      "safety": "바지락은 해감·세척하고 깨진 것은 버리며, 조리 후에도 열리지 않은 조개는 먹지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/haemul-sundubu-jjigae",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "바지락",
+          "text": "3% 소금물에서 1시간 해감하고 껍데기를 비벼 씻습니다."
+        },
+        {
+          "ingredient": "순두부",
+          "text": "봉지 끝을 잘라 큰 덩어리로 꺼내고 체에 2분 받쳐 여분 물을 뺍니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "흰 부분은 잘게, 초록 부분은 0.5cm 송송 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "바지락",
+          "amount": 220,
+          "unit": "g",
+          "density": 1.3
+        },
+        {
+          "name": "순두부",
+          "amount": 350,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "고운 고춧가루",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.46,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "대파",
+          "amount": 35,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "물",
+          "amount": 350,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "연두 순",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "달걀",
+          "amount": 1,
+          "unit": "count",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48,
+          "optional": true,
+          "optionalReason": "깔끔한 국물을 원하면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중약불",
+          "minutes": 2,
+          "text": "기름에 대파 흰 부분과 고춧가루를 넣어 타지 않게 볶습니다.",
+          "cue": "붉은 기름이 나오고 고춧가루가 검어지지 않음"
+        },
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "물과 바지락을 넣고 끓입니다.",
+          "cue": "바지락 입이 열림"
+        },
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "순두부를 숟가락으로 크게 떠 넣고 마늘, 연두, 미원을 더해 끓입니다.",
+          "cue": "순두부 중심까지 뜨겁고 국물이 보글거림"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "달걀을 넣고 대파 초록 부분을 뿌려 원하는 익힘까지 끓입니다.",
+          "cue": "안전하게 먹을 때 흰자와 노른자가 모두 응고됨"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "햄",
+        "얼큰한",
+        "라면"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-budae-jjigae-001",
+      "name": "부대찌개",
+      "cuisine": "한식",
+      "category": "찌개",
+      "summary": "햄과 소시지, 김치에 다시다를 더한 진하고 얼큰한 부대찌개입니다.",
+      "safety": "햄과 소시지는 표시사항의 보관법을 따르고 남은 찌개는 2시간 안에 냉장 보관하며 재가열 시 74°C 이상 데우세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/budae-jjigae",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "햄·소시지",
+          "text": "햄은 0.7cm 두께, 소시지는 1cm 어슷썰고 포장액은 버립니다."
+        },
+        {
+          "ingredient": "김치",
+          "text": "3cm 폭으로 자르고 국물은 따로 계량합니다."
+        },
+        {
+          "ingredient": "두부·대파",
+          "text": "두부는 1.5cm 두께, 대파는 1cm 어슷썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "통조림 햄",
+          "amount": 150,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "비엔나소시지",
+          "amount": 120,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "신김치",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "두부",
+          "amount": 160,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "대파",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "고추장",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 10,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 8,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 700,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "라면사리",
+          "amount": 110,
+          "unit": "g",
+          "density": 0.45,
+          "optional": true,
+          "optionalReason": "밥과 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 6,
+          "text": "냄비에 김치, 햄, 소시지, 두부, 대파를 펼쳐 담고 물을 부어 끓입니다.",
+          "cue": "국물 전체가 크게 끓음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 7,
+          "text": "고추장, 고춧가루, 간장, 마늘, 다시다, 미원을 풀어 끓입니다.",
+          "cue": "김치가 부드러워지고 햄 맛이 국물에 배어남"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "라면사리를 넣을 경우 국물에 잠기게 눌러 익힙니다.",
+          "cue": "면 중심의 딱딱한 심이 사라짐"
+        },
+        {
+          "heat": "약불",
+          "minutes": 2,
+          "text": "간을 보고 물 또는 연두로 조절한 뒤 약불에서 유지합니다.",
+          "cue": "국물이 짜지 않고 재료가 고르게 뜨거움"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "소고기",
+        "달콤짭짤"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "oven",
+          "totalMinutes": 42,
+          "warning": "오븐용 넓은 팬에 한 겹으로 펼치고 중간에 반드시 뒤집으세요.",
+          "ingredientAdjustments": [],
+          "steps": [
+            {
+              "heat": "오븐 220°C 예열",
+              "minutes": 10,
+              "text": "빈 오븐을 220°C로 충분히 예열합니다.",
+              "cue": "설정 온도 도달 표시가 켜짐"
+            },
+            {
+              "heat": "오븐 220°C",
+              "minutes": 8,
+              "text": "양념한 고기와 채소를 팬에 한 겹으로 펴 4분 굽고 뒤집어 4분 더 굽습니다.",
+              "cue": "고기 분홍색이 없고 가장자리가 갈색임"
+            },
+            {
+              "heat": "오븐 잔열",
+              "minutes": 2,
+              "text": "꺼내어 2분 두고 육즙과 양념을 안정시킵니다.",
+              "cue": "팬의 끓는 소리가 잦아듦"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-beef-bulgogi-001",
+      "name": "소불고기",
+      "cuisine": "한식",
+      "category": "구이",
+      "summary": "배와 양파 양념에 재운 소고기를 센 불에 윤기 있게 익히는 불고기입니다.",
+      "safety": "생고기 양념은 완성 음식에 다시 쓰지 말고, 얇은 고기가 겹치지 않게 풀어 중심부까지 충분히 익히세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/bulgogi",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 35,
+      "preparation": [
+        {
+          "ingredient": "불고기용 소고기",
+          "text": "냉장 상태에서 5cm 길이로 자르고 겹친 고기를 한 장씩 풀어둡니다."
+        },
+        {
+          "ingredient": "양파·대파",
+          "text": "양파는 0.5cm 채, 대파는 0.7cm 어슷 썹니다."
+        },
+        {
+          "ingredient": "배",
+          "text": "껍질과 씨를 제거하고 강판에 곱게 갑니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "불고기용 소고기",
+          "amount": 350,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "배 간 것",
+          "amount": 80,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "대파",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "진간장",
+          "amount": 40,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 32,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 18,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "표고버섯",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.45,
+          "optional": true,
+          "optionalReason": "고기 위주로 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 끔",
+          "minutes": 20,
+          "text": "고기와 배, 간장, 설탕, 마늘, 참기름, 미원을 섞어 냉장고에서 재웁니다.",
+          "cue": "고기 표면에 양념이 고르게 묻음"
+        },
+        {
+          "heat": "강불",
+          "minutes": 3,
+          "text": "넓은 팬을 달구고 고기를 절반씩 펼쳐 넣어 빠르게 볶습니다.",
+          "cue": "고기 표면에 갈색 지짐이 생기고 물이 많이 고이지 않음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "양파, 대파, 표고버섯을 넣고 남은 고기와 함께 볶습니다.",
+          "cue": "양파가 투명하고 고기 분홍색이 완전히 사라짐"
+        },
+        {
+          "heat": "강불",
+          "minutes": 1,
+          "text": "팬 바닥 양념을 고기에 입히며 수분을 날립니다.",
+          "cue": "양념이 얇고 윤기 있게 고기에 붙음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "닭고기",
+        "매콤한"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "oven",
+          "totalMinutes": 38,
+          "warning": "오븐용 팬에 고기와 고구마를 겹치지 않게 펴고 닭 중심 74°C를 확인하세요.",
+          "ingredientAdjustments": [],
+          "steps": [
+            {
+              "heat": "오븐 210°C 예열",
+              "minutes": 10,
+              "text": "오븐과 팬을 210°C로 예열합니다.",
+              "cue": "예열 완료 표시"
+            },
+            {
+              "heat": "오븐 210°C",
+              "minutes": 18,
+              "text": "닭, 고구마, 양파를 10분 굽고 뒤집은 뒤 양배추를 더해 8분 굽습니다.",
+              "cue": "닭 중심 74°C 이상"
+            },
+            {
+              "heat": "오븐 잔열",
+              "minutes": 2,
+              "text": "깻잎을 섞고 2분 둡니다.",
+              "cue": "깻잎 숨이 살짝 죽음"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-dakgalbi-001",
+      "name": "닭갈비",
+      "cuisine": "한식",
+      "category": "볶음",
+      "summary": "양배추와 고구마를 닭다리살과 함께 매콤달콤하게 볶는 닭갈비입니다.",
+      "safety": "닭고기는 씻지 말고 별도 도마에서 손질하며 가장 두꺼운 부분이 74°C 이상인지 확인하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/dakgalbi",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 40,
+      "preparation": [
+        {
+          "ingredient": "닭다리살",
+          "text": "씻지 않고 키친타월로 물기를 제거한 뒤 4cm 크기로 자릅니다."
+        },
+        {
+          "ingredient": "고구마",
+          "text": "껍질을 씻거나 벗긴 뒤 0.7cm 반달로 썰어 찬물에 5분 담갔다 건집니다."
+        },
+        {
+          "ingredient": "양배추·깻잎",
+          "text": "양배추는 4cm 사각, 깻잎은 꼭지를 떼고 1cm 폭으로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "닭다리살",
+          "amount": 400,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양배추",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "고구마",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.85
+        },
+        {
+          "name": "양파",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "고추장",
+          "amount": 35,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "맛술",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "물",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "깻잎",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.45,
+          "optional": true,
+          "optionalReason": "향이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "팬에 양념한 닭고기를 펼쳐 겉면을 먼저 익힙니다.",
+          "cue": "닭 표면이 하얗게 변함"
+        },
+        {
+          "heat": "중불",
+          "minutes": 10,
+          "text": "고구마와 양파를 넣고 뚜껑을 덮어 3분마다 뒤집습니다.",
+          "cue": "고구마에 젓가락이 절반쯤 들어감"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 6,
+          "text": "양배추를 넣고 뚜껑 없이 수분을 날리며 볶습니다.",
+          "cue": "닭 중심 74°C 이상이고 양념이 걸쭉함"
+        },
+        {
+          "heat": "약불",
+          "minutes": 1,
+          "text": "깻잎을 넣고 숨만 죽인 뒤 불을 끕니다.",
+          "cue": "깻잎 향이 나고 색이 선명함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "오징어",
+        "매콤한"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-squid-bokkeum-001",
+      "name": "오징어볶음",
+      "cuisine": "한식",
+      "category": "볶음",
+      "summary": "오징어를 마지막에 짧게 익혀 질기지 않고 양념은 진한 볶음입니다.",
+      "safety": "내장을 제거한 오징어는 찬물에 짧게 세척하고 63°C 이상 익히되 과도하게 오래 익히지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/ojinguh-bokkeum",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "오징어",
+          "text": "몸통에서 내장과 투명 뼈를 빼고 눈·입을 제거해 씻은 뒤 몸통은 1cm 링, 다리는 5cm로 자릅니다."
+        },
+        {
+          "ingredient": "양파·대파",
+          "text": "양파는 1cm 채, 대파는 1cm 어슷 썹니다."
+        },
+        {
+          "ingredient": "양배추",
+          "text": "질긴 심을 얇게 저며 4cm 사각으로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "손질 오징어",
+          "amount": 350,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "양배추",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "대파",
+          "amount": 45,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "고추장",
+          "amount": 25,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 18,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 14,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "매운맛이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 3,
+          "text": "팬을 달군 뒤 식용유와 양파, 양배추를 넣어 빠르게 볶습니다.",
+          "cue": "채소 가장자리에 갈색 지짐이 생김"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 1,
+          "text": "양념 재료를 넣고 팬 바닥에서 끓입니다.",
+          "cue": "양념이 보글거리며 고춧가루 날내가 사라짐"
+        },
+        {
+          "heat": "강불",
+          "minutes": 3,
+          "text": "물기를 닦은 오징어와 대파를 넣어 계속 뒤집으며 익힙니다.",
+          "cue": "오징어가 불투명해지고 링이 통통하게 말림"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "청양고추를 섞고 즉시 접시에 옮깁니다.",
+          "cue": "팬에 오래 남아 추가로 질겨지지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "당면",
+        "소고기",
+        "잔치"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-japchae-001",
+      "name": "소고기 잡채",
+      "cuisine": "한식",
+      "category": "볶음",
+      "summary": "당면과 채소를 각각 알맞게 익혀 색과 식감을 살린 소고기 잡채입니다.",
+      "safety": "소고기는 생채소와 도구를 분리해 손질하고 충분히 익히며 완성 잡채는 2시간 안에 냉장 보관하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/easy-japchae",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 40,
+      "preparation": [
+        {
+          "ingredient": "당면",
+          "text": "찬물에 20분 불린 뒤 체에 밭쳐 물기를 뺍니다."
+        },
+        {
+          "ingredient": "소고기",
+          "text": "0.4cm 굵기로 채 썰고 키친타월로 핏물을 닦습니다."
+        },
+        {
+          "ingredient": "시금치·채소",
+          "text": "시금치는 뿌리를 다듬어 씻고 양파·당근·버섯은 같은 굵기로 채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "당면",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "소고기 채",
+          "amount": 120,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "시금치",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.45
+        },
+        {
+          "name": "양파",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "당근",
+          "amount": 70,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "표고버섯",
+          "amount": 70,
+          "unit": "g",
+          "density": 0.45
+        },
+        {
+          "name": "진간장",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 35,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 24,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 18,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "통깨",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true,
+          "optional": true,
+          "optionalReason": "고명 없이 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "끓는 물에 불린 당면을 넣고 포장 시간보다 1분 짧게 삶아 건집니다.",
+          "cue": "당면 중심이 투명하지만 약간 탄력이 있음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 6,
+          "text": "팬에 기름을 나눠 두르고 소고기, 양파·당근·버섯을 순서대로 볶습니다.",
+          "cue": "고기는 완전히 익고 채소는 색이 선명함"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "시금치를 넣어 숨만 죽인 뒤 당면을 합칩니다.",
+          "cue": "시금치 부피가 줄지만 물이 많이 나오지 않음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "간장, 설탕, 미원을 넣어 당면에 흡수시키며 볶습니다.",
+          "cue": "팬 바닥에 양념물이 남지 않음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "참기름과 통깨를 섞어 넓은 그릇에 펼쳐 식힙니다.",
+          "cue": "면끼리 과하게 달라붙지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "김치",
+        "한그릇"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-kimchi-fried-rice-001",
+      "name": "김치볶음밥",
+      "cuisine": "한식",
+      "category": "밥",
+      "summary": "신김치를 충분히 볶고 찬밥을 센 불에 풀어 고슬고슬하게 만드는 볶음밥입니다.",
+      "safety": "남은 밥은 조리 후 2시간 안에 냉장한 것을 사용하고 볶을 때 전체가 김이 날 정도로 74°C 이상 재가열하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/kimchi-bokkeumbap",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 15,
+      "preparation": [
+        {
+          "ingredient": "신김치",
+          "text": "국물을 가볍게 짜서 1cm 크기로 잘게 썰고 국물은 따로 둡니다."
+        },
+        {
+          "ingredient": "찬밥",
+          "text": "냉장 밥은 덩어리를 손이나 주걱으로 미리 풀어둡니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "씻어 물기를 닦고 0.3cm 송송 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "찬밥",
+          "amount": 420,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "신김치",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "김치국물",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "대파",
+          "amount": 35,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "식용유",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "고추장",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true,
+          "optional": true,
+          "optionalReason": "김치가 충분히 매울 때 생략"
+        },
+        {
+          "name": "진간장",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 6,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "달걀",
+          "amount": 2,
+          "unit": "count",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48,
+          "optional": true,
+          "optionalReason": "볶음밥만 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중강불",
+          "minutes": 3,
+          "text": "팬에 기름과 대파를 넣고 향을 낸 뒤 김치를 볶습니다.",
+          "cue": "김치 수분이 줄고 가장자리에 갈색 지짐이 생김"
+        },
+        {
+          "heat": "강불",
+          "minutes": 4,
+          "text": "밥, 김치국물, 고추장, 간장, 미원을 넣고 주걱으로 눌러 풀며 볶습니다.",
+          "cue": "밥알이 각각 풀리고 전체에서 김이 남"
+        },
+        {
+          "heat": "강불",
+          "minutes": 1,
+          "text": "밥을 팬에 넓게 펴 30초 눌렀다가 뒤집어 불맛을 냅니다.",
+          "cue": "일부 밥알에 노릇한 면이 생김"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "참기름을 섞고 별도 팬에 완전히 익힌 달걀을 올립니다.",
+          "cue": "밥이 질지 않고 고슬고슬함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "멸치육수",
+        "따뜻한"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-janchi-guksu-001",
+      "name": "잔치국수",
+      "cuisine": "한식",
+      "category": "면",
+      "summary": "다시다와 연두로 간을 보완한 따뜻한 멸치육수 국수입니다.",
+      "safety": "마른 멸치는 산패 냄새가 없는 것을 쓰고 삶은 면과 육수는 조리 후 바로 먹거나 2시간 안에 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/guksu",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 30,
+      "preparation": [
+        {
+          "ingredient": "국수",
+          "text": "삶기 전 1인분씩 나누고 부러진 가루를 털어냅니다."
+        },
+        {
+          "ingredient": "국물용 멸치",
+          "text": "머리와 내장을 떼어 쓴맛을 줄입니다."
+        },
+        {
+          "ingredient": "애호박·당근",
+          "text": "0.3cm 굵기로 가늘고 길게 채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "소면",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "국물용 멸치",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.35
+        },
+        {
+          "name": "다시마",
+          "amount": 8,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "물",
+          "amount": 1100,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "애호박",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.92
+        },
+        {
+          "name": "당근",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "국간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 순",
+              "amount": 12,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": true,
+          "optionalReason": "천연 육수를 쓸 때 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "김가루",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.15,
+          "optional": true,
+          "optionalReason": "고명 없이 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "마른 냄비에 손질한 멸치를 볶아 비린 수분을 날립니다.",
+          "cue": "고소한 향이 나고 멸치가 바삭해짐"
+        },
+        {
+          "heat": "강불→약불",
+          "minutes": 12,
+          "text": "물과 다시마를 넣고 끓기 직전 다시마를 건진 뒤 약불로 10분 우립니다.",
+          "cue": "맑은 황금빛 육수가 됨"
+        },
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "별도 냄비에서 소면을 삶고 끓어오를 때 찬물을 두 번 나눠 넣습니다.",
+          "cue": "면 중심의 흰 심이 사라짐"
+        },
+        {
+          "heat": "찬물",
+          "minutes": 2,
+          "text": "삶은 면을 찬물에서 비벼 씻고 물기를 충분히 뺍니다.",
+          "cue": "표면 전분이 씻겨 미끈거리지 않음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "육수에 채소, 국간장, 다시다, 미원을 넣어 끓인 뒤 면에 붓습니다.",
+          "cue": "채소가 익고 육수가 다시 끓음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "김치",
+        "바삭한"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-kimchi-jeon-001",
+      "name": "바삭한 김치전",
+      "cuisine": "한식",
+      "category": "전",
+      "summary": "차가운 반죽을 얇게 펴 가장자리는 바삭하고 속은 촉촉한 김치전입니다.",
+      "safety": "밀가루가 든 생반죽은 맛보지 말고 중심부까지 완전히 익혀 끈적한 생반죽이 남지 않게 하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/kimchijeon",
+          "https://www.fda.gov/media/114863/download"
+        ]
+      },
+      "timeMinutes": 20,
+      "preparation": [
+        {
+          "ingredient": "신김치",
+          "text": "국물을 가볍게 짜고 1cm 크기로 잘게 썹니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "뿌리와 시든 잎을 제거해 씻고 0.3cm 송송 썹니다."
+        },
+        {
+          "ingredient": "부침가루",
+          "text": "덩어리가 많으면 체에 한 번 내려둡니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "신김치",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "부침가루",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "찬물",
+          "amount": 150,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "김치국물",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "대파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "식용유",
+          "amount": 35,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "카놀라유",
+              "amount": 35,
+              "unit": "ml",
+              "density": 0.92,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "부침가루, 찬물, 김치국물을 가루가 약간 보일 정도로만 섞고 김치와 대파를 넣습니다.",
+          "cue": "과하게 저어 끈기가 생기지 않음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 2,
+          "text": "팬을 달구고 기름 절반을 두른 뒤 반죽을 0.6cm 두께로 얇게 폅니다.",
+          "cue": "가장자리 기름이 보글거림"
+        },
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "밑면이 굳을 때까지 건드리지 않고 익힌 뒤 뒤집습니다.",
+          "cue": "밑면 전체가 진한 노릇빛"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 3,
+          "text": "남은 기름을 가장자리에 둘러 반대쪽을 눌러 익힙니다.",
+          "cue": "가운데를 눌렀을 때 생반죽이 묻지 않고 양면이 바삭함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "달걀",
+        "부드러운"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [
+        {
+          "id": "microwave",
+          "label": "전자레인지",
+          "icon": "microwave",
+          "totalMinutes": 8,
+          "warning": "전자레인지용 깊은 용기를 사용하고 완전히 밀폐하지 마세요. 중간에 저어 냉점을 없애고 2분 뜸 들이세요.",
+          "ingredientAdjustments": [],
+          "steps": [
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 2,
+              "text": "달걀물을 덮개를 살짝 걸친 전자레인지용 용기에 넣어 2분 가열합니다.",
+              "cue": "가장자리부터 응고되기 시작함"
+            },
+            {
+              "heat": "꺼내어 섞기",
+              "minutes": 1,
+              "text": "바깥의 익은 부분과 가운데 액체를 고르게 섞습니다.",
+              "cue": "온도와 농도가 고르게 섞임"
+            },
+            {
+              "heat": "전자레인지 700W",
+              "minutes": 2,
+              "text": "1분씩 두 번 나누어 가열하며 매번 상태를 확인합니다.",
+              "cue": "묽은 달걀물이 남지 않음"
+            },
+            {
+              "heat": "뜸",
+              "minutes": 2,
+              "text": "덮개를 유지해 2분 두고 중심 74°C 이상을 확인합니다.",
+              "cue": "중심까지 폭신하게 응고됨"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-gyeran-jjim-001",
+      "name": "폭신한 계란찜",
+      "cuisine": "한식",
+      "category": "찜",
+      "summary": "연두와 미원으로 간을 맞춰 기포가 곱고 촉촉한 계란찜입니다.",
+      "safety": "달걀물 전체가 71°C 이상이고 묽은 부분 없이 응고되도록 익히며 깨진 달걀은 사용하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/ttukbaegi-gyeranjjim",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        ]
+      },
+      "timeMinutes": 15,
+      "preparation": [
+        {
+          "ingredient": "달걀",
+          "text": "깨끗한 그릇에 하나씩 깨 상태를 확인한 뒤 젓가락으로 흰자 끈만 풀어줍니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "씻고 물기를 닦아 0.2cm로 아주 잘게 썹니다."
+        },
+        {
+          "ingredient": "내열 그릇",
+          "text": "냄비 안에 안정적으로 들어가며 뚜껑이 있는 그릇을 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "달걀",
+          "amount": 4,
+          "unit": "count",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "물",
+          "amount": 180,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 10,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "optional": false,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.12,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "참기름",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 끔",
+          "minutes": 2,
+          "text": "달걀, 물, 연두, 미원을 거품이 과하게 나지 않게 섞어 체에 한 번 거릅니다.",
+          "cue": "흰자 덩어리가 없고 고운 달걀물"
+        },
+        {
+          "heat": "강불",
+          "minutes": 3,
+          "text": "냄비에 받침과 물을 넣어 먼저 끓입니다.",
+          "cue": "증기가 충분히 올라옴"
+        },
+        {
+          "heat": "약불",
+          "minutes": 9,
+          "text": "달걀물 그릇을 올리고 뚜껑을 덮어 약한 증기로 익힙니다.",
+          "cue": "가운데를 흔들었을 때 물결이 작고 묽은 액이 없음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 2,
+          "text": "대파와 참기름을 올리고 뚜껑을 덮어 뜸 들입니다.",
+          "cue": "중심까지 부드럽게 응고됨"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "두부",
+        "밥반찬"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-dubu-jorim-001",
+      "name": "매콤 두부조림",
+      "cuisine": "한식",
+      "category": "조림",
+      "summary": "두부를 먼저 노릇하게 지져 양념이 겉돌지 않는 매콤한 두부조림입니다.",
+      "safety": "두부 포장수가 탁하거나 이상 냄새가 나면 사용하지 말고 완성 후 2시간 안에 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/dubu-jorim",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "부침용 두부",
+          "text": "포장수를 버리고 1.5cm 두께로 썬 뒤 키친타월 사이에서 5분 물기를 뺍니다."
+        },
+        {
+          "ingredient": "양파·대파",
+          "text": "양파는 0.5cm 채, 대파는 0.3cm 송송 썹니다."
+        },
+        {
+          "ingredient": "양념",
+          "text": "간장, 고춧가루, 마늘, 물을 미리 섞어둡니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "부침용 두부",
+          "amount": 300,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "대파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "진간장",
+          "amount": 25,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 20,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "고춧가루",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 8,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 100,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": true,
+          "optionalReason": "단맛이 싫으면 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 6,
+          "text": "팬에 기름을 두르고 물기 뺀 두부를 겹치지 않게 놓아 양면을 굽습니다.",
+          "cue": "양면에 노릇한 막이 생김"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "두부 사이에 양파를 넣고 양념물을 가장자리로 붓습니다.",
+          "cue": "양념이 끓기 시작함"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 7,
+          "text": "숟가락으로 양념을 끼얹으며 자작하게 조립니다.",
+          "cue": "양념이 절반 이하로 줄고 두부에 붉은색이 배어듦"
+        },
+        {
+          "heat": "약불",
+          "minutes": 1,
+          "text": "대파와 미원을 넣고 팬을 흔들어 섞은 뒤 끕니다.",
+          "cue": "양념이 두부 표면에 얇게 붙음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "감자",
+        "밑반찬"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-gamja-jorim-001",
+      "name": "윤기 감자조림",
+      "cuisine": "한식",
+      "category": "조림",
+      "summary": "전분을 씻은 감자를 부서지지 않게 익혀 간장 양념을 윤기 있게 입힌 반찬입니다.",
+      "safety": "초록색으로 변하거나 싹이 깊게 난 감자는 사용하지 말고, 완성 후 상온에 2시간 넘게 두지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/gamja-bokkeum",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "감자",
+          "text": "껍질과 싹을 완전히 제거해 2cm 정육면체로 썰고 찬물에 두 번 헹궈 전분을 뺍니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "감자와 비슷한 2cm 크기로 썹니다."
+        },
+        {
+          "ingredient": "양념",
+          "text": "간장, 물, 설탕, 연두를 미리 섞습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "감자",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.82
+        },
+        {
+          "name": "양파",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "진간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 180,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "물엿",
+              "amount": 18,
+              "unit": "ml",
+              "density": 1.35,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "optional": true,
+          "optionalReason": "깔끔하게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "냄비에 기름과 감자를 넣어 모서리가 살짝 투명해질 때까지 볶습니다.",
+          "cue": "감자 겉면이 반투명함"
+        },
+        {
+          "heat": "강불→중약불",
+          "minutes": 10,
+          "text": "양념물과 양파를 넣고 끓으면 중약불로 낮춰 뚜껑을 덮습니다.",
+          "cue": "젓가락이 감자 중심까지 저항감 있게 들어감"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "뚜껑을 열고 냄비를 흔들며 국물을 졸입니다.",
+          "cue": "국물이 2숟가락 정도 남고 감자가 부서지지 않음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "미원과 참기름을 넣어 잔열로 윤기를 냅니다.",
+          "cue": "양념이 감자 표면에 반짝이게 붙음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "무",
+        "새콤한"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-musaengchae-001",
+      "name": "새콤 무생채",
+      "cuisine": "한식",
+      "category": "무침",
+      "summary": "무를 먼저 절여 물이 흥건하지 않고 아삭한 무생채입니다.",
+      "safety": "무와 칼·도마를 깨끗이 씻고 무친 뒤 바로 먹거나 밀폐해 냉장 보관하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/musaengchae",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 20,
+      "preparation": [
+        {
+          "ingredient": "무",
+          "text": "껍질의 거친 부분을 벗기고 씻어 0.3cm 굵기, 6cm 길이로 일정하게 채 썹니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "깨끗이 씻고 물기를 닦아 0.2cm 송송 썹니다."
+        },
+        {
+          "ingredient": "무침볼",
+          "text": "물기와 기름기가 없는 큰 볼을 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "무",
+          "amount": 500,
+          "unit": "g",
+          "density": 0.95
+        },
+        {
+          "name": "소금",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 18,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "액젓",
+          "amount": 12,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 순",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 8,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "파 향이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 사용 없음",
+          "minutes": 10,
+          "text": "채 썬 무에 소금과 설탕 절반을 넣어 10분 절입니다.",
+          "cue": "무가 유연해지고 바닥에 물이 고임"
+        },
+        {
+          "heat": "불 사용 없음",
+          "minutes": 1,
+          "text": "절인 물만 따라내고 무를 세게 짜지는 않습니다.",
+          "cue": "표면 물기는 적지만 무가 아삭함"
+        },
+        {
+          "heat": "불 사용 없음",
+          "minutes": 2,
+          "text": "고춧가루를 먼저 버무려 색을 입힌 뒤 식초, 남은 설탕, 액젓, 마늘, 미원을 넣습니다.",
+          "cue": "고춧가루가 뭉치지 않고 색이 균일함"
+        },
+        {
+          "heat": "불 사용 없음",
+          "minutes": 1,
+          "text": "대파를 가볍게 섞고 5분 뒤 간을 확인합니다.",
+          "cue": "바닥에 물이 흥건하지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "춘장",
+        "돼지고기"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-jjajangmyeon-001",
+      "name": "춘장 짜장면",
+      "cuisine": "중식",
+      "category": "면",
+      "summary": "춘장을 기름에 충분히 볶아 떫은맛을 줄인 진한 짜장면입니다.",
+      "safety": "돼지고기는 중심부 63°C 이상에서 3분 이상 익히고 생고기 도마와 채소 도마를 분리하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.maangchi.com/recipe/jjajangmyeon",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 40,
+      "preparation": [
+        {
+          "ingredient": "돼지고기",
+          "text": "1.5cm 정육면체로 썰고 표면 핏물을 닦습니다."
+        },
+        {
+          "ingredient": "양파·양배추·애호박",
+          "text": "모두 1.5cm 크기로 맞춰 썹니다."
+        },
+        {
+          "ingredient": "춘장",
+          "text": "물기 없는 작은 그릇에 덜어 뭉침을 풀어둡니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "중화면",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.7
+        },
+        {
+          "name": "돼지고기",
+          "amount": 180,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "양배추",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "애호박",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.92
+        },
+        {
+          "name": "춘장",
+          "amount": 60,
+          "unit": "ml",
+          "density": 1.25,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 35,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "카놀라유",
+              "amount": 35,
+              "unit": "ml",
+              "density": 0.92,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 350,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "감자전분",
+          "amount": 18,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.8,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "오이",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.96,
+          "optional": true,
+          "optionalReason": "고명을 올리지 않을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중약불",
+          "minutes": 4,
+          "text": "팬에 기름 절반과 춘장을 넣어 타지 않게 계속 저어 볶은 뒤 덜어둡니다.",
+          "cue": "춘장이 매끈해지고 고소한 향이 남"
+        },
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "남은 기름에 돼지고기를 볶고 양파, 양배추, 애호박을 넣습니다.",
+          "cue": "고기 분홍색이 없고 양파 가장자리가 투명함"
+        },
+        {
+          "heat": "중불",
+          "minutes": 7,
+          "text": "볶은 춘장, 설탕, 다시다, 미원, 물을 넣어 끓입니다.",
+          "cue": "채소가 부드럽고 소스가 균일한 갈색임"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "전분을 같은 양의 찬물에 풀어 나눠 넣고 끓입니다.",
+          "cue": "주걱으로 그은 자국이 1초 남는 농도"
+        },
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "중화면을 포장 시간대로 삶아 물기를 빼고 소스를 얹습니다.",
+          "cue": "면 중심이 익고 서로 달라붙지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "두부",
+        "돼지고기",
+        "마라"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-mapo-tofu-001",
+      "name": "사천식 마파두부",
+      "cuisine": "중식",
+      "category": "볶음",
+      "summary": "두반장과 화자오를 볶아 얼얼하고 진한 소스를 두부에 입힌 마파두부입니다.",
+      "safety": "다진 돼지고기는 중심부 71°C 이상 익히고 두부를 넣은 뒤에도 소스 전체가 다시 끓도록 하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 30,
+      "preparation": [
+        {
+          "ingredient": "연두부",
+          "text": "포장수를 버리고 2cm 정육면체로 조심스럽게 썹니다."
+        },
+        {
+          "ingredient": "다진 돼지고기",
+          "text": "냉장 상태를 유지하고 덩어리를 미리 가볍게 풀어둡니다."
+        },
+        {
+          "ingredient": "화자오",
+          "text": "마른 팬에 30초 볶아 식힌 뒤 굵게 빻습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "연두부",
+          "amount": 400,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "다진 돼지고기",
+          "amount": 160,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "두반장",
+          "amount": 25,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "고추기름",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "다진 생강",
+          "amount": 8,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true
+        },
+        {
+          "name": "화자오가루",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true,
+          "optional": true,
+          "optionalReason": "얼얼한 맛이 싫으면 생략"
+        },
+        {
+          "name": "물",
+          "amount": 220,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 6,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "감자전분",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 25,
+          "unit": "g",
+          "density": 0.55
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중약불",
+          "minutes": 2,
+          "text": "팬에 고추기름, 마늘, 생강, 두반장을 넣어 타지 않게 볶습니다.",
+          "cue": "붉은 기름이 분리되고 향이 올라옴"
+        },
+        {
+          "heat": "강불",
+          "minutes": 4,
+          "text": "다진 돼지고기를 넣어 잘게 부수며 볶습니다.",
+          "cue": "분홍색이 없고 중심 71°C 이상"
+        },
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "물, 간장, 미원을 넣고 끓인 뒤 두부를 넣어 팬을 흔들어 섞습니다.",
+          "cue": "두부가 뜨겁고 소스가 다시 끓음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "전분을 찬물에 풀어 두 번 나눠 넣고 팬을 흔듭니다.",
+          "cue": "소스가 두부 표면에 매끈하게 붙음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "화자오가루와 대파를 뿌립니다.",
+          "cue": "화자오 향이 선명하고 두부가 부서지지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "달걀",
+        "토마토",
+        "초간단"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-tomato-egg-001",
+      "name": "토마토 계란볶음",
+      "cuisine": "중식",
+      "category": "볶음",
+      "summary": "달걀을 먼저 부드럽게 익혀 덜어두고 토마토 소스와 다시 합치는 중국식 집밥입니다.",
+      "safety": "달걀은 흰자와 노른자가 흐르지 않고 전체가 71°C 이상이 되도록 익히며 깨진 달걀은 사용하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://thewoksoflife.com/stir-fried-tomato-and-egg/",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        ]
+      },
+      "timeMinutes": 12,
+      "preparation": [
+        {
+          "ingredient": "토마토",
+          "text": "씻어 꼭지를 도려내고 8등분 쐐기 모양으로 썹니다."
+        },
+        {
+          "ingredient": "달걀",
+          "text": "깨끗한 그릇에 하나씩 깨 상태를 확인하고 연두와 함께 충분히 풉니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "씻어 물기를 닦고 0.3cm 송송 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "토마토",
+          "amount": 450,
+          "unit": "g",
+          "density": 0.95
+        },
+        {
+          "name": "달걀",
+          "amount": 4,
+          "unit": "count",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "대파",
+          "amount": 25,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "식용유",
+          "amount": 35,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "카놀라유",
+              "amount": 35,
+              "unit": "ml",
+              "density": 0.92,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "참기름",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "optional": true,
+          "optionalReason": "깔끔한 맛을 원하면 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중강불",
+          "minutes": 2,
+          "text": "달군 팬에 기름 2/3와 달걀물을 넣어 크게 저어 80%만 익혀 덜어둡니다.",
+          "cue": "표면은 응고되고 가운데는 촉촉함"
+        },
+        {
+          "heat": "강불",
+          "minutes": 2,
+          "text": "남은 기름에 대파와 토마토를 넣어 빠르게 볶습니다.",
+          "cue": "토마토 껍질이 살짝 말리고 즙이 나옴"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "설탕, 연두, 미원을 넣고 토마토를 눌러 소스를 만듭니다.",
+          "cue": "소스가 팬 바닥에 자작함"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 1,
+          "text": "달걀을 되넣어 소스와 섞고 완전히 응고되면 불을 끕니다.",
+          "cue": "묽은 달걀물이 없고 덩어리는 부드러움"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "파스타",
+        "마늘",
+        "오일"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-aglio-olio-001",
+      "name": "알리오 올리오",
+      "cuisine": "양식",
+      "category": "면",
+      "summary": "마늘을 타지 않게 익히고 면수로 오일을 유화해 윤기 있게 만드는 파스타입니다.",
+      "safety": "삶은 면은 조리 후 바로 먹고 남은 음식은 2시간 안에 냉장 보관하세요. 마늘은 갈색을 넘겨 태우지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.bbcgoodfood.com/recipes/spaghetti-aglio-e-olio",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 20,
+      "preparation": [
+        {
+          "ingredient": "스파게티면",
+          "text": "포장 권장 시간을 확인하고 2인분 200g을 미리 계량합니다."
+        },
+        {
+          "ingredient": "마늘",
+          "text": "꼭지를 제거하고 0.15cm로 얇고 일정하게 편 썹니다."
+        },
+        {
+          "ingredient": "페페론치노·파슬리",
+          "text": "페페론치노는 반으로 부수고 파슬리는 씻어 물기를 완전히 닦아 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "스파게티면",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "올리브유",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.91,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "포도씨유",
+              "amount": 45,
+              "unit": "ml",
+              "density": 0.91,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "마늘",
+          "amount": 35,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "소금",
+          "amount": 12,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "면수",
+          "amount": 120,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "페페론치노",
+          "amount": 2,
+          "unit": "count",
+          "gramsPerUnit": 0.5,
+          "mlPerUnit": 0.6,
+          "optional": true,
+          "optionalReason": "매운맛이 싫으면 생략"
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 1.5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": true,
+          "optionalReason": "천연 육수를 쓸 때 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "파슬리",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "고명 없이 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불→중강불",
+          "minutes": 9,
+          "text": "넉넉한 물에 소금을 넣어 끓이고 면을 포장 시간보다 2분 짧게 삶습니다.",
+          "cue": "면 중심에 아주 가는 흰 심이 남음"
+        },
+        {
+          "heat": "약불",
+          "minutes": 4,
+          "text": "팬에 올리브유와 마늘을 넣어 천천히 익히고 페페론치노를 더합니다.",
+          "cue": "마늘 가장자리만 옅은 금색이고 갈색으로 타지 않음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "면수와 다시다, 미원을 넣고 팬을 흔들어 오일과 섞습니다.",
+          "cue": "기름방울이 작아지고 소스가 뿌옇게 유화됨"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 2,
+          "text": "면을 넣어 집게로 계속 섞으며 남은 익힘을 마칩니다.",
+          "cue": "면에 소스가 얇게 붙고 팬 바닥에 물이 흥건하지 않음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "파슬리를 섞고 즉시 담습니다.",
+          "cue": "윤기가 나며 기름만 따로 고이지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "파스타",
+        "토마토"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-tomato-pasta-001",
+      "name": "토마토 스파게티",
+      "cuisine": "양식",
+      "category": "면",
+      "summary": "토마토를 충분히 졸여 산미는 부드럽고 감칠맛은 진한 기본 스파게티입니다.",
+      "safety": "개봉한 토마토 통조림은 캔째 보관하지 말고 남은 소스는 깨끗한 용기에 옮겨 2시간 안에 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.bbcgoodfood.com/recipes/tomato-sauce",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 30,
+      "preparation": [
+        {
+          "ingredient": "스파게티면",
+          "text": "포장 권장 시간을 확인하고 200g을 계량합니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "껍질과 뿌리를 제거하고 0.5cm 크기로 잘게 썹니다."
+        },
+        {
+          "ingredient": "마늘",
+          "text": "꼭지를 제거하고 칼등으로 눌러 곱게 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "스파게티면",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "홀토마토",
+          "amount": 400,
+          "unit": "g",
+          "density": 1.02,
+          "alternatives": [
+            {
+              "name": "토마토 다이스 통조림",
+              "amount": 400,
+              "unit": "g",
+              "density": 1.02,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "양파",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "마늘",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "올리브유",
+          "amount": 25,
+          "unit": "ml",
+          "density": 0.91,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 6,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": true,
+          "optionalReason": "토마토가 달면 생략"
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 2,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "소금",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "바질",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.25,
+          "optional": true,
+          "optionalReason": "허브 향이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중약불",
+          "minutes": 5,
+          "text": "팬에 올리브유, 양파, 마늘을 넣어 색이 나지 않게 볶습니다.",
+          "cue": "양파가 투명하고 마늘 향이 남"
+        },
+        {
+          "heat": "중불",
+          "minutes": 12,
+          "text": "홀토마토를 손이나 주걱으로 으깨 넣고 다시다, 미원, 설탕을 더해 졸입니다.",
+          "cue": "주걱으로 그은 자국이 잠시 남음"
+        },
+        {
+          "heat": "강불→중강불",
+          "minutes": 9,
+          "text": "소금물에 면을 포장 시간보다 2분 짧게 삶습니다.",
+          "cue": "면 중심에 가는 심이 남음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 2,
+          "text": "면과 면수 60ml를 소스에 넣어 섞으며 익힘을 마칩니다.",
+          "cue": "소스가 면에 고르게 붙음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "바질을 찢어 넣고 간을 확인합니다.",
+          "cue": "토마토의 날산미가 없고 향이 선명함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "파스타",
+        "크림",
+        "베이컨"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-cream-pasta-001",
+      "name": "베이컨 크림파스타",
+      "cuisine": "양식",
+      "category": "면",
+      "summary": "생크림을 세게 끓이지 않고 면수와 치즈로 농도를 맞춘 부드러운 크림파스타입니다.",
+      "safety": "베이컨은 충분히 가열하고 유제품은 실온에 오래 두지 말며 완성 음식은 2시간 안에 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.bbcgoodfood.com/recipes/collection/creamy-pasta-recipes",
+          "https://www.fda.gov/consumers/womens-health-topics/food-safety-home"
+        ]
+      },
+      "timeMinutes": 25,
+      "preparation": [
+        {
+          "ingredient": "베이컨",
+          "text": "1.5cm 폭으로 자르고 서로 붙은 조각을 분리합니다."
+        },
+        {
+          "ingredient": "양파·마늘",
+          "text": "양파는 0.4cm 채, 마늘은 꼭지를 떼고 얇게 편 썹니다."
+        },
+        {
+          "ingredient": "생크림",
+          "text": "조리 직전까지 냉장 보관하고 필요한 양만 계량합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "스파게티면",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "베이컨",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.95
+        },
+        {
+          "name": "양파",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "마늘",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "생크림",
+          "amount": 250,
+          "unit": "ml",
+          "density": 0.99,
+          "household": false
+        },
+        {
+          "name": "우유",
+          "amount": 120,
+          "unit": "ml",
+          "density": 1.03,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "락토프리 우유",
+              "amount": 120,
+              "unit": "ml",
+              "density": 1.03,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "파르메산치즈",
+          "amount": 35,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 2,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "후추",
+          "amount": 1,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "파슬리",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "고명 없이 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불→중강불",
+          "minutes": 9,
+          "text": "소금물에 면을 포장 시간보다 2분 짧게 삶고 면수를 남깁니다.",
+          "cue": "면 중심에 가는 심이 남음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "마른 팬에 베이컨을 볶아 기름을 낸 뒤 양파와 마늘을 넣습니다.",
+          "cue": "베이컨이 노릇하고 양파가 투명함"
+        },
+        {
+          "heat": "약불",
+          "minutes": 3,
+          "text": "생크림, 우유, 다시다, 미원을 넣어 가장자리만 끓게 데웁니다.",
+          "cue": "소스가 끓어 넘치지 않고 김이 남"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 3,
+          "text": "면과 치즈를 넣고 면수로 농도를 조절하며 섞습니다.",
+          "cue": "주걱 뒷면에 소스가 얇게 묻음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "후추와 파슬리를 넣고 즉시 담습니다.",
+          "cue": "식어 굳기 전 부드럽게 흐르는 농도"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "소고기",
+        "한그릇"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-gyudon-001",
+      "name": "규동",
+      "cuisine": "일식",
+      "category": "덮밥",
+      "summary": "얇은 소고기와 양파를 달콤짭짤한 국물에 짧게 익혀 밥에 올리는 일본식 덮밥입니다.",
+      "safety": "소고기를 한 장씩 풀어 겹친 안쪽까지 충분히 익히고 남은 음식은 2시간 안에 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.justonecookbook.com/gyudon/",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 20,
+      "preparation": [
+        {
+          "ingredient": "샤브샤브용 소고기",
+          "text": "냉장 해동해 6cm 길이로 자르고 겹친 조각을 분리합니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "껍질과 뿌리를 제거하고 0.7cm 두께로 채 썹니다."
+        },
+        {
+          "ingredient": "쪽파",
+          "text": "씻어 물기를 닦고 0.3cm 송송 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "밥",
+          "amount": 420,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "샤브샤브용 소고기",
+          "amount": 260,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "양파",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "물",
+          "amount": 220,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 24,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "맛술",
+          "amount": 25,
+          "unit": "ml",
+          "density": 1,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "물",
+              "amount": 25,
+              "unit": "ml",
+              "density": 1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 표시된 양을 계량합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 2,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "쪽파",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.5,
+          "optional": true,
+          "optionalReason": "고명 없이 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 3,
+          "text": "냄비에 물, 간장, 맛술, 설탕, 다시다를 넣어 끓입니다.",
+          "cue": "설탕이 녹고 국물이 완전히 끓음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "양파를 넣어 반투명하고 부드러워질 때까지 끓입니다.",
+          "cue": "양파가 휘어지고 매운 향이 사라짐"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "소고기를 한 장씩 풀어 넣고 거품을 걷으며 익힙니다.",
+          "cue": "고기 분홍색이 없고 국물이 맑게 다시 끓음"
+        },
+        {
+          "heat": "약불",
+          "minutes": 1,
+          "text": "미원을 섞어 간을 보고 밥 위에 국물과 함께 올립니다.",
+          "cue": "밥에 스며들 만큼 국물이 자작함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "돼지고기",
+        "카레",
+        "한그릇"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [
+        {
+          "id": "pressure-pot",
+          "label": "압력냄비",
+          "icon": "pressure-pot",
+          "totalMinutes": 28,
+          "warning": "압력이 완전히 빠지고 표시핀이 내려간 뒤 제조사 설명서대로 여세요.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.72
+            }
+          ],
+          "steps": [
+            {
+              "heat": "중강불",
+              "minutes": 5,
+              "text": "압력냄비에서 고기와 양파를 볶은 뒤 감자와 당근을 넣습니다.",
+              "cue": "고기 표면이 익고 양파가 투명함"
+            },
+            {
+              "heat": "강불→약불·고압",
+              "minutes": 7,
+              "text": "조정된 물과 다시다를 넣고 고압에 도달하면 약불로 7분 익힙니다.",
+              "cue": "압력 표시가 안정적으로 유지됨"
+            },
+            {
+              "heat": "자연감압",
+              "minutes": 10,
+              "text": "불을 끄고 압력이 자연스럽게 빠질 때까지 기다립니다.",
+              "cue": "표시핀이 완전히 내려감"
+            },
+            {
+              "heat": "불 끔→약불",
+              "minutes": 4,
+              "text": "뚜껑을 열고 카레와 미원을 푼 뒤 약불로 저어 농도를 냅니다.",
+              "cue": "카레 덩어리가 없고 바닥에 붙지 않음"
+            }
+          ]
+        },
+        {
+          "id": "rice-cooker",
+          "label": "압력밥솥",
+          "icon": "rice-cooker",
+          "totalMinutes": 45,
+          "warning": "압력밥솥의 찜 또는 만능찜 모드를 사용하고 증기가 완전히 빠진 뒤 여세요. 카레는 압력 조리 후에 풀어야 분출 위험이 적습니다.",
+          "ingredientAdjustments": [
+            {
+              "name": "물",
+              "factor": 0.75
+            }
+          ],
+          "steps": [
+            {
+              "heat": "프라이팬 중강불",
+              "minutes": 5,
+              "text": "고기와 양파를 먼저 볶아 밥솥에 옮깁니다.",
+              "cue": "고기 표면이 익고 양파가 투명함"
+            },
+            {
+              "heat": "압력밥솥 만능찜",
+              "minutes": 25,
+              "text": "감자, 당근, 조정된 물, 다시다를 넣어 만능찜으로 익힙니다.",
+              "cue": "코스가 정상 종료됨"
+            },
+            {
+              "heat": "증기 배출 후 보온",
+              "minutes": 5,
+              "text": "증기가 빠진 뒤 열어 카레와 미원을 완전히 풉니다.",
+              "cue": "카레 덩어리가 없음"
+            },
+            {
+              "heat": "재가열",
+              "minutes": 5,
+              "text": "재가열하며 두세 번 저어 농도를 맞춥니다.",
+              "cue": "전체가 다시 뜨겁고 걸쭉함"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-japanese-curry-001",
+      "name": "일본식 돼지고기 카레",
+      "cuisine": "일식",
+      "category": "카레",
+      "summary": "감자와 당근을 뭉근히 익히고 마지막에 고형 카레를 풀어 진하게 만드는 일본식 카레입니다.",
+      "safety": "돼지고기는 중심부 63°C 이상에 도달한 뒤 3분 이상 익힘 상태를 유지하고 남은 카레는 얕은 용기에 나눠 빠르게 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-14",
+        "sources": [
+          "https://www.kikkoman.com/en/cookbook/recipe/00001409.html",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "timeMinutes": 40,
+      "preparation": [
+        {
+          "ingredient": "돼지고기",
+          "text": "3cm 한입 크기로 썰고 키친타월로 표면 핏물을 제거합니다."
+        },
+        {
+          "ingredient": "감자·당근",
+          "text": "껍질과 감자 싹을 제거하고 감자는 3cm, 당근은 2cm 크기로 썹니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "껍질과 뿌리를 제거하고 1cm 폭으로 채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "돼지고기 앞다리살",
+          "amount": 300,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "감자",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.82
+        },
+        {
+          "name": "당근",
+          "amount": 150,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "양파",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "고형 카레",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "물",
+          "amount": 750,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "카놀라유",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.92,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true,
+          "optional": true,
+          "optionalReason": "천연 육수를 쓸 때 생략"
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "사과 간 것",
+          "amount": 60,
+          "unit": "g",
+          "density": 1.02,
+          "optional": true,
+          "optionalReason": "달콤한 맛이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중강불",
+          "minutes": 5,
+          "text": "냄비에 기름을 두르고 돼지고기 겉면을 볶습니다.",
+          "cue": "표면 분홍색이 사라지고 갈색 지짐이 생김"
+        },
+        {
+          "heat": "중불",
+          "minutes": 6,
+          "text": "양파를 넣어 투명해질 때까지 볶고 감자와 당근을 더합니다.",
+          "cue": "양파 숨이 죽고 냄비 바닥 갈색 맛이 풀림"
+        },
+        {
+          "heat": "강불→약불",
+          "minutes": 18,
+          "text": "물과 다시다를 넣어 끓인 뒤 거품을 걷고 약불에서 뚜껑을 덮습니다.",
+          "cue": "감자 중심까지 젓가락이 들어가고 고기가 익음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 2,
+          "text": "불을 끄고 고형 카레와 미원을 완전히 풀어줍니다.",
+          "cue": "카레 덩어리가 없음"
+        },
+        {
+          "heat": "약불",
+          "minutes": 4,
+          "text": "사과를 넣을 경우 함께 넣고 바닥을 저으며 다시 데웁니다.",
+          "cue": "주걱으로 그은 자국이 1초 남는 농도"
+        }
+      ]
+    }
+  ]
+}

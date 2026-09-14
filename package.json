@@ -1,0 +1,10 @@
+{
+  "name": "dad-spoon-recipes",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "release": "node scripts/release-data.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}
