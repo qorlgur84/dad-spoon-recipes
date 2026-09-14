@@ -1,11 +1,16 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "updatedAt": "2026-09-15",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
     "differentTexture": "separate_recipe",
     "preparationRequired": true,
-    "substitutions": "same_preparation_and_cook_time_only"
+    "substitutions": "same_preparation_and_cook_time_only",
+    "foreignCuisineStyle": "korean_home_adaptation",
+    "koreanPantryFirst": true,
+    "koreanTasteRequired": true,
+    "originalTechniquePreserved": true,
+    "domesticSourcePreferred": true
   },
   "recipes": [
     {
@@ -4389,7 +4394,8 @@
       "aliases": [],
       "tags": [
         "춘장",
-        "돼지고기"
+        "돼지고기",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -4557,14 +4563,23 @@
           "text": "중화면을 포장 시간대로 삶아 물기를 빼고 소스를 얹습니다.",
           "cue": "면 중심이 익고 서로 달라붙지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "두부",
         "돼지고기",
-        "마라"
+        "마라",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -4728,14 +4743,23 @@
           "text": "화자오가루와 대파를 뿌립니다.",
           "cue": "화자오 향이 선명하고 두부가 부서지지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "달걀",
         "토마토",
-        "초간단"
+        "초간단",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "매우 쉬움",
@@ -4866,14 +4890,23 @@
           "text": "달걀을 되넣어 소스와 섞고 완전히 응고되면 불을 끕니다.",
           "cue": "묽은 달걀물이 없고 덩어리는 부드러움"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "파스타",
         "마늘",
-        "오일"
+        "오일",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -5019,13 +5052,22 @@
           "text": "파슬리를 섞고 즉시 담습니다.",
           "cue": "윤기가 나며 기름만 따로 고이지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "파스타",
-        "토마토"
+        "토마토",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -5175,14 +5217,23 @@
           "text": "바질을 찢어 넣고 간을 확인합니다.",
           "cue": "토마토의 날산미가 없고 향이 선명함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "파스타",
         "크림",
-        "베이컨"
+        "베이컨",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -5336,13 +5387,22 @@
           "text": "후추와 파슬리를 넣고 즉시 담습니다.",
           "cue": "식어 굳기 전 부드럽게 흐르는 농도"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "소고기",
-        "한그릇"
+        "한그릇",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "매우 쉬움",
@@ -5497,14 +5557,23 @@
           "text": "미원을 섞어 간을 보고 밥 위에 국물과 함께 올립니다.",
           "cue": "밥에 스며들 만큼 국물이 자작함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "돼지고기",
         "카레",
-        "한그릇"
+        "한그릇",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -5731,7 +5800,15 @@
           "text": "사과를 넣을 경우 함께 넣고 바닥을 저으며 다시 데웁니다.",
           "cue": "주걱으로 그은 자국이 1초 남는 농도"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
@@ -8063,7 +8140,8 @@
       "tags": [
         "닭고기",
         "달걀",
-        "한그릇"
+        "한그릇",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -8219,14 +8297,23 @@
           "text": "나머지 달걀과 미원을 붓고 완전히 응고시킨 뒤 밥에 올립니다.",
           "cue": "묽은 달걀이 없고 전체가 71°C 이상"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "돼지고기",
         "돈가스",
-        "오븐"
+        "오븐",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -8401,14 +8488,23 @@
           "text": "돈가스를 올리고 남은 달걀물을 둘러 뚜껑을 덮어 완전히 익힌 뒤 미원을 넣어 밥에 올립니다.",
           "cue": "달걀이 71°C 이상이고 묽은 부분이 없음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "새우",
         "밥",
-        "센불"
+        "센불",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -8571,14 +8667,26 @@
           "text": "참기름을 사용할 경우 넣고 빠르게 섞습니다.",
           "cue": "밥알이 뭉치지 않고 윤기가 남"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
-      "aliases": [],
+      "aliases": [
+        "정통식 까르보나라",
+        "까르보나라"
+      ],
       "tags": [
         "파스타",
         "달걀",
-        "베이컨"
+        "베이컨",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -8586,11 +8694,11 @@
       "defaultToolIcon": "pan",
       "cookerVariants": [],
       "id": "recipe-carbonara-001",
-      "name": "정통식 까르보나라",
+      "name": "한국식 노크림 까르보나라",
       "cuisine": "양식",
       "category": "면",
       "timeMinutes": 25,
-      "summary": "불을 끈 팬의 잔열과 면수로 달걀·치즈 소스를 유화해 크림 없이 만드는 까르보나라입니다.",
+      "summary": "구하기 쉬운 베이컨과 파르메산치즈를 사용하고, 불을 끈 팬의 잔열과 면수로 달걀 소스를 유화한 한국 가정식 노크림 까르보나라입니다.",
       "safety": "저온살균 달걀을 권장하며 소스는 71°C 이상으로 익히되 스크램블처럼 굳지 않게 잔열에서 빠르게 섞으세요.",
       "verification": {
         "reviewedAt": "2026-09-15",
@@ -8726,7 +8834,15 @@
           "text": "약한 잔열에서 계속 저어 소스를 71°C 이상으로 올린 뒤 후추와 파슬리를 뿌립니다.",
           "cue": "소스가 흐르되 물처럼 고이지 않고 달걀 냄새가 없음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
@@ -10250,7 +10366,8 @@
       "tags": [
         "해산물",
         "얼큰한",
-        "국물"
+        "국물",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "어려움",
@@ -10427,14 +10544,23 @@
           "text": "청경채와 미원을 국물에 넣어 익혀 면 위에 붓습니다.",
           "cue": "청경채가 선명하고 모든 단백질 중심이 익음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "돼지고기",
         "새콤달콤",
-        "두번튀김"
+        "두번튀김",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "매우 어려움",
@@ -10610,14 +10736,23 @@
           "text": "미원을 섞고 소스를 따로 담거나 먹기 직전에 붓습니다.",
           "cue": "소스가 덩어리 없이 매끈함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "부추",
         "돼지고기",
-        "꽃빵"
+        "꽃빵",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -10771,13 +10906,22 @@
           "text": "고추기름을 섞고 데운 꽃빵과 냅니다.",
           "cue": "팬 바닥에 물이 고이지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "달걀",
-        "케첩밥"
+        "케첩밥",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -10928,14 +11072,23 @@
           "text": "달걀 중앙에 볶음밥을 놓고 가장자리를 접어 접시에 뒤집습니다.",
           "cue": "달걀이 찢어지지 않고 밥을 감쌈"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "유부",
         "우동",
-        "국물"
+        "국물",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -11076,13 +11229,22 @@
           "text": "면에 국물을 붓고 유부, 대파, 미원, 어묵을 올립니다.",
           "cue": "국물이 다시 뜨겁고 유부가 부드러움"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "돼지고기",
-        "볶음면"
+        "볶음면",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -11231,14 +11393,23 @@
           "text": "우스터소스, 굴소스, 간장, 미원을 넣어 수분을 날립니다.",
           "cue": "소스가 면에 고루 붙고 팬 바닥이 마름"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "미소",
         "두부",
-        "미역"
+        "미역",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "매우 쉬움",
@@ -11363,14 +11534,23 @@
           "text": "끓기 직전에 불을 끄고 대파를 넣습니다.",
           "cue": "미소 향이 선명하고 크게 끓지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "소고기",
         "파스타",
-        "치즈"
+        "치즈",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "어려움",
@@ -11537,14 +11717,23 @@
           "text": "오븐에서 꺼내 자르기 전 그대로 둡니다.",
           "cue": "층이 흐르지 않고 칼로 깔끔히 잘림"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "새우",
         "마늘",
-        "올리브유"
+        "올리브유",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -11665,14 +11854,23 @@
           "text": "연두, 미원, 후추, 파슬리를 섞습니다.",
           "cue": "기름이 잔잔해지고 마늘 향이 선명함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "식빵",
         "달걀",
-        "아침"
+        "아침",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "매우 쉬움",
@@ -11800,7 +11998,15 @@
           "text": "1분 쉬게 한 뒤 슈가파우더를 선택해 뿌립니다.",
           "cue": "누르면 부드럽게 돌아오고 속이 촉촉함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
@@ -13442,7 +13648,8 @@
       "tags": [
         "닭다리살",
         "땅콩",
-        "건고추"
+        "건고추",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -13592,14 +13799,23 @@
           "text": "소스, 남은 전분물, 미원, 땅콩을 넣어 빠르게 볶습니다.",
           "cue": "소스가 닭에 윤기 있게 붙고 팬 바닥에 물이 없음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "새우",
         "칠리소스",
-        "튀김"
+        "튀김",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -13745,14 +13961,23 @@
           "text": "미원과 새우를 넣어 짧게 버무립니다.",
           "cue": "튀김옷이 눅눅해지기 전 소스가 얇게 붙음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "가지",
         "두반장",
-        "새콤달콤"
+        "새콤달콤",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -13900,14 +14125,23 @@
           "text": "전분물과 대파를 넣어 농도를 냅니다.",
           "cue": "소스가 얇게 붙고 바닥에 물이 고이지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "소고기",
         "브로콜리",
-        "굴소스"
+        "굴소스",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -14045,14 +14279,23 @@
           "text": "전분물과 참기름을 넣어 빠르게 섞습니다.",
           "cue": "윤기가 돌고 팬 바닥에 묽은 물이 없음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "닭다리살",
         "데리야키",
-        "윤기"
+        "윤기",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -14179,14 +14422,23 @@
           "text": "도마에서 휴지한 뒤 결 반대로 썹니다.",
           "cue": "육즙이 과하게 흐르지 않음"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "돼지등심",
         "빵가루",
-        "튀김"
+        "튀김",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -14337,14 +14589,23 @@
           "text": "망에서 3분 기름을 빼고 휴지한 뒤 썹니다.",
           "cue": "자를 때 육즙이 맑고 튀김옷이 바삭함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "돼지고기",
         "감자",
-        "양파"
+        "양파",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "쉬움",
@@ -14499,14 +14760,23 @@
           "text": "미원을 섞고 5분 두어 간을 배게 합니다.",
           "cue": "국물이 자작하고 감자 형태가 유지됨"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "새우",
         "단호박",
-        "튀김"
+        "튀김",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "어려움",
@@ -14641,14 +14911,23 @@
           "text": "망에 세워 기름을 뺍니다.",
           "cue": "바닥에 기름이 고이지 않고 바삭함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "소고기",
         "미트볼",
-        "토마토"
+        "토마토",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -14813,14 +15092,23 @@
           "text": "남은 미원과 파슬리를 넣습니다.",
           "cue": "미트볼 형태가 유지되고 간이 고름"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     },
     {
       "aliases": [],
       "tags": [
         "마카로니",
         "치즈",
-        "베샤멜"
+        "베샤멜",
+        "한국식 재해석"
       ],
       "baseServings": 2,
       "difficulty": "보통",
@@ -15000,7 +15288,15 @@
           "text": "꺼내 5분 둔 뒤 나눕니다.",
           "cue": "소스가 흐르지 않고 촉촉함"
         }
-      ]
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     }
   ]
 }

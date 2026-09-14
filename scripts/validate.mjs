@@ -9,11 +9,13 @@ const ids = new Set();
 const units = new Set(['g', 'ml', 'count']);
 if (!/^\d+\.\d+\.\d+$/.test(data.version || '')) errors.push('version은 1.2.3 형식이어야 합니다.');
 if (data.recipePolicy?.differentIngredients !== 'separate_recipe' || data.recipePolicy?.differentTexture !== 'separate_recipe' || data.recipePolicy?.preparationRequired !== true || data.recipePolicy?.substitutions !== 'same_preparation_and_cook_time_only') errors.push('주재료·식감별 별도 레시피 및 손질 의무 정책이 없습니다.');
+if (data.recipePolicy?.foreignCuisineStyle !== 'korean_home_adaptation' || data.recipePolicy?.koreanPantryFirst !== true || data.recipePolicy?.koreanTasteRequired !== true || data.recipePolicy?.originalTechniquePreserved !== true) errors.push('비한식의 한국 가정식 재해석 정책이 없습니다.');
 for (const [index, recipe] of (data.recipes || []).entries()) {
   const at = `recipes[${index}] ${recipe.name || ''}`;
   if (!recipe.id || ids.has(recipe.id)) errors.push(`${at}: ID가 없거나 중복입니다.`); ids.add(recipe.id);
   for (const key of ['name','cuisine','category','summary','defaultTool']) if (!recipe[key]) errors.push(`${at}: ${key}가 없습니다.`);
   if (!recipe.safety) errors.push(`${at}: 안전 확인 문구가 없습니다.`);
+  if (recipe.cuisine !== '한식' && (recipe.localization?.target !== 'korean_home' || recipe.localization?.koreanPantry !== true || recipe.localization?.koreanTaste !== true || !recipe.localization?.measurement || !recipe.localization?.seasoningPolicy || !recipe.localization?.note)) errors.push(`${at}: 비한식 레시피의 한국 가정식 현지화 정보가 없습니다.`);
   if (!Array.isArray(recipe.preparation) || recipe.preparation.length < 2 || recipe.preparation.some(item => !item.ingredient || !item.text)) errors.push(`${at}: 재료별 기초 손질법이 2개 이상 필요합니다.`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(recipe.verification?.reviewedAt || '')) errors.push(`${at}: 검증일이 없습니다.`);
   if (!Array.isArray(recipe.verification?.sources) || recipe.verification.sources.length < 2 || recipe.verification.sources.some(source => !/^https:\/\//.test(source))) errors.push(`${at}: HTTPS 검증 출처가 2개 이상 필요합니다.`);
