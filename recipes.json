@@ -1,5 +1,5 @@
 {
-  "version": "2.7.0",
+  "version": "2.8.0",
   "updatedAt": "2026-09-15",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
@@ -23961,6 +23961,2885 @@
           "minutes": 1,
           "text": "파슬리를 뿌리고 1분 식힙니다.",
           "cue": "치즈 끓음이 잦아들고 옥수수가 촉촉함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-kimchi-sujebi-001",
+      "name": "얼큰 김치수제비",
+      "cuisine": "한식",
+      "category": "면",
+      "timeMinutes": 45,
+      "summary": "숙성한 밀가루 반죽을 얇게 떼어 신김치 국물에 넣어 쫄깃하고 얼큰하게 끓인 수제비입니다.",
+      "safety": "반죽은 냉장 숙성하고 생가루 맛이 없도록 중심까지 익히며 뜨거운 국물에 주의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6869746",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "수제비 반죽",
+          "text": "밀가루와 물을 치대 매끈하게 만든 뒤 밀폐해 냉장고에서 30분 숙성합니다."
+        },
+        {
+          "ingredient": "신김치·감자",
+          "text": "김치는 2cm, 감자는 0.5cm 반달로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "밀가루",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.55,
+          "alternatives": [
+            {
+              "name": "중력분",
+              "amount": 250,
+              "unit": "g",
+              "density": 0.55,
+              "household": false,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "반죽용 물",
+          "amount": 135,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "신김치",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "감자",
+          "amount": 220,
+          "unit": "g",
+          "density": 0.78
+        },
+        {
+          "name": "물",
+          "amount": 1000,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "김치국물",
+          "amount": 100,
+          "unit": "ml",
+          "density": 1.02,
+          "household": true
+        },
+        {
+          "name": "연두 진",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 12,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 8,
+          "text": "밀가루와 물을 치대 냉장 숙성한 반죽을 다시 매끈하게 정리합니다.",
+          "cue": "눌렀을 때 천천히 돌아오고 표면이 매끈함"
+        },
+        {
+          "heat": "강불",
+          "minutes": 8,
+          "text": "물, 김치, 김치국물, 감자를 끓입니다.",
+          "cue": "감자 가장자리가 투명함"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 8,
+          "text": "반죽을 얇게 떼어 겹치지 않게 넣습니다.",
+          "cue": "수제비가 떠오르고 중심에 생가루가 없음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "연두, 미원, 청양고추를 넣습니다.",
+          "cue": "국물이 걸쭉하고 간이 고름"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-perilla-sujebi-001",
+      "name": "고소한 들깨수제비",
+      "cuisine": "한식",
+      "category": "면",
+      "timeMinutes": 45,
+      "summary": "감자와 애호박을 넣은 국물에 얇은 수제비와 들깻가루를 풀어 걸쭉하고 고소하게 끓입니다.",
+      "safety": "반죽은 냉장 숙성하고 생가루 맛이 없도록 익히며 들깻가루의 산패 냄새를 확인하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6868668",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "수제비 반죽",
+          "text": "밀가루와 물을 5분 치대 밀폐해 냉장고에서 30분 숙성합니다."
+        },
+        {
+          "ingredient": "감자·애호박",
+          "text": "감자는 0.5cm 반달, 애호박은 0.6cm 반달로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "밀가루",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.55,
+          "alternatives": [
+            {
+              "name": "중력분",
+              "amount": 250,
+              "unit": "g",
+              "density": 0.55,
+              "household": false,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "반죽용 물",
+          "amount": 135,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "감자",
+          "amount": 220,
+          "unit": "g",
+          "density": 0.78
+        },
+        {
+          "name": "애호박",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "물",
+          "amount": 1000,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "들깻가루",
+          "amount": 60,
+          "unit": "ml",
+          "density": 0.48,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 18,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "파 향이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 8,
+          "text": "물과 감자를 끓입니다.",
+          "cue": "감자 가장자리가 투명함"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 8,
+          "text": "반죽을 얇게 떼어 넣고 서로 붙지 않게 젓습니다.",
+          "cue": "수제비가 떠오르고 생가루 맛이 없음"
+        },
+        {
+          "heat": "약불",
+          "minutes": 5,
+          "text": "애호박, 들깻가루, 연두를 넣어 약하게 끓입니다.",
+          "cue": "국물이 걸쭉하고 들깨 덩어리가 없음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "미원과 대파를 넣습니다.",
+          "cue": "수제비가 쫄깃하고 고소한 향이 남"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-clam-kalguksu-001",
+      "name": "바지락 칼국수",
+      "cuisine": "한식",
+      "category": "면",
+      "timeMinutes": 35,
+      "summary": "해감한 바지락 국물에 애호박과 칼국수면을 넣어 시원하고 담백하게 끓인 면요리입니다.",
+      "safety": "깨진 바지락과 두드려도 닫히지 않는 것은 버리고 익힌 뒤 열리지 않는 조개도 먹지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6889517",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "바지락",
+          "text": "껍데기를 문질러 씻고 소금물에 어둡게 1시간 해감해 다시 헹굽니다."
+        },
+        {
+          "ingredient": "칼국수면",
+          "text": "과한 덧가루만 가볍게 털고 물에 미리 씻지 않습니다."
+        },
+        {
+          "ingredient": "애호박",
+          "text": "0.4cm 반달로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "바지락",
+          "amount": 700,
+          "unit": "g",
+          "density": 1.12
+        },
+        {
+          "name": "생 칼국수면",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "애호박",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "물",
+          "amount": 1200,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "국간장",
+              "amount": 12,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 12,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 6,
+          "text": "물에 바지락을 넣어 입이 벌어질 때까지 끓입니다.",
+          "cue": "바지락 대부분이 입을 벌림"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 6,
+          "text": "면을 흩어 넣고 젓가락으로 풀어줍니다.",
+          "cue": "면끼리 붙지 않고 국물이 다시 끓음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "애호박, 마늘, 연두를 넣어 익힙니다.",
+          "cue": "면에 흰 심이 없고 애호박이 부드러움"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "열리지 않은 조개를 버리고 미원과 고추를 넣습니다.",
+          "cue": "국물이 시원하고 면이 쫄깃함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "어려움",
+      "defaultTool": "찜기",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-kimchi-mandu-001",
+      "name": "두부 김치만두",
+      "cuisine": "한식",
+      "category": "만두",
+      "timeMinutes": 70,
+      "summary": "물기 짠 신김치와 두부, 돼지고기를 넣어 매콤하고 촉촉하게 찐 김치만두입니다.",
+      "safety": "생고기 소는 냉장 상태로 다루고 만두 중심 74°C 이상 익히며 남은 소는 즉시 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6885706",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "신김치·두부",
+          "text": "김치는 잘게 다져 면포로 짜고 두부는 10분 눌러 물기를 빼 으깹니다."
+        },
+        {
+          "ingredient": "돼지고기",
+          "text": "다짐육의 핏물을 닦고 차갑게 둡니다."
+        },
+        {
+          "ingredient": "숙주",
+          "text": "끓는 물에 2분 데쳐 찬물에 헹구고 꼭 짜 잘게 자릅니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "만두피",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.85
+        },
+        {
+          "name": "신김치",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "두부",
+          "amount": 250,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "다진 돼지고기",
+          "amount": 250,
+          "unit": "g",
+          "density": 1.03
+        },
+        {
+          "name": "숙주",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.38
+        },
+        {
+          "name": "진간장",
+          "amount": 18,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 14,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "참기름",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "당면",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.72,
+          "optional": true,
+          "optionalReason": "당면 식감이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 8,
+          "text": "김치, 두부, 돼지고기, 숙주, 양념을 한 방향으로 섞습니다.",
+          "cue": "소에 고인 물이 없고 재료가 고르게 섞임"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 15,
+          "text": "만두피에 소를 25g씩 넣어 가장자리를 물로 붙입니다.",
+          "cue": "공기가 적고 봉합선이 벌어지지 않음"
+        },
+        {
+          "heat": "강불",
+          "minutes": 6,
+          "text": "찜기 물을 충분히 끓입니다.",
+          "cue": "증기가 힘 있게 올라옴"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 14,
+          "text": "만두를 간격 두고 쪄 중심까지 익힙니다.",
+          "cue": "피가 투명하고 속 중심 74°C 이상"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "어려움",
+      "defaultTool": "찜기",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "id": "recipe-meat-mandu-001",
+      "name": "부추 고기만두",
+      "cuisine": "한식",
+      "category": "만두",
+      "timeMinutes": 65,
+      "summary": "돼지고기와 두부, 부추 소를 꽉 채워 육즙은 촉촉하고 피는 쫄깃하게 찐 고기만두입니다.",
+      "safety": "생고기 소는 냉장 상태로 다루고 만두 중심 74°C 이상 익히며 교차오염을 막으세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6858058",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "돼지고기·두부",
+          "text": "다짐육 핏물을 닦고 두부는 10분 눌러 물기를 빼 으깹니다."
+        },
+        {
+          "ingredient": "부추·양파",
+          "text": "부추는 0.5cm, 양파는 0.3cm로 잘게 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "만두피",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.85
+        },
+        {
+          "name": "다진 돼지고기",
+          "amount": 350,
+          "unit": "g",
+          "density": 1.03
+        },
+        {
+          "name": "두부",
+          "amount": 220,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "부추",
+          "amount": 130,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "양파",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "진간장",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "연두 진",
+              "amount": 16,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "참기름",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "당면",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.72,
+          "optional": true,
+          "optionalReason": "당면 식감이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 8,
+          "text": "고기, 두부, 부추, 양파, 양념을 끈기가 살짝 생길 때까지 섞습니다.",
+          "cue": "소가 한 덩어리로 뭉치고 물이 고이지 않음"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 15,
+          "text": "만두피에 소를 넣고 공기를 빼며 봉합합니다.",
+          "cue": "가장자리가 벌어지지 않음"
+        },
+        {
+          "heat": "강불",
+          "minutes": 6,
+          "text": "찜기 물을 끓입니다.",
+          "cue": "증기가 충분히 올라옴"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 14,
+          "text": "만두를 간격 두고 쪄 익힙니다.",
+          "cue": "피가 투명하고 속 중심 74°C 이상"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-bibim-mandu-001",
+      "name": "새콤 야채 비빔만두",
+      "cuisine": "한식",
+      "category": "만두",
+      "timeMinutes": 20,
+      "summary": "군만두는 바삭하게 굽고 양배추와 오이를 새콤매콤하게 무쳐 곁들이는 분식 안주입니다.",
+      "safety": "냉동만두는 중심까지 뜨겁게 익히고 생채소는 흐르는 물에 충분히 씻어 즉시 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6862948",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "냉동만두",
+          "text": "포장이 손상되지 않은 냉동 상태로 준비하고 표면의 성에를 털어냅니다."
+        },
+        {
+          "ingredient": "양배추·오이",
+          "text": "양배추는 0.3cm 채, 오이는 0.4cm 어슷 썰어 물기를 닦습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "냉동만두",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "양배추",
+          "amount": 220,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "오이",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.96
+        },
+        {
+          "name": "고추장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "저당 고추장",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "식초",
+          "amount": 25,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.3,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "깻잎",
+          "amount": 25,
+          "unit": "g",
+          "density": 0.35,
+          "optional": true,
+          "optionalReason": "깻잎 향이 싫으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "기름 두른 팬에 만두와 물 45ml를 넣어 뚜껑을 덮고 익힙니다.",
+          "cue": "만두 중심까지 뜨겁고 물이 사라짐"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 3,
+          "text": "뚜껑을 열어 만두 바닥을 바삭하게 굽습니다.",
+          "cue": "밑면이 짙은 금색"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "고추장, 식초, 설탕, 미원을 섞어 채소를 무쳐 만두와 담습니다.",
+          "cue": "채소는 아삭하고 만두는 눅눅하지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "id": "recipe-tteokgalbi-001",
+      "name": "수제 떡갈비",
+      "cuisine": "한식",
+      "category": "구이",
+      "timeMinutes": 40,
+      "summary": "소고기와 돼지고기를 다져 간장양념에 치댄 뒤 두툼하게 빚어 윤기 나게 구운 떡갈비입니다.",
+      "safety": "다짐육 반죽 중심은 71°C 이상 익히고 생고기를 만진 손과 도구를 즉시 세척하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6851683",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "다진 소고기·돼지고기",
+          "text": "냉장 상태로 준비해 힘줄 조각을 제거하고 핏물을 누릅니다."
+        },
+        {
+          "ingredient": "양파·대파",
+          "text": "각각 0.2cm 이하로 곱게 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "다진 소고기",
+          "amount": 300,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "다진 돼지고기",
+          "amount": 200,
+          "unit": "g",
+          "density": 1.03
+        },
+        {
+          "name": "양파",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "대파",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "진간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "양조간장",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "잣",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "견과류 고명이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 8,
+          "text": "고기와 양념을 3분 치대 2cm 두께 타원형으로 빚습니다.",
+          "cue": "반죽이 갈라지지 않고 끈기가 생김"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "기름 12ml를 두르고 한쪽 면을 굽습니다.",
+          "cue": "아랫면이 진한 갈색"
+        },
+        {
+          "heat": "약불",
+          "minutes": 8,
+          "text": "뒤집어 물 35ml를 넣고 뚜껑을 덮어 익힙니다.",
+          "cue": "중심 71°C 이상이고 육즙이 맑음"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "뚜껑을 열고 남은 간장양념을 발라 윤기를 냅니다.",
+          "cue": "표면이 윤기 나고 소스가 흐르지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "oven",
+          "warning": "오븐용 팬을 사용하고 뜨거운 팬은 마른 장갑으로 꺼내세요.",
+          "steps": [
+            {
+              "heat": "오븐 210°C 예열",
+              "minutes": 10,
+              "text": "고등어 표면에 기름을 얇게 바르고 오븐을 예열합니다.",
+              "cue": "표면 물기가 없음"
+            },
+            {
+              "heat": "오븐 210°C",
+              "minutes": 14,
+              "text": "껍질이 위로 가게 구운 뒤 양념을 바르고 3분 더 굽습니다.",
+              "cue": "중심 63°C 이상이고 양념이 마름"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-gogalbi-001",
+      "name": "매콤 고갈비",
+      "cuisine": "한식",
+      "category": "구이",
+      "timeMinutes": 30,
+      "summary": "손질 고등어를 노릇하게 굽고 고추장 양념을 얇게 발라 타지 않게 마무리한 매콤한 고갈비입니다.",
+      "safety": "고등어는 냉장 해동해 가시와 내장을 확인하고 살 중심 63°C 이상 익히세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6868528",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "손질 고등어",
+          "text": "냉장 해동해 잔가시와 검은 내장막을 확인하고 흐르는 물에 짧게 헹궈 완전히 닦습니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "흰 부분을 0.2cm로 곱게 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "손질 고등어",
+          "amount": 500,
+          "unit": "g",
+          "density": 1.04
+        },
+        {
+          "name": "고추장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "저당 고추장",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.12,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "고춧가루",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.35,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 18,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.3,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "파 고명이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 6,
+          "text": "기름 두른 팬에 고등어 껍질 쪽부터 굽습니다.",
+          "cue": "껍질이 노릇하고 가장자리가 불투명함"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 6,
+          "text": "뒤집어 속까지 익힙니다.",
+          "cue": "살 중심 63°C 이상이고 쉽게 갈라짐"
+        },
+        {
+          "heat": "약불",
+          "minutes": 2,
+          "text": "양념을 살 쪽에 얇게 바르고 1분씩 굽습니다.",
+          "cue": "양념이 타지 않고 윤기 있게 붙음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "oven",
+          "warning": "오븐용 팬을 사용하고 뜨거운 팬은 마른 장갑으로 꺼내세요.",
+          "steps": [
+            {
+              "heat": "오븐 210°C 예열",
+              "minutes": 10,
+              "text": "조기 양면에 기름을 바르고 예열합니다.",
+              "cue": "표면 물기가 없음"
+            },
+            {
+              "heat": "오븐 210°C",
+              "minutes": 16,
+              "text": "중간에 한 번 뒤집어 굽습니다.",
+              "cue": "껍질이 금색이고 중심 63°C 이상"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-grilled-yellow-croaker-001",
+      "name": "노릇한 조기구이",
+      "cuisine": "한식",
+      "category": "구이",
+      "timeMinutes": 25,
+      "summary": "조기의 비늘과 내장을 정리해 물기를 닦고 팬에서 껍질이 벗겨지지 않게 노릇하게 굽습니다.",
+      "safety": "조기는 냉장 해동해 아가미와 내장을 제거하고 살 중심 63°C 이상 익히세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6905797",
+          "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "조기",
+          "text": "냉장 해동해 비늘을 꼬리에서 머리 방향으로 긁고 아가미와 내장을 제거해 씻고 닦습니다."
+        },
+        {
+          "ingredient": "대파·레몬",
+          "text": "대파는 5cm로 자르고 레몬은 표면을 씻어 쐐기로 자릅니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "손질 조기",
+          "amount": 500,
+          "unit": "g",
+          "density": 1.04
+        },
+        {
+          "name": "식용유",
+          "amount": 22,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "카놀라유",
+              "amount": 22,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "미원",
+          "amount": 0.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "대파",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "파 향이 필요 없으면 생략"
+        },
+        {
+          "name": "레몬",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.9,
+          "optional": true,
+          "optionalReason": "산미가 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 6,
+          "text": "달군 팬에 기름을 두르고 조기를 올려 움직이지 않고 굽습니다.",
+          "cue": "아랫면 껍질이 금색으로 단단함"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 7,
+          "text": "넓은 뒤집개로 한 번만 뒤집어 속까지 익힙니다.",
+          "cue": "살 중심 63°C 이상이고 쉽게 갈라짐"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 2,
+          "text": "미원을 아주 얇게 뿌리고 대파와 레몬을 곁들입니다.",
+          "cue": "껍질이 붙어 있고 살이 촉촉함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "oven",
+          "warning": "오븐용 팬을 사용하고 나무꼬치 끝과 뜨거운 팬에 주의하세요.",
+          "steps": [
+            {
+              "heat": "오븐 220°C 예열",
+              "minutes": 10,
+              "text": "꼬치에 기름을 얇게 바르고 예열합니다.",
+              "cue": "표면에 기름이 고르게 묻음"
+            },
+            {
+              "heat": "오븐 220°C",
+              "minutes": 15,
+              "text": "중간에 뒤집고 마지막 4분간 간장소스를 두 번 바릅니다.",
+              "cue": "닭 중심 74°C 이상이고 소스가 윤기 남"
+            }
+          ]
+        }
+      ],
+      "id": "recipe-soy-chicken-skewer-001",
+      "name": "단짠 간장 닭꼬치",
+      "cuisine": "한식",
+      "category": "구이",
+      "timeMinutes": 35,
+      "summary": "닭다리살과 대파를 꼬치에 번갈아 끼워 팬에서 익히고 달콤짭짤한 간장양념을 발라 굽습니다.",
+      "safety": "생닭 도구를 분리하고 닭 중심 74°C 이상 익히며 나무꼬치 끝과 화상에 주의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6875141",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "닭다리살",
+          "text": "힘줄과 큰 지방을 제거해 3cm 정육면체로 썰고 물기를 닦습니다."
+        },
+        {
+          "ingredient": "대파·꼬치",
+          "text": "대파는 3cm로 자르고 나무꼬치는 물에 10분 담급니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "닭다리살",
+          "amount": 450,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "대파",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "진간장",
+          "amount": 35,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "양조간장",
+              "amount": 35,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "맛술",
+          "amount": 25,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.35,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "매운 간장소스가 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 8,
+          "text": "닭과 대파를 꼬치에 번갈아 끼웁니다.",
+          "cue": "재료 사이 간격이 일정함"
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "기름 두른 팬에서 꼬치를 돌려가며 익힙니다.",
+          "cue": "닭 중심 74°C 이상"
+        },
+        {
+          "heat": "약불",
+          "minutes": 3,
+          "text": "간장, 맛술, 올리고당, 미원을 섞어 여러 번 발라 굽습니다.",
+          "cue": "소스가 윤기 있게 붙고 타지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-curry-udon-001",
+      "name": "한국식 카레우동",
+      "cuisine": "일식",
+      "category": "면",
+      "timeMinutes": 15,
+      "summary": "국내 고형카레와 우유를 풀어 걸쭉하고 순한 소스를 만들고 우동면을 버무린 한국식 간편 면요리입니다.",
+      "safety": "우유는 조리 직전까지 냉장하고 면과 소스는 중심까지 뜨겁게 가열해 즉시 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6865521",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "우동면",
+          "text": "봉지를 주물러 면 덩어리를 풀고 소비기한을 확인합니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "0.4cm 굵기로 채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "우동면",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "양파",
+          "amount": 140,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "국내 고형카레",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.9,
+          "alternatives": [
+            {
+              "name": "카레가루",
+              "amount": 60,
+              "unit": "g",
+              "density": 0.62,
+              "household": false,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "우유",
+          "amount": 250,
+          "unit": "ml",
+          "density": 1.03,
+          "household": false
+        },
+        {
+          "name": "물",
+          "amount": 250,
+          "unit": "ml",
+          "density": 1,
+          "household": false
+        },
+        {
+          "name": "식용유",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.3,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "쪽파",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.45,
+          "optional": true,
+          "optionalReason": "파 고명이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "기름에 양파를 볶아 투명하게 만듭니다.",
+          "cue": "양파 가장자리가 옅은 갈색"
+        },
+        {
+          "heat": "강불",
+          "minutes": 3,
+          "text": "물과 우유를 넣어 가장자리부터 끓입니다.",
+          "cue": "작은 거품이 고르게 남"
+        },
+        {
+          "heat": "약불",
+          "minutes": 4,
+          "text": "카레를 풀고 우동면과 미원을 넣어 섞습니다.",
+          "cue": "카레 덩어리가 없고 면 중심까지 뜨거움"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "쪽파를 올립니다.",
+          "cue": "소스가 면에 걸쭉하게 붙음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-kimchi-udon-001",
+      "name": "한국식 김치우동",
+      "cuisine": "일식",
+      "category": "면",
+      "timeMinutes": 20,
+      "summary": "신김치와 어묵을 볶아 연두 국물에 끓이고 우동면을 넣은 얼큰한 한국식 우동입니다.",
+      "safety": "김치는 깨끗한 도구로 덜고 어묵과 면의 소비기한을 확인해 중심까지 뜨겁게 익히세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6886204",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "신김치",
+          "text": "김치국물을 따로 받아두고 김치는 1.5cm로 자릅니다."
+        },
+        {
+          "ingredient": "어묵·대파",
+          "text": "어묵은 2cm, 대파는 0.5cm로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "우동면",
+          "amount": 400,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "신김치",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "어묵",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.82
+        },
+        {
+          "name": "김치국물",
+          "amount": 80,
+          "unit": "ml",
+          "density": 1.02,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 800,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "연두 진",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "국간장",
+              "amount": 12,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 12,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "맵지 않게 먹을 때 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "김치와 어묵을 볶아 신 향을 줄입니다.",
+          "cue": "김치 숨이 죽고 어묵 표면이 노릇함"
+        },
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "물, 김치국물, 연두를 넣어 끓입니다.",
+          "cue": "국물 전체가 끓음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 4,
+          "text": "우동면을 넣어 가닥을 풀며 익힙니다.",
+          "cue": "면 중심까지 뜨겁고 덩어리가 없음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "미원과 청양고추를 넣습니다.",
+          "cue": "국물이 얼큰하고 면이 쫄깃함"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-tantanmen-001",
+      "name": "땅콩버터 한국식 탄탄면",
+      "cuisine": "중식",
+      "category": "면",
+      "timeMinutes": 30,
+      "summary": "구하기 쉬운 땅콩버터와 고추장으로 고소하고 매콤한 국물을 만들고 돼지고기 볶음을 올린 한국식 탄탄면입니다.",
+      "safety": "다진 돼지고기는 분홍색 없이 중심 71°C 이상 익히고 땅콩 알레르기를 확인하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6891041",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "다진 돼지고기",
+          "text": "냉장 상태로 준비해 뭉침을 풀고 핏물을 닦습니다."
+        },
+        {
+          "ingredient": "청경채·대파",
+          "text": "청경채는 잎을 떼어 씻고 대파는 0.2cm로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "중화면",
+          "amount": 360,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "다진 돼지고기",
+          "amount": 220,
+          "unit": "g",
+          "density": 1.03
+        },
+        {
+          "name": "땅콩버터",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.08,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "무가당 땅콩버터",
+              "amount": 45,
+              "unit": "ml",
+              "density": 1.08,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "고추장",
+          "amount": 18,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "진간장",
+          "amount": 20,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 750,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "쇠고기다시다",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청경채",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.45,
+          "optional": true,
+          "optionalReason": "초록 채소가 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중강불",
+          "minutes": 6,
+          "text": "돼지고기를 풀어 볶고 간장 절반을 넣습니다.",
+          "cue": "분홍색이 없고 중심 71°C 이상"
+        },
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "물, 땅콩버터, 고추장, 다시다, 남은 간장을 풀어 끓입니다.",
+          "cue": "땅콩버터 덩어리가 없고 국물이 끓음"
+        },
+        {
+          "heat": "강불→중불",
+          "minutes": 5,
+          "text": "별도 냄비에서 면과 청경채를 익혀 그릇에 담습니다.",
+          "cue": "면에 흰 심이 없고 채소가 선명함"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "국물과 고기볶음, 미원을 올립니다.",
+          "cue": "국물이 고소하고 면이 불지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-malatang-001",
+      "name": "한국 마트식 마라탕",
+      "cuisine": "중식",
+      "category": "탕",
+      "timeMinutes": 35,
+      "summary": "시판 마라탕소스에 사골육수와 한국 마트 채소·어묵·당면을 넣어 얼얼함을 조절한 한국식 마라탕입니다.",
+      "safety": "육류와 해산물은 종류별 안전 온도까지 익히고 마라소스의 알레르기 표시와 나트륨을 확인하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6915278",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "소고기·새우",
+          "text": "소고기는 겹친 조각을 떼고 새우는 내장을 제거해 각각 물기를 닦습니다."
+        },
+        {
+          "ingredient": "채소·당면",
+          "text": "청경채와 숙주는 씻고 납작당면은 제품 표시대로 불립니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "소고기 샤브샤브용",
+          "amount": 200,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "손질 새우",
+          "amount": 120,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "청경채",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.45
+        },
+        {
+          "name": "숙주",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.38
+        },
+        {
+          "name": "불린 납작당면",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "어묵",
+          "amount": 150,
+          "unit": "g",
+          "density": 0.82
+        },
+        {
+          "name": "마라탕소스",
+          "amount": 55,
+          "unit": "ml",
+          "density": 1.05,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "저매운 마라탕소스",
+              "amount": 55,
+              "unit": "ml",
+              "density": 1.05,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "사골육수",
+          "amount": 900,
+          "unit": "ml",
+          "density": 1.02,
+          "household": false
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "팽이버섯",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "버섯이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 6,
+          "text": "사골육수와 마라탕소스를 끓입니다.",
+          "cue": "소스가 풀리고 국물 전체가 끓음"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 8,
+          "text": "당면, 어묵, 버섯, 소고기를 넣어 익힙니다.",
+          "cue": "소고기 63°C 이상이고 당면이 부드러움"
+        },
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "새우, 청경채, 숙주를 넣어 익힙니다.",
+          "cue": "새우 63°C 이상이고 채소는 아삭함"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "미원을 넣어 간을 맞춥니다.",
+          "cue": "얼얼함과 짠맛이 과하지 않고 국물이 뜨거움"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "웍 또는 프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-malaxiangguo-001",
+      "name": "한국식 마라샹궈",
+      "cuisine": "중식",
+      "category": "볶음",
+      "timeMinutes": 35,
+      "summary": "시판 마라소스에 대패삼겹살·새우·한국 마트 채소를 센 불로 볶아 국물 없이 완성합니다.",
+      "safety": "돼지고기와 새우는 각각 안전 온도까지 익히고 마라소스의 알레르기 표시를 확인하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6915975",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "대패삼겹살·새우",
+          "text": "고기는 겹친 조각을 떼고 새우는 내장을 제거해 각각 물기를 닦습니다."
+        },
+        {
+          "ingredient": "채소·당면",
+          "text": "청경채와 숙주는 씻고 납작당면은 제품 표시대로 불려 물기를 뺍니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "대패삼겹살",
+          "amount": 250,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "손질 새우",
+          "amount": 120,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "청경채",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.45
+        },
+        {
+          "name": "숙주",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.38
+        },
+        {
+          "name": "불린 납작당면",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.72
+        },
+        {
+          "name": "마라샹궈소스",
+          "amount": 50,
+          "unit": "ml",
+          "density": 1.05,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "저매운 마라소스",
+              "amount": 50,
+              "unit": "ml",
+              "density": 1.05,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.4,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "땅콩",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.58,
+          "optional": true,
+          "optionalReason": "견과류 알레르기가 있거나 고명이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불",
+          "minutes": 5,
+          "text": "팬에 기름과 대패삼겹살을 펼쳐 볶습니다.",
+          "cue": "고기가 갈색이고 중심 71°C 이상"
+        },
+        {
+          "heat": "강불",
+          "minutes": 4,
+          "text": "새우와 단단한 채소를 넣어 볶습니다.",
+          "cue": "새우가 불투명하고 63°C 이상"
+        },
+        {
+          "heat": "중강불",
+          "minutes": 5,
+          "text": "당면, 청경채, 숙주, 마라소스, 미원을 넣어 수분을 날립니다.",
+          "cue": "팬 바닥이 마르고 소스가 재료에 붙음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "땅콩을 선택해 올립니다.",
+          "cue": "채소는 아삭하고 향이 고르게 퍼짐"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [
+        {
+          "id": "oven",
+          "label": "오븐",
+          "icon": "oven",
+          "warning": "오븐용 팬을 사용하고 뜨거운 팬과 녹은 치즈에 주의하세요.",
+          "steps": [
+            {
+              "heat": "오븐 210°C 예열",
+              "minutes": 8,
+              "text": "속을 채운 또띠아를 오븐 팬에 놓습니다.",
+              "cue": "봉합면이 아래로 향함"
+            },
+            {
+              "heat": "오븐 210°C",
+              "minutes": 8,
+              "text": "가장자리가 금색이 될 때까지 굽습니다.",
+              "cue": "치즈가 녹고 또띠아가 바삭함"
+            }
+          ]
+        }
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-ham-quesadilla-001",
+      "name": "햄치즈 퀘사디아",
+      "cuisine": "양식",
+      "category": "구이",
+      "timeMinutes": 15,
+      "summary": "또띠아에 슬라이스햄과 국내 모차렐라치즈, 케첩을 넣어 팬에서 바삭하게 구운 한국식 간식입니다.",
+      "safety": "햄 소비기한을 확인하고 중심까지 뜨겁게 가열하며 녹은 치즈에 화상 입지 않게 식혀 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/4201740",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "또띠아",
+          "text": "찢어지거나 곰팡이 흔적이 없는지 확인하고 실온에 5분 둡니다."
+        },
+        {
+          "ingredient": "햄·양파",
+          "text": "햄은 1cm, 양파는 0.3cm 채로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "또띠아",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "슬라이스햄",
+          "amount": 140,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "모차렐라치즈",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "양파",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "케첩",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.06,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "피자소스",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.05,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 8,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.2,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "청양고추",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.7,
+          "optional": true,
+          "optionalReason": "매운맛이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "팬에 양파와 햄을 볶고 케첩과 미원을 섞습니다.",
+          "cue": "양파가 투명하고 햄이 뜨거움"
+        },
+        {
+          "heat": "약불",
+          "minutes": 4,
+          "text": "또띠아 반쪽에 치즈, 볶은 속, 치즈 순으로 올려 접어 굽습니다.",
+          "cue": "아랫면이 금색이고 치즈가 녹기 시작함"
+        },
+        {
+          "heat": "약불",
+          "minutes": 3,
+          "text": "뒤집어 반대쪽도 굽습니다.",
+          "cue": "양면이 바삭하고 치즈가 완전히 녹음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "쉬움",
+      "defaultTool": "프라이팬",
+      "defaultToolIcon": "pan",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-garlic-butter-chicken-steak-001",
+      "name": "갈릭버터 닭가슴살스테이크",
+      "cuisine": "양식",
+      "category": "구이",
+      "timeMinutes": 25,
+      "summary": "닭가슴살 두께를 고르게 펴 팬에서 촉촉하게 익히고 마늘버터와 연두로 한국식 감칠맛을 더합니다.",
+      "safety": "생닭 도구를 분리하고 닭가슴살 가장 두꺼운 부분이 74°C 이상인지 확인하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6865618",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "닭가슴살",
+          "text": "두꺼운 부분을 가로로 저며 1.5cm로 고르게 펴고 키친타월로 물기를 닦습니다."
+        },
+        {
+          "ingredient": "마늘",
+          "text": "0.15cm 편으로 썰어 물기를 닦습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "닭가슴살",
+          "amount": 400,
+          "unit": "g",
+          "density": 1.05
+        },
+        {
+          "name": "마늘",
+          "amount": 35,
+          "unit": "g",
+          "density": 0.62
+        },
+        {
+          "name": "버터",
+          "amount": 25,
+          "unit": "ml",
+          "density": 0.91,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "무염버터",
+              "amount": 25,
+              "unit": "ml",
+              "density": 0.91,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 12,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 10,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.3,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "브로콜리",
+          "amount": 160,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "곁들임 채소가 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중강불",
+          "minutes": 5,
+          "text": "팬에 기름을 두르고 닭가슴살 한 면을 움직이지 않고 굽습니다.",
+          "cue": "아랫면이 짙은 금색"
+        },
+        {
+          "heat": "약불",
+          "minutes": 7,
+          "text": "뒤집어 뚜껑을 덮어 속까지 익힙니다.",
+          "cue": "가장 두꺼운 부분 74°C 이상"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 2,
+          "text": "마늘과 버터, 연두, 미원을 넣어 닭에 끼얹습니다.",
+          "cue": "마늘이 금색이고 버터 향이 배어듦"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 3,
+          "text": "도마에서 3분 휴지해 결 반대로 썹니다.",
+          "cue": "육즙이 과하게 흐르지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "일반 냄비",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-mushroom-risotto-001",
+      "name": "찬밥 버섯크림 리조또",
+      "cuisine": "양식",
+      "category": "밥",
+      "timeMinutes": 20,
+      "summary": "찬밥과 국내 표고·양송이를 우유와 생크림에 끓여 빠르게 만드는 한국 가정식 크림 리조또입니다.",
+      "safety": "찬밥은 냉장 보관한 것만 사용하고 중심까지 김이 날 정도로 재가열하며 유제품은 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6891381",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "찬밥",
+          "text": "냉장 보관 상태와 냄새를 확인해 덩어리를 풀어둡니다."
+        },
+        {
+          "ingredient": "버섯·양파",
+          "text": "버섯은 0.4cm, 양파는 0.3cm로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "찬밥",
+          "amount": 420,
+          "unit": "g",
+          "density": 0.78
+        },
+        {
+          "name": "양송이버섯",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.35
+        },
+        {
+          "name": "양파",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "우유",
+          "amount": 300,
+          "unit": "ml",
+          "density": 1.03,
+          "household": false,
+          "alternatives": [
+            {
+              "name": "락토프리 우유",
+              "amount": 300,
+              "unit": "ml",
+              "density": 1.03,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "생크림",
+          "amount": 120,
+          "unit": "ml",
+          "density": 0.99,
+          "household": true
+        },
+        {
+          "name": "버터",
+          "amount": 18,
+          "unit": "ml",
+          "density": 0.91,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.3,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "파르메산치즈",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.55,
+          "optional": true,
+          "optionalReason": "치즈 풍미가 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "버터에 양파와 버섯을 볶습니다.",
+          "cue": "버섯 숨이 줄고 양파가 투명함"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 6,
+          "text": "우유, 생크림, 연두를 넣어 작게 끓입니다.",
+          "cue": "소스가 분리되지 않고 작은 거품이 남"
+        },
+        {
+          "heat": "약불",
+          "minutes": 5,
+          "text": "찬밥과 미원을 넣어 풀어가며 익힙니다.",
+          "cue": "밥 중심까지 뜨겁고 소스가 숟가락에 붙음"
+        },
+        {
+          "heat": "불 끔",
+          "minutes": 1,
+          "text": "치즈를 선택해 섞습니다.",
+          "cue": "흐르지만 물처럼 묽지 않은 농도"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "보통",
+      "defaultTool": "냄비와 오븐",
+      "defaultToolIcon": "oven",
+      "cookerVariants": [
+        {
+          "id": "microwave",
+          "label": "전자레인지",
+          "icon": "microwave",
+          "warning": "전자레인지용 깊은 용기를 사용하고 금속은 넣지 말며 증기와 치즈 화상에 주의하세요.",
+          "steps": [
+            {
+              "heat": "전자레인지 900W",
+              "minutes": 8,
+              "text": "얇은 감자, 양파, 우유를 전용 용기에 담아 4분마다 섞습니다.",
+              "cue": "감자가 부드럽고 우유가 넘치지 않음"
+            },
+            {
+              "heat": "전자레인지 600W",
+              "minutes": 4,
+              "text": "햄, 연두, 미원, 치즈를 넣어 가열합니다.",
+              "cue": "치즈가 녹고 중심까지 뜨거움"
+            },
+            {
+              "heat": "휴지",
+              "minutes": 3,
+              "text": "꺼내 3분 둡니다.",
+              "cue": "끓음이 멈추고 소스가 걸쭉함"
+            }
+          ]
+        }
+      ],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-potato-gratin-001",
+      "name": "한국식 감자그라탱",
+      "cuisine": "양식",
+      "category": "오븐요리",
+      "timeMinutes": 45,
+      "summary": "얇은 감자를 우유소스에 익혀 햄과 치즈를 올리고 오븐에서 노릇하게 굽는 한국식 그라탱입니다.",
+      "safety": "감자의 싹과 녹색 부분을 제거하고 오븐용 그릇을 마른 장갑으로 다루며 유제품은 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6846364",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "감자",
+          "text": "싹과 녹색 부분을 제거해 0.3cm로 얇게 썰고 찬물에 한 번 헹굽니다."
+        },
+        {
+          "ingredient": "햄·양파",
+          "text": "햄은 1cm, 양파는 0.3cm 채로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "감자",
+          "amount": 500,
+          "unit": "g",
+          "density": 0.78
+        },
+        {
+          "name": "슬라이스햄",
+          "amount": 120,
+          "unit": "g",
+          "density": 1.02
+        },
+        {
+          "name": "양파",
+          "amount": 120,
+          "unit": "g",
+          "density": 0.75
+        },
+        {
+          "name": "우유",
+          "amount": 350,
+          "unit": "ml",
+          "density": 1.03,
+          "household": false,
+          "alternatives": [
+            {
+              "name": "락토프리 우유",
+              "amount": 350,
+              "unit": "ml",
+              "density": 1.03,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "모차렐라치즈",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.55
+        },
+        {
+          "name": "버터",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.91,
+          "household": true
+        },
+        {
+          "name": "연두 순",
+          "amount": 8,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.3,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "파슬리",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "허브 고명이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 6,
+          "text": "버터에 양파와 햄을 볶습니다.",
+          "cue": "양파가 투명하고 햄이 뜨거움"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 10,
+          "text": "감자, 우유, 연두, 미원을 넣어 눌지 않게 익힙니다.",
+          "cue": "감자에 젓가락이 반쯤 들어감"
+        },
+        {
+          "heat": "오븐 210°C",
+          "minutes": 18,
+          "text": "오븐 그릇에 옮겨 치즈를 덮고 굽습니다.",
+          "cue": "감자가 완전히 익고 치즈가 금색"
+        },
+        {
+          "heat": "휴지",
+          "minutes": 5,
+          "text": "꺼내 5분 두고 파슬리를 올립니다.",
+          "cue": "소스가 안정되어 물처럼 흐르지 않음"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "tags": [
+        "집밥",
+        "국내 출처 검증",
+        "한국식 재해석"
+      ],
+      "baseServings": 2,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "냄비와 믹싱볼",
+      "defaultToolIcon": "pot",
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      },
+      "id": "recipe-korean-egg-sandwich-001",
+      "name": "한국식 에그샌드위치",
+      "cuisine": "양식",
+      "category": "빵",
+      "timeMinutes": 20,
+      "summary": "완숙 달걀을 마요네즈와 연두로 간해 식빵 사이에 넉넉히 넣은 한국식 간편 샌드위치입니다.",
+      "safety": "달걀은 노른자까지 완전히 익히고 만든 속은 차갑게 보관하며 샌드위치는 바로 먹거나 냉장하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-15",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6873844",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=1093458"
+        ]
+      },
+      "preparation": [
+        {
+          "ingredient": "달걀",
+          "text": "금이 없는지 확인해 실온에 15분 두고 완숙으로 삶아 찬물에 식혀 껍데기를 벗깁니다."
+        },
+        {
+          "ingredient": "식빵·오이",
+          "text": "식빵 가장자리를 선택해 정리하고 오이는 얇게 썰어 물기를 닦습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "식빵",
+          "amount": 240,
+          "unit": "g",
+          "density": 0.28
+        },
+        {
+          "name": "달걀",
+          "amount": 300,
+          "unit": "g",
+          "density": 1.03
+        },
+        {
+          "name": "마요네즈",
+          "amount": 55,
+          "unit": "ml",
+          "density": 0.94,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "저지방 마요네즈",
+              "amount": 55,
+              "unit": "ml",
+              "density": 0.94,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "연두 순",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.12,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.85,
+          "household": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.2,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "담백하게 먹을 때 생략"
+        },
+        {
+          "name": "오이",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.96,
+          "optional": true,
+          "optionalReason": "오이 식감이 필요 없으면 생략"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "강불→중불",
+          "minutes": 12,
+          "text": "달걀을 완숙으로 삶아 찬물에 충분히 식힙니다.",
+          "cue": "노른자 중심까지 굳음"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "달걀을 으깨 마요네즈, 연두, 설탕, 미원을 섞습니다.",
+          "cue": "흰자 작은 입자가 남고 속이 촉촉함"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "식빵에 오이와 달걀속을 펴고 다른 빵으로 덮습니다.",
+          "cue": "가장자리까지 속이 고르고 물이 배지 않음"
         }
       ]
     }
