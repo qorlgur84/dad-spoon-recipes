@@ -1,8 +1,8 @@
 {
-  "dataVersion": "3.8.0",
+  "dataVersion": "3.9.0",
   "schemaVersion": 1,
   "updatedAt": "2026-09-16",
-  "recipeCount": 418,
+  "recipeCount": 428,
   "recipesUrl": "./recipes.json",
-  "sha256": "9fc49617226f0b27b4d4dcd4d31d78ce4a59dfa3864b50a55b314c59311b3b9f"
+  "sha256": "b84f0ff061f82b09c5aca45e1fd82134cd1d35065d8987f4806a0a83ea8d277f"
 }
