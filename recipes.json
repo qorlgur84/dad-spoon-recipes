@@ -1,5 +1,5 @@
 {
-  "version": "5.15.0",
+  "version": "5.16.0",
   "updatedAt": "2026-09-19",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
@@ -110302,6 +110302,1554 @@
           "minutes": 3,
           "text": "양념장이 한 스푼 정도 남을 때까지 졸여 완성합니다.",
           "cue": "어묵이 촉촉하게 윤기 나면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gyeran-guksu-001",
+      "name": "간단 계란국수",
+      "aliases": [
+        "계란국수",
+        "계란육수국수"
+      ],
+      "cuisine": "한식",
+      "category": "면",
+      "tags": [
+        "계란",
+        "국수",
+        "소면",
+        "간단요리"
+      ],
+      "emoji": "🍜",
+      "color": "#f39c12",
+      "summary": "달걀을 푼 뜨끈한 다시육수에 소면을 말아 신김치를 올려 먹는 아이도 좋아하는 초간단 국수입니다.",
+      "safety": "달걀은 육수에 완전히 익혀 사용하고, 소면은 충분히 삶아 찬물에 헹궈 준비하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6962466",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "채소",
+          "text": "당근과 애호박을 채 썰고 김치는 잘게 썹니다."
+        },
+        {
+          "ingredient": "달걀",
+          "text": "볼에 깨서 소금 한 꼬집과 함께 풀어줍니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "소면",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.5
+        },
+        {
+          "name": "신김치",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "달걀",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "애호박",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.5,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "당근",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.6,
+          "optional": true,
+          "optionalReason": "색감용, 없으면 생략 가능"
+        },
+        {
+          "name": "다시육수팩",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 15
+        },
+        {
+          "name": "물",
+          "amount": 600,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "소금",
+          "amount": 1,
+          "unit": "g",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "참치액",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "국간장",
+              "amount": 22.5,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "참치액 대신 국간장을 동량으로 넣어도 됩니다."
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 10,
+          "text": "냄비에 물과 다시육수팩을 넣고 10분 정도 충분히 끓입니다.",
+          "cue": "육수 향이 우러납니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "육수가 끓는 동안 당근, 애호박을 채 썰고 김치를 잘게 썹니다.",
+          "cue": "재료가 고르게 준비됩니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "다시팩을 건진 육수에 당근, 애호박을 넣고 한소끔 끓이다 참치액을 넣습니다.",
+          "cue": "채소가 익어갑니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "풀어둔 달걀을 빙 둘러 붓고 살짝만 저어 불을 끕니다.",
+          "cue": "달걀이 몽글하게 퍼집니다"
+        },
+        {
+          "heat": "센불",
+          "minutes": 3,
+          "text": "끓는 물에 소면을 넣어 삶고 찬물을 부어가며 익힙니다.",
+          "cue": "소면이 투명하게 익습니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "삶은 소면을 찬물에 헹궈 물기를 뺀 뒤 그릇에 담고 계란 육수를 부어 김치를 올려 완성합니다.",
+          "cue": "면과 육수가 어우러지면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-spam-jumeokbap-001",
+      "name": "스팸주먹밥",
+      "aliases": [
+        "스팸주먹밥",
+        "스팸계란주먹밥"
+      ],
+      "cuisine": "한식",
+      "category": "밥",
+      "tags": [
+        "스팸",
+        "주먹밥",
+        "도시락",
+        "간단요리"
+      ],
+      "emoji": "🍙",
+      "color": "#e67e22",
+      "summary": "구운 스팸과 계란 지단을 밥 사이에 넣고 김으로 말아 썰어내는 도시락용 간단 주먹밥입니다.",
+      "safety": "스팸과 계란은 완전히 익힌 뒤 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6836032",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 15,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "스팸",
+          "text": "통조림 크기로 도톰하게 썰어 구워줍니다."
+        },
+        {
+          "ingredient": "계란지단",
+          "text": "지단을 부쳐 스팸과 비슷한 크기로 자릅니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "스팸",
+          "amount": 100,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "달걀",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "김",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 3,
+          "mlPerUnit": 3,
+          "optional": true,
+          "optionalReason": "포장용, 없으면 랩으로 대체 가능"
+        },
+        {
+          "name": "밥",
+          "amount": 420,
+          "unit": "g",
+          "density": 0.9,
+          "alternatives": [
+            {
+              "name": "잡곡밥",
+              "amount": 420,
+              "unit": "g",
+              "density": 0.9,
+              "samePreparation": true,
+              "preparation": "흰쌀밥 대신 잡곡밥을 동량으로 사용해도 됩니다."
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "팬에 스팸을 도톰하게 썰어 노릇하게 굽습니다.",
+          "cue": "스팸 겉면이 노릇해집니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "계란 지단을 부쳐 스팸 크기로 잘라줍니다.",
+          "cue": "지단이 얇고 고르게 익습니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "비닐을 깐 뒤 밥을 절반 깔고 꾹꾹 눌러줍니다.",
+          "cue": "밥이 평평하게 다져집니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "계란지단과 스팸을 올리고 남은 밥으로 덮어 다시 눌러줍니다.",
+          "cue": "재료가 밥 사이에 고정됩니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "김으로 반 장을 말아 김밥 모양을 잡은 뒤 먹기 좋게 썰어 완성합니다.",
+          "cue": "단면이 깔끔하게 잘립니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gyeran-deopbap-001",
+      "name": "백종원 계란덮밥",
+      "aliases": [
+        "계란덮밥",
+        "매콤계란덮밥"
+      ],
+      "cuisine": "한식",
+      "category": "덮밥",
+      "tags": [
+        "계란",
+        "덮밥",
+        "간단요리",
+        "초간단"
+      ],
+      "emoji": "🍚",
+      "color": "#f39c12",
+      "summary": "스크램블한 달걀을 대파, 고춧가루, 간장 양념에 볶아 밥 위에 얹는 초간단 매콤 계란덮밥입니다.",
+      "safety": "달걀은 완전히 익을 때까지 볶아 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6833211",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 15,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "달걀",
+          "text": "3알을 풀어 소금, 설탕을 약간 넣어 섞습니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "송송 썰어 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "달걀",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "진간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "고추장",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "고춧가루 대신 고추장을 소량 넣어도 매콤한 맛을 낼 수 있습니다."
+            }
+          ]
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 55,
+          "optional": true,
+          "optionalReason": "향채이므로 기호에 따라 생략 가능"
+        },
+        {
+          "name": "소금",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "밥",
+          "amount": 420,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "달걀 3개를 풀고 소금, 설탕을 약간씩 넣어 섞습니다.",
+          "cue": "달걀물이 고르게 섞입니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "달군 팬에 달걀물을 붓고 반쯤 익었을 때 젓가락으로 휘저어 스크램블을 만듭니다.",
+          "cue": "달걀이 몽글몽글해집니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "스크램블 된 달걀은 따로 그릇에 담아둡니다.",
+          "cue": "달걀이 한쪽에 준비됩니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "팬에 기름을 두르고 송송 썬 대파를 볶습니다.",
+          "cue": "파 향이 올라옵니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "고춧가루와 간장을 넣고 볶다가 스크램블 달걀을 다시 넣어 함께 볶습니다.",
+          "cue": "양념이 달걀에 고루 배어듭니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "밥 위에 매콤한 계란을 올려 완성합니다.",
+          "cue": "색이 먹음직스럽게 어우러지면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-jangjorim-deopbap-001",
+      "name": "장조림덮밥",
+      "aliases": [
+        "장조림덮밥",
+        "소고기장조림덮밥"
+      ],
+      "cuisine": "한식",
+      "category": "덮밥",
+      "tags": [
+        "장조림",
+        "덮밥",
+        "남은반찬활용",
+        "간단요리"
+      ],
+      "emoji": "🍚",
+      "color": "#8e4a2e",
+      "summary": "남은 소고기 장조림을 버터에 볶은 양파, 신김치와 함께 밥에 올려 비벼 먹는 단짠 덮밥입니다.",
+      "safety": "장조림과 밥은 완전히 데워 뜨겁게 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6890558",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 10,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "양파",
+          "text": "채 썰어 준비합니다."
+        },
+        {
+          "ingredient": "장조림",
+          "text": "전자레인지나 팬에 데워 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "소고기장조림",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "버터",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "식용유",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "버터 대신 식용유를 동량으로 둘러 볶아도 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "청양고추",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.5,
+          "optional": true,
+          "optionalReason": "매운맛을 원하지 않으면 생략 가능"
+        },
+        {
+          "name": "신김치",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "깨",
+          "amount": 3,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "맛간장",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "팬에 버터를 녹이고 채 썬 양파를 볶습니다.",
+          "cue": "양파 숨이 살짝 죽습니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "맛간장 1큰술과 설탕을 넣어 함께 볶습니다.",
+          "cue": "양파에 간이 배어듭니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "장조림을 전자레인지나 팬에 데웁니다.",
+          "cue": "장조림이 따뜻해집니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "그릇에 밥을 깔고 볶은 양파를 올립니다.",
+          "cue": "재료가 층층이 쌓입니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "송송 썬 신김치를 올리고 그 위에 장조림을 올립니다.",
+          "cue": "재료가 보기 좋게 얹어집니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "청양고추, 남은 맛간장, 참기름, 깨를 뿌려 완성합니다.",
+          "cue": "고소한 향이 올라오면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-dakgalbi-deopbap-001",
+      "name": "닭갈비덮밥",
+      "aliases": [
+        "닭갈비덮밥",
+        "닭가슴살닭갈비덮밥"
+      ],
+      "cuisine": "한식",
+      "category": "덮밥",
+      "tags": [
+        "닭갈비",
+        "덮밥",
+        "매콤",
+        "자취요리"
+      ],
+      "emoji": "🍚",
+      "color": "#c0392b",
+      "summary": "닭가슴살을 고추장 양념에 재워 양배추, 깻잎과 함께 볶아 밥 위에 올리는 자취생 인기 덮밥입니다.",
+      "safety": "닭고기는 속까지 완전히 익을 때까지 충분히 볶아 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6838153",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "닭가슴살",
+          "text": "먹기 좋은 크기로 썰어 양념에 버무려 30분 재웁니다."
+        },
+        {
+          "ingredient": "채소",
+          "text": "양배추, 대파, 깻잎을 먹기 좋게 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "닭가슴살",
+          "amount": 150,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "양배추",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "대파",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "향채이므로 기호에 따라 생략 가능"
+        },
+        {
+          "name": "깻잎",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 2,
+          "mlPerUnit": 5
+        },
+        {
+          "name": "간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "맛술",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "고추장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "쌈장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "고추장 대신 쌈장을 동량으로 넣어도 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.9
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "닭가슴살과 양배추, 대파를 먹기 좋은 크기로 썹니다.",
+          "cue": "재료가 고르게 썰립니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "간장, 맛술, 다진마늘, 고추장, 설탕, 고춧가루를 섞어 닭가슴살과 채소에 버무립니다.",
+          "cue": "양념이 고르게 배어듭니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 30,
+          "text": "냉장고에서 30분 정도 재웁니다.",
+          "cue": "양념 맛이 깊게 배어듭니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "팬에 기름을 두르고 재운 재료를 넣어 볶습니다.",
+          "cue": "닭고기가 속까지 익습니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "고기가 어느 정도 익으면 깻잎을 넣고 볶습니다.",
+          "cue": "깻잎 향이 올라옵니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "밥 위에 닭갈비를 얹어 완성합니다.",
+          "cue": "양념이 윤기 나게 어우러지면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-nakji-bokkeumbap-001",
+      "name": "낙지볶음밥",
+      "aliases": [
+        "낙지볶음밥",
+        "냉동낙지볶음밥"
+      ],
+      "cuisine": "한식",
+      "category": "볶음밥",
+      "tags": [
+        "낙지",
+        "볶음밥",
+        "해물볶음밥",
+        "혼밥"
+      ],
+      "emoji": "🐙",
+      "color": "#d35400",
+      "summary": "맛술에 재운 낙지를 마늘, 당근, 양파와 함께 굴소스로 볶아낸 쫄깃한 해물볶음밥입니다.",
+      "safety": "냉동 낙지는 완전히 해동한 뒤 속까지 충분히 익혀 조리하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6938455",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=59&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 15,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "낙지",
+          "text": "해동한 뒤 맛술에 버무려 비린맛을 제거합니다."
+        },
+        {
+          "ingredient": "채소",
+          "text": "마늘은 편 썰고 당근과 양파는 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "냉동낙지",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "양파",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "당근",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.6,
+          "optional": true,
+          "optionalReason": "색감용, 없으면 생략 가능"
+        },
+        {
+          "name": "밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "마늘",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 15,
+          "alternatives": [
+            {
+              "name": "다진마늘",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.5,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "마늘 편 대신 다진마늘을 동량으로 넣어도 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "굴소스",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "맛술",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "해동한 낙지를 맛술에 버무려 비린맛을 제거합니다.",
+          "cue": "낙지 잡내가 줄어듭니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "팬에 마늘을 편 썰어 볶습니다.",
+          "cue": "마늘 향이 올라옵니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "마늘이 노릇해지기 전에 다진 당근과 양파를 넣어줍니다.",
+          "cue": "채소가 익어갑니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "양파가 노릇해지면 맛술을 버린 낙지만 건져 넣습니다.",
+          "cue": "낙지가 하얗게 익습니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "낙지 다리가 말리기 시작하면 밥을 넣습니다.",
+          "cue": "밥알이 재료와 고루 섞입니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "굴소스를 넣고 고루 볶아 완성합니다.",
+          "cue": "밥알에 윤기가 돌면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-myeongran-gyeran-bokkeumbap-001",
+      "name": "명란계란볶음밥",
+      "aliases": [
+        "명란계란밥",
+        "명란계란볶음밥"
+      ],
+      "cuisine": "한식",
+      "category": "볶음밥",
+      "tags": [
+        "명란젓",
+        "계란",
+        "볶음밥",
+        "초간단"
+      ],
+      "emoji": "🍚",
+      "color": "#f39c12",
+      "summary": "명란젓을 계란과 밥에 섞어 파기름에 볶아내는 짭짤하고 고소한 초간단 볶음밥입니다.",
+      "safety": "명란젓은 가열해 완전히 익혀 섭취하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6950017",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 15,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "계란밥",
+          "text": "풀어둔 계란에 밥을 넣고 잘 섞습니다."
+        },
+        {
+          "ingredient": "명란젓",
+          "text": "가위로 잘게 잘라 계란밥에 섞어 으깹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "백명란젓",
+          "amount": 90,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "대파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "향채이므로 기호에 따라 생략 가능"
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "굴소스",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "간장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "굴소스 대신 간장을 동량으로 넣어도 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "후추",
+          "amount": 1,
+          "unit": "g",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "달걀",
+          "amount": 4,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "밥",
+          "amount": 630,
+          "unit": "g",
+          "density": 0.9
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "달걀 4개를 풀어줍니다.",
+          "cue": "달걀이 고르게 풀립니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "풀어진 달걀에 밥을 넣고 잘 섞습니다.",
+          "cue": "밥알에 달걀물이 고루 묻습니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "명란젓을 가위로 잘게 잘라 계란밥에 넣고 으깨듯 섞습니다.",
+          "cue": "명란이 밥알에 고르게 섞입니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "팬에 식용유를 두르고 대파를 넣어 파기름을 냅니다.",
+          "cue": "파 향이 기름에 배어듭니다"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 4,
+          "text": "비벼둔 계란밥을 넣고 타지 않게 볶습니다.",
+          "cue": "밥알이 고슬고슬하게 볶아집니다"
+        },
+        {
+          "heat": "중약불",
+          "minutes": 2,
+          "text": "굴소스를 넣고 볶다가 후추를 뿌려 완성합니다.",
+          "cue": "짭짤한 향이 올라오면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-chamchi-kimchijjigae-001",
+      "name": "참치김치찌개 황금레시피",
+      "aliases": [
+        "참치김치찌개",
+        "간단참치김치찌개"
+      ],
+      "cuisine": "한식",
+      "category": "찌개",
+      "tags": [
+        "참치",
+        "김치찌개",
+        "얼큰한",
+        "간단찌개"
+      ],
+      "emoji": "🍲",
+      "color": "#c0392b",
+      "summary": "신김치와 참치를 달달 볶아 얼큰하게 끓여내는 재료 걱정 없는 초간단 김치찌개입니다.",
+      "safety": "찌개는 충분히 끓여 속까지 완전히 익혀 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6864674",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 10,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "신김치",
+          "text": "먹기 좋은 크기로 썹니다. 신김치가 없다면 김치에 식초를 뿌려 10분 둡니다."
+        },
+        {
+          "ingredient": "대파",
+          "text": "송송 썰어 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "신김치",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "뿌리",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 55,
+          "optional": true,
+          "optionalReason": "향채이므로 기호에 따라 생략 가능"
+        },
+        {
+          "name": "참치",
+          "amount": 150,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "식용유",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "다진마늘",
+              "amount": 5,
+              "unit": "ml",
+              "density": 0.5,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "다진마늘을 티스푼으로 1스푼 추가하면 더 깊은 맛이 납니다."
+            }
+          ]
+        },
+        {
+          "name": "김치국물",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.9
+        },
+        {
+          "name": "물",
+          "amount": 400,
+          "unit": "ml",
+          "density": 1
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "냄비에 김치와 식용유를 넣고 김치가 주황빛이 될 때까지 볶습니다.",
+          "cue": "김치가 윤기 나게 볶아집니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "참치를 기름째 넣어 함께 볶습니다.",
+          "cue": "참치와 김치가 고루 볶아집니다"
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "물을 붓고 끓입니다.",
+          "cue": "국물이 끓어오릅니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "김치국물을 넣고 팔팔 끓입니다.",
+          "cue": "국물이 얼큰하게 우러납니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "대파를 넣고 계속 끓입니다.",
+          "cue": "파 향이 국물에 배어듭니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "고춧가루를 넣어 색과 매운맛을 더해 완성합니다.",
+          "cue": "국물이 붉고 얼큰해지면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gyeranmari-gimbap-001",
+      "name": "계란말이김밥",
+      "aliases": [
+        "계란김밥",
+        "계란말이김밥"
+      ],
+      "cuisine": "한식",
+      "category": "밥",
+      "tags": [
+        "계란",
+        "김밥",
+        "도시락",
+        "인스타감성"
+      ],
+      "emoji": "🍙",
+      "color": "#f39c12",
+      "summary": "양파, 당근, 햄을 섞은 두툼한 계란말이를 김밥 속에 넣어 마는 인기 있는 겉면이 없는 스타일 김밥입니다.",
+      "safety": "계란말이는 속까지 완전히 익혀 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6861764",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 60,
+      "difficulty": "보통",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "채소·햄",
+          "text": "양파, 당근, 쪽파, 김밥용 햄을 잘게 다집니다."
+        },
+        {
+          "ingredient": "계란물",
+          "text": "달걀에 소금과 식초를 약간 넣고 다진 재료와 섞습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "밥",
+          "amount": 840,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "당근",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 180,
+          "optional": true,
+          "optionalReason": "색감용, 없으면 생략 가능"
+        },
+        {
+          "name": "쪽파",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "달걀",
+          "amount": 10,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "김밥용햄",
+          "amount": 10,
+          "unit": "count",
+          "countLabel": "줄",
+          "gramsPerUnit": 20,
+          "mlPerUnit": 20,
+          "alternatives": [
+            {
+              "name": "스팸",
+              "amount": 200,
+              "unit": "g",
+              "density": 1,
+              "samePreparation": true,
+              "preparation": "김밥용 햄 대신 채 썬 스팸을 넣어도 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "김밥용김",
+          "amount": 8,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 3,
+          "mlPerUnit": 3
+        },
+        {
+          "name": "소금",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "깨",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "당근, 김밥용 햄, 양파, 쪽파를 잘게 다집니다.",
+          "cue": "재료가 고르게 다져집니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "달걀을 큰 볼에 담고 소금을 넣어 다진 재료와 함께 섞습니다.",
+          "cue": "달걀물에 재료가 고르게 섞입니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 15,
+          "text": "팬에 달걀물을 조금씩 부어가며 돌돌 말아 도톰한 계란말이를 만듭니다.",
+          "cue": "계란말이가 속까지 익습니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "밥에 소금, 참기름, 깨를 넣고 고루 섞습니다.",
+          "cue": "밥에 고소한 향이 배어듭니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "김을 5cm 폭으로 잘라 계란말이를 한 번 말아 감쌉니다.",
+          "cue": "계란말이가 김에 고정됩니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "김 위에 밥을 펴 바르고 계란말이를 올려 김밥을 말아 완성합니다.",
+          "cue": "김밥이 단단하게 말리면 완성입니다"
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gyeran-toseuteu-001",
+      "name": "청양마요 계란토스트",
+      "aliases": [
+        "계란토스트",
+        "길거리계란토스트"
+      ],
+      "cuisine": "양식",
+      "category": "빵",
+      "tags": [
+        "계란",
+        "토스트",
+        "길거리토스트",
+        "간식"
+      ],
+      "emoji": "🍞",
+      "color": "#e67e22",
+      "summary": "달걀, 햄, 치즈를 부쳐 청양마요 소스를 바른 식빵에 끼워 먹는 길거리 토스트 스타일 간식입니다.",
+      "safety": "달걀과 햄이 들어간 부침은 완전히 익힌 뒤 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6898226",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "큰술·개 단위의 한국식 계량 사용",
+        "seasoningPolicy": "청양고추로 매콤한 맛을 더하는 한국식 길거리 토스트 스타일",
+        "note": "설탕과 케첩을 곁들이면 더 익숙한 길거리 토스트 맛이 납니다."
+      },
+      "baseServings": 1,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "볶음팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "청양마요",
+          "text": "마요네즈, 간장, 다진 청양고추를 섞습니다."
+        },
+        {
+          "ingredient": "식빵",
+          "text": "버터를 두른 팬에 앞뒤로 노릇하게 굽습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "달걀",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 48
+        },
+        {
+          "name": "슬라이스햄",
+          "amount": 4,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 15
+        },
+        {
+          "name": "체더치즈",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 18,
+          "mlPerUnit": 18,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "버터",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "식빵",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 35,
+          "mlPerUnit": 35
+        },
+        {
+          "name": "설탕",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true,
+          "optional": true,
+          "optionalReason": "취향에 따라 생략 가능"
+        },
+        {
+          "name": "마요네즈",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.91,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "굴소스",
+              "amount": 7.5,
+              "unit": "ml",
+              "density": 1.1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "간장 대신 굴소스를 동량으로 넣어도 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "청양고추",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.5
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "마요네즈, 간장, 다진 청양고추를 섞어 청양마요를 만듭니다.",
+          "cue": "소스가 고르게 섞입니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "달걀, 체더치즈, 슬라이스햄을 가위로 잘게 잘라 넣고 섞습니다.",
+          "cue": "재료가 고르게 섞입니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "팬에 버터를 녹이고 식빵을 앞뒤로 노릇하게 구워 따로 둡니다.",
+          "cue": "식빵이 바삭하게 구워집니다"
+        },
+        {
+          "heat": "중불",
+          "minutes": 4,
+          "text": "식빵을 구운 팬에 계란 반죽을 모두 부어 식빵 크기로 모양을 잡아 부칩니다.",
+          "cue": "달걀부침이 속까지 익습니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "식빵에 청양마요를 바르고 계란부침을 올린 뒤 설탕을 뿌립니다.",
+          "cue": "고명이 고르게 올라갑니다"
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "남은 식빵 한쪽에도 청양마요를 발라 덮어 완성합니다.",
+          "cue": "토스트가 두 장으로 완성됩니다"
         }
       ],
       "cookerVariants": []
