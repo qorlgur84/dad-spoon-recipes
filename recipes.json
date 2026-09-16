@@ -1,6 +1,6 @@
 {
-  "version": "4.4.0",
-  "updatedAt": "2026-09-17",
+  "version": "4.5.0",
+  "updatedAt": "2026-09-18",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
     "differentTexture": "separate_recipe",
@@ -74462,6 +74462,1608 @@
           "minutes": 3,
           "text": "체에 건져 기름을 완전히 턴 뒤 소금, 파슬리, 파르메산치즈가루를 뿌려 섞습니다.",
           "cue": "감자튀김이 바삭하고 고소하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-seonji-haejangguk-001",
+      "name": "든든한 선지해장국",
+      "aliases": [
+        "선지해장국"
+      ],
+      "cuisine": "한식",
+      "category": "탕",
+      "tags": [
+        "해장국",
+        "탕",
+        "보양식"
+      ],
+      "emoji": "🍲",
+      "color": "#7a2a2a",
+      "summary": "손질한 곱창과 선지, 된장에 무친 우거지를 사골국물에 푹 끓여낸 든든한 선지해장국입니다.",
+      "safety": "곱창과 선지는 각각 데치고 삶아 속까지 완전히 익혀야 하며, 선지는 떠오를 때까지 충분히 끓이세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6516277",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 60,
+      "difficulty": "보통",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "곱창",
+          "text": "가위로 기름기를 제거하고 굵은소금과 밀가루로 조물조물 씻어 데칩니다."
+        },
+        {
+          "ingredient": "선지",
+          "text": "끓는 물에 5분간 데쳐 핏물을 제거하고 헹궈 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "곱창",
+          "amount": 680,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "선지",
+          "amount": 300,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "굵은소금",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "밀가루",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.53,
+          "household": true
+        },
+        {
+          "name": "미림",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "우거지",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "대파",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "된장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "쌈장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "다진마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "다진생강",
+          "amount": 11,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true,
+          "optional": true,
+          "optionalReason": "향이 강하면 생략 가능"
+        },
+        {
+          "name": "소금",
+          "amount": 11,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "사골국",
+          "amount": 1080,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "물",
+          "amount": 1080,
+          "unit": "ml",
+          "density": 1
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 15,
+          "text": "곱창은 가위로 기름기를 제거하고 굵은소금, 밀가루를 넣어 조물조물 씻은 뒤 미림 넣은 끓는 물에 데쳐 먹기 좋게 썹니다.",
+          "cue": "곱창의 냄새와 이물질이 제거됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "선지는 끓는 물에 5분간 데쳐 핏물을 제거한 뒤 헹궈 먹기 좋게 썹니다.",
+          "cue": "선지가 단단하게 익어 썰기 좋아집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "우거지는 먹기 좋게 썰어 된장, 다진마늘, 고춧가루를 넣고 조물조물 무칩니다.",
+          "cue": "우거지에 양념이 고르게 배어듭니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 20,
+          "text": "냄비에 사골국과 물을 붓고 곱창을 넣어 끓이다가 끓어오르면 약불로 줄여 20분간 끓입니다.",
+          "cue": "국물이 뽀얗게 우러나고 곱창이 부드러워집니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 5,
+          "text": "다진생강과 우거지무침을 넣고 5분간 더 끓입니다.",
+          "cue": "국물에 구수한 된장 향이 배어듭니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "대파를 넣고 소금으로 간을 맞춥니다.",
+          "cue": "국물 간이 알맞게 맞춰집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "마지막으로 선지를 넣고 떠오를 때까지 끓입니다.",
+          "cue": "선지가 떠오르면 다 익은 것입니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-olgaengi-guk-001",
+      "name": "구수한 올갱이국",
+      "aliases": [
+        "올갱이국",
+        "다슬기해장국"
+      ],
+      "cuisine": "한식",
+      "category": "국",
+      "tags": [
+        "해장국",
+        "된장",
+        "충청도향토음식"
+      ],
+      "emoji": "🐌",
+      "color": "#5a7a3f",
+      "summary": "다슬기와 아욱을 된장 육수에 넣고 끓인 뒤 부추로 향을 낸 구수하고 시원한 올갱이국입니다.",
+      "safety": "다슬기(올갱이)는 반드시 속까지 완전히 끓여 익혀야 기생충 감염을 예방할 수 있습니다.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6838607",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=59&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 60,
+      "difficulty": "보통",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "다슬기",
+          "text": "소금물에 30분 해감한 뒤 서너 번 헹궈 물기를 뺍니다."
+        },
+        {
+          "ingredient": "아욱",
+          "text": "줄기를 꺾어 섬유소를 제거하고 쌀뜨물로 바락바락 주물러 헹굽니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "다슬기",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "밀가루",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.53,
+          "household": true
+        },
+        {
+          "name": "달걀",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "아욱",
+          "amount": 150,
+          "unit": "g",
+          "density": 0.2,
+          "optional": true,
+          "optionalReason": "배추잎 삶은 것이나 근대로 대체 가능"
+        },
+        {
+          "name": "물",
+          "amount": 1500,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "청주",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "멸치",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "무",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "대파",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "다시마",
+          "amount": 3,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "된장",
+          "amount": 60,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "고추장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "된장 일부 대신 함께 풀어 넣습니다."
+            }
+          ]
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "부추",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "소금",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 30,
+          "text": "다슬기는 소금물에 30분 해감한 뒤 서너 번 헹궈 물기를 뺍니다.",
+          "cue": "다슬기 속 이물질이 빠집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "아욱은 줄기를 꺾어 섬유소를 제거하고 쌀뜨물로 바락바락 주물러 푸른 물이 나오면 헹궈 물기를 짜서 썹니다.",
+          "cue": "아욱이 부드러워집니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 20,
+          "text": "물에 양파, 무, 대파 흰부분, 멸치, 다시마를 넣고 청주를 넣어 20분간 끓인 뒤 체에 걸러 맑은 육수를 만듭니다.",
+          "cue": "맑고 구수한 멸치육수가 완성됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "육수에 된장을 풀고 고춧가루, 후추, 다진마늘을 넣어 섞은 뒤 아욱을 넣고 한소끔 끓입니다.",
+          "cue": "된장 국물이 걸쭉하게 우러납니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "다슬기에 밀가루와 달걀을 버무려 옷을 입힙니다.",
+          "cue": "다슬기가 국에 넣었을 때 가라앉지 않도록 준비됩니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 15,
+          "text": "반죽한 다슬기를 국물에 흘려 넣고 약불에서 15분간 더 끓입니다.",
+          "cue": "다슬기가 몽글몽글하게 떠오르며 완전히 익습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "소금으로 간을 맞추고 대파를 넣어 1~2분 더 끓입니다.",
+          "cue": "국물 간이 알맞게 맞춰집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "불을 끄고 부추를 넣어 여열로 익힙니다.",
+          "cue": "부추 향이 살아있게 마무리됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gul-gukbap-001",
+      "name": "따끈한 굴국밥",
+      "aliases": [
+        "굴국밥"
+      ],
+      "cuisine": "한식",
+      "category": "국",
+      "tags": [
+        "국밥",
+        "굴",
+        "겨울별미"
+      ],
+      "emoji": "🦪",
+      "color": "#e0d8c8",
+      "summary": "멸치다시마육수에 무와 미역, 두부, 굴을 넣고 끓여 계란으로 마무리한 시원한 굴국밥입니다.",
+      "safety": "굴은 소금물에 재빠르게 씻어 이물질을 제거하고, 국물이 팔팔 끓은 상태에서 충분히 익혀 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6838148",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&ntctxt_no=1103498&menu_no=3120"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "굴",
+          "text": "소금물에 살랑살랑 흔들어 씻은 뒤 재빠르게 헹굽니다."
+        },
+        {
+          "ingredient": "미역",
+          "text": "물에 불립니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "굴",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "무",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "두부",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "모",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 165
+        },
+        {
+          "name": "미역",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.2
+        },
+        {
+          "name": "계란",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "알",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50,
+          "optional": true,
+          "optionalReason": "생략하고 대파만 넣어도 됩니다"
+        },
+        {
+          "name": "멸치다시마육수",
+          "amount": 900,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "국간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "참치액",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "소금",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "대파",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.4
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 15,
+          "text": "무, 다시마, 대파, 멸치를 넣고 육수를 낸 뒤 건더기를 건져내고 무는 나박썰기해 다시 넣습니다.",
+          "cue": "육수가 맑고 진하게 우러납니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "굴은 소금물에 살랑살랑 흔들어 씻고 재빠르게 헹궈 준비합니다.",
+          "cue": "굴 표면의 이물질이 씻겨 나갑니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "두부는 네모썰고 대파는 어슷썰며 미역은 불려 준비합니다.",
+          "cue": "재료가 끓이기 좋게 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "육수에 무와 불린 미역을 넣고 끓입니다.",
+          "cue": "국물이 보글보글 끓어오릅니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "굴과 두부를 넣고 국간장으로 간을 맞추고 부족하면 소금을 더합니다.",
+          "cue": "굴이 통통하게 익습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "계란과 대파를 함께 섞어 국 가장자리에 둘러 넣습니다.",
+          "cue": "계란이 몽글몽글하게 익습니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gul-juk-001",
+      "name": "든든한 굴죽",
+      "aliases": [
+        "굴죽"
+      ],
+      "cuisine": "한식",
+      "category": "죽",
+      "tags": [
+        "죽",
+        "굴",
+        "보양식"
+      ],
+      "emoji": "🦪",
+      "color": "#e8dcc0",
+      "summary": "불린 쌀에 굴을 듬뿍 넣고 끓인 부드럽고 향긋한 굴죽입니다.",
+      "safety": "굴은 소금으로 살살 씻어 이물질을 제거하고 죽이 충분히 끓은 상태에서 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6864699",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&ntctxt_no=1103498&menu_no=3120"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "쌀",
+          "text": "씻어 30분 정도 불립니다."
+        },
+        {
+          "ingredient": "굴",
+          "text": "굵은소금을 넣어 흐르는 물에 살살 씻어 물기를 뺍니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "불린 쌀",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.85
+        },
+        {
+          "name": "굴",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "소금",
+          "amount": 10,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "optional": true,
+          "optionalReason": "생략 가능",
+          "alternatives": [
+            {
+              "name": "들기름",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "물",
+          "amount": 1200,
+          "unit": "ml",
+          "density": 1
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 30,
+          "text": "쌀을 씻어서 물에 담가 30분 정도 불립니다.",
+          "cue": "쌀알이 통통하게 불어납니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "굴은 굵은소금을 넣어 흐르는 물에 살살 씻어 체에 밭쳐 물기를 뺍니다.",
+          "cue": "굴이 깨끗하게 손질됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "불린 쌀에 물을 부어 끓이다가 끓으면 약불로 줄입니다.",
+          "cue": "죽이 끓기 시작합니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 20,
+          "text": "약불에서 저어가며 20분 정도 끓여 쌀알을 퍼뜨립니다.",
+          "cue": "쌀알이 부드럽게 퍼집니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 5,
+          "text": "굴을 넣고 눌어붙지 않게 자주 저어가며 끓입니다.",
+          "cue": "굴이 익으며 향이 은은하게 퍼집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "불을 끄고 소금으로 간을 맞추고 참기름을 넣어 섞습니다.",
+          "cue": "죽이 부드럽고 향긋하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-deodeok-muchim-001",
+      "name": "매콤달콤 더덕무침",
+      "aliases": [
+        "더덕무침"
+      ],
+      "cuisine": "한식",
+      "category": "무침",
+      "tags": [
+        "무침",
+        "손님상",
+        "밑반찬"
+      ],
+      "emoji": "🌿",
+      "color": "#d8c8a8",
+      "summary": "두들겨 편 더덕을 매콤달콤한 고추장 양념에 조물조물 무쳐낸 더덕무침입니다.",
+      "safety": "더덕은 흐르는 물에 깨끗이 씻어 잔류 흙을 제거한 뒤 손질하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6833919",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "더덕",
+          "text": "껍질을 벗겨 하얀 속살만 준비합니다."
+        },
+        {
+          "ingredient": "더덕",
+          "text": "방망이로 꼬리부터 몸통 순으로 두들겨 폅니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "더덕",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.5
+        },
+        {
+          "name": "고추장",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.35,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "물엿",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.4,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "매실액",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "마늘다진것",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "통깨",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "optional": true,
+          "optionalReason": "기호에 따라 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "더덕은 껍질을 벗겨 하얀 속살만 준비합니다.",
+          "cue": "더덕이 깨끗하게 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "방망이로 꼬리부터 몸통 순으로 두들겨 편 뒤 손으로 먹기 좋게 찢습니다.",
+          "cue": "더덕이 결대로 부드럽게 찢어집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "고추장, 고춧가루, 올리고당, 설탕, 매실액, 마늘다진것, 통깨, 식초, 참기름을 섞어 양념장을 만듭니다.",
+          "cue": "양념장이 매콤달콤하게 고르게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "더덕 위에 양념장을 올려 조물조물 무칩니다.",
+          "cue": "더덕에 양념이 고르게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "접시에 담고 통깨를 뿌려 마무리합니다.",
+          "cue": "더덕무침이 먹음직스럽게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-naengi-muchim-001",
+      "name": "새콤달콤 냉이무침",
+      "aliases": [
+        "냉이무침"
+      ],
+      "cuisine": "한식",
+      "category": "무침",
+      "tags": [
+        "봄나물",
+        "무침",
+        "밑반찬"
+      ],
+      "emoji": "🌱",
+      "color": "#7a9c4a",
+      "summary": "데친 냉이를 새콤달콤한 초고추장 양념에 조물조물 무쳐낸 봄철 별미 냉이무침입니다.",
+      "safety": "냉이는 뿌리 사이에 흙이 남기 쉬우므로 흐르는 물에 여러 번 깨끗이 씻으세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6866832",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 15,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "냉이",
+          "text": "뿌리 사이 흙을 꼼꼼히 씻습니다."
+        },
+        {
+          "ingredient": "냉이",
+          "text": "끓는 소금물에 데쳐 찬물에 헹구고 물기를 꼭 짭니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "데친냉이",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "대파",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "마늘",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.5
+        },
+        {
+          "name": "고추장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "매실액",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "올리고당",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.35,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "올리고당",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.35,
+          "household": true,
+          "optional": true,
+          "optionalReason": "단맛을 더하고 싶을 때만 추가, 생략 가능"
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "참깨",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "냉이는 뿌리 사이 흙을 꼼꼼히 씻습니다.",
+          "cue": "냉이가 깨끗하게 손질됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 3,
+          "text": "끓는 물에 소금을 넣고 냉이를 데쳐 찬물에 헹궈 물기를 꼭 짭니다.",
+          "cue": "냉이가 부드럽게 데쳐지고 한 줌 정도로 줄어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "대파와 마늘은 곱게 다집니다.",
+          "cue": "재료가 양념에 잘 섞이도록 다져집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "고추장, 고춧가루, 식초, 매실액, 다진 파, 마늘, 소금을 섞어 양념장을 만듭니다.",
+          "cue": "양념장이 새콤달콤짭짤하게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "데친 냉이를 적당한 크기로 썰어 양념장에 조물조물 무칩니다.",
+          "cue": "냉이에 양념이 고르게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "참기름과 참깨를 넣어 마무리합니다.",
+          "cue": "고소한 향이 더해져 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-dallae-muchim-001",
+      "name": "봄향기 달래무침",
+      "aliases": [
+        "달래무침"
+      ],
+      "cuisine": "한식",
+      "category": "무침",
+      "tags": [
+        "봄나물",
+        "무침",
+        "고기쌈"
+      ],
+      "emoji": "🌿",
+      "color": "#6b8a4f",
+      "summary": "손질한 달래를 새콤달콤한 양념에 살살 무쳐낸 향긋한 봄나물 달래무침입니다.",
+      "safety": "달래는 머리 부분 껍질을 벗기고 흐르는 물에 깨끗이 씻어 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6842891",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 10,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "달래",
+          "text": "머리 부분 껍질을 손질하고 깨끗이 씻어 물기를 제거합니다."
+        },
+        {
+          "ingredient": "달래",
+          "text": "5cm 길이로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "달래",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "올리고당",
+              "amount": 5,
+              "unit": "ml",
+              "density": 1.35,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "참기름",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "optional": true,
+          "optionalReason": "간이 부족할 때만 추가, 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "달래는 머리 부분만 껍질을 손질하고 깨끗하게 씻어 물기를 제거한 뒤 5cm 길이로 썹니다.",
+          "cue": "달래가 향긋하고 깨끗하게 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "고춧가루, 식초, 설탕, 간장을 볼에 넣어 양념을 만듭니다.",
+          "cue": "양념이 새콤달콤하게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "양념에 달래를 넣고 젓가락으로 살살 버무립니다.",
+          "cue": "달래에 양념이 골고루 묻습니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "참기름을 넣어 마무리합니다.",
+          "cue": "향긋한 참기름 향이 더해져 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-sseumbagwi-muchim-001",
+      "name": "쌉쌀한 씀바귀무침",
+      "aliases": [
+        "씀바귀무침"
+      ],
+      "cuisine": "한식",
+      "category": "무침",
+      "tags": [
+        "봄나물",
+        "무침",
+        "입맛살리기"
+      ],
+      "emoji": "🌿",
+      "color": "#5c6b2f",
+      "summary": "삶아 쓴맛을 우려낸 씀바귀를 새콤달콤한 고추장 양념에 무쳐낸 쌉쌀한 씀바귀무침입니다.",
+      "safety": "씀바귀는 삶은 뒤 찬물에 충분히 담가 쓴맛과 불순물을 우려내고 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6864067",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 90,
+      "difficulty": "쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "씀바귀",
+          "text": "끓는 소금물에 3~4분 삶습니다."
+        },
+        {
+          "ingredient": "삶은 씀바귀",
+          "text": "찬물에 여러 번 헹궈 1시간 이상 담가 쓴맛을 뺍니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "씀바귀",
+          "amount": 180,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "굵은소금",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "고추장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "마늘",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "썬 대파",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "매실청",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "올리고당",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.35,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "볶은 참깨",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true,
+          "optional": true,
+          "optionalReason": "고명용으로 생략 가능"
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 4,
+          "text": "끓는 물에 굵은소금을 넣고 씀바귀를 3~4분간 삶습니다.",
+          "cue": "씀바귀가 부드럽게 데쳐집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 60,
+          "text": "삶은 씀바귀는 찬물에 여러 번 헹궈낸 뒤 1시간 이상 물에 담가 쓴맛을 뺍니다.",
+          "cue": "쓴물이 우러나 쓴맛이 한결 줄어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "체에 밭쳐 물기를 제거하고 먹기 좋은 크기로 썹니다.",
+          "cue": "씀바귀가 무치기 좋은 크기로 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "고추장, 마늘, 썬 대파, 식초, 간장, 매실청, 참기름, 후추, 볶은 참깨를 넣고 살살 무칩니다.",
+          "cue": "양념이 씀바귀에 고르게 배어듭니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-dureup-muchim-001",
+      "name": "향긋한 두릅무침",
+      "aliases": [
+        "두릅나물",
+        "두릅무침"
+      ],
+      "cuisine": "한식",
+      "category": "무침",
+      "tags": [
+        "봄나물",
+        "무침",
+        "밥반찬"
+      ],
+      "emoji": "🌿",
+      "color": "#4f7a3f",
+      "summary": "데친 두릅을 된장 양념에 조물조물 무쳐낸 향긋한 봄나물 두릅무침입니다.",
+      "safety": "두릅은 가시가 있는 겉껍질을 제거하고 끓는 물에 데쳐 안전하게 손질하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6888155",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "두릅",
+          "text": "밑동의 딱딱한 부분과 가시를 제거합니다."
+        },
+        {
+          "ingredient": "두릅",
+          "text": "끓는 소금물에 살짝 데쳐 찬물에 헹구고 껍질을 벗깁니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "두릅",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "된장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "쌈장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "고추장",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "매실액",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "다진파",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true,
+          "optional": true,
+          "optionalReason": "두릅 향을 살리려면 생략 가능"
+        },
+        {
+          "name": "다진마늘",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "통깨",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "두릅은 밑동의 딱딱한 부분과 가시를 제거해 손질합니다.",
+          "cue": "두릅이 먹기 좋게 손질됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 2,
+          "text": "끓는 물에 소금을 넣고 두릅을 껍질째 살짝 데칩니다.",
+          "cue": "두릅이 파릇하게 데쳐집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "찬물에 바로 헹구면서 겉껍질을 벗깁니다.",
+          "cue": "두릅이 연한 속살만 남아 부드러워집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "체에 밭쳐 물기를 뺀 뒤 손으로 물기를 꼭 짭니다.",
+          "cue": "두릅 표면의 물기가 충분히 빠집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "된장, 고추장, 매실액, 참기름, 다진파, 다진마늘, 통깨를 넣고 조물조물 무칩니다.",
+          "cue": "양념이 두릅에 고르게 배어듭니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-juksun-bokkeum-001",
+      "name": "고소한 죽순볶음",
+      "aliases": [
+        "죽순볶음"
+      ],
+      "cuisine": "한식",
+      "category": "볶음",
+      "tags": [
+        "나물",
+        "볶음",
+        "다이어트"
+      ],
+      "emoji": "🎋",
+      "color": "#d8c98a",
+      "summary": "삶은 죽순을 들깨가루 국물에 자박하게 볶아낸 오독오독하고 고소한 죽순볶음입니다.",
+      "safety": "손질이 안 된 생죽순은 쌀뜨물에 20~30분 삶아 아린 맛을 없앤 뒤 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6773285",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "죽순",
+          "text": "물에 한 번 더 삶은 뒤 찬물에 헹궈 물기를 꼭 짭니다."
+        },
+        {
+          "ingredient": "당근·대파",
+          "text": "채 썰거나 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "죽순",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.5
+        },
+        {
+          "name": "들깨가루",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "당근",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.6,
+          "optional": true,
+          "optionalReason": "색을 위한 것으로 생략 가능"
+        },
+        {
+          "name": "대파",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "마늘",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "다진마늘",
+              "amount": 5,
+              "unit": "ml",
+              "density": 0.5,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 400,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "맛소금",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "죽순은 물에 한 번 더 삶은 뒤 찬물에 헹궈 물기를 꼭 짭니다.",
+          "cue": "죽순 특유의 아린 맛이 줄어듭니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "팬에 기름을 두르고 마늘을 먼저 볶아 향을 냅니다.",
+          "cue": "마늘 향이 고소하게 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "죽순을 넣고 맛소금 절반을 넣어 달달 볶습니다.",
+          "cue": "죽순에 간이 고르게 배어듭니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "당근, 대파, 물을 넣습니다.",
+          "cue": "국물이 자작하게 생깁니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "들깨가루를 듬뿍 넣고 부족한 간은 소금으로 맞추며 국물이 적당히 남을 때까지 볶습니다.",
+          "cue": "들깨가루가 국물에 걸쭉하게 어우러집니다."
         }
       ],
       "cookerVariants": []
