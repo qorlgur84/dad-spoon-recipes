@@ -1,5 +1,5 @@
 {
-  "version": "4.3.0",
+  "version": "4.4.0",
   "updatedAt": "2026-09-17",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
@@ -72767,6 +72767,1701 @@
           "minutes": 2,
           "text": "채 썬 양파를 조금 더 올리고 와사비로 마무리합니다.",
           "cue": "고명이 먹음직스럽게 올라갑니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-taco-rice-001",
+      "name": "오키나와 타코라이스",
+      "aliases": [
+        "타코라이스"
+      ],
+      "cuisine": "양식",
+      "category": "밥",
+      "tags": [
+        "퓨전요리",
+        "멕시칸",
+        "간단요리"
+      ],
+      "emoji": "🌮",
+      "color": "#c0432e",
+      "summary": "케첩과 우스터소스로 양념한 소고기 다짐육을 밥 위에 올리고 채소와 또띠아를 곁들인 오키나와식 타코라이스입니다.",
+      "safety": "소고기 다짐육은 속까지 완전히 익도록 충분히 볶으세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6830263",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "큰술(T) 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "케첩, 우스터소스, 카레가루 등 국내 마트에서 흔히 구할 수 있는 재료로 구성했습니다.",
+        "note": "오키나와 퓨전요리인 타코라이스를 국내에서 쉽게 구할 수 있는 재료로 구성했습니다."
+      },
+      "baseServings": 4,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "방울토마토·양상추",
+          "text": "방울토마토는 반으로 가르고 양상추는 한입 크기로 찢습니다."
+        },
+        {
+          "ingredient": "피망·양파",
+          "text": "잘게 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "쇠고기 다짐육",
+          "amount": 300,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "피망",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 90
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "양상추",
+          "amount": 4,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 20,
+          "mlPerUnit": 25
+        },
+        {
+          "name": "방울토마토",
+          "amount": 15,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 16
+        },
+        {
+          "name": "또띠아",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "백미",
+          "amount": 420,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "피자치즈",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.4,
+          "optional": true,
+          "optionalReason": "생략 가능"
+        },
+        {
+          "name": "케첩",
+          "amount": 60,
+          "unit": "ml",
+          "density": 1.05,
+          "household": true
+        },
+        {
+          "name": "우스터소스",
+          "amount": 60,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "돈까스소스",
+              "amount": 60,
+              "unit": "ml",
+              "density": 1.1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "카레가루",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "쇠고기 다짐육에 케첩, 우스터소스, 카레가루, 소금, 후추를 넣고 10분 정도 재워둡니다.",
+          "cue": "양념이 고기에 고르게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "방울토마토는 반으로 가르고 양상추는 찢고, 피망과 양파는 다집니다.",
+          "cue": "재료가 볶기 좋게 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "팬에 기름을 두르고 양파를 볶다가 투명해지면 양념한 고기를 넣어 볶고 고기가 다 익어가면 피망을 넣어 잠깐 더 볶습니다.",
+          "cue": "고기 속까지 완전히 익고 채소가 살짝 볶아집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "또띠아를 달군 팬에 양면으로 노릇하게 구워 4등분으로 자릅니다.",
+          "cue": "또띠아 겉면이 바삭하게 구워집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "접시에 밥을 담고 볶은 고기를 올려 피자치즈를 뿌린 뒤 양상추, 토마토, 구운 또띠아를 곁들입니다.",
+          "cue": "타코라이스가 먹음직스럽게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-tonjiru-001",
+      "name": "일본식 돈지루",
+      "aliases": [
+        "돈지루",
+        "돼지고기된장국"
+      ],
+      "cuisine": "일식",
+      "category": "국",
+      "tags": [
+        "일식",
+        "된장국",
+        "든든한한끼"
+      ],
+      "emoji": "🍲",
+      "color": "#8a6a3f",
+      "summary": "돼지고기와 당근, 연근, 곤약, 표고버섯을 넣고 미소된장으로 끓여낸 든든한 일본식 된장국입니다.",
+      "safety": "돼지고기는 속까지 완전히 익도록 충분히 볶고 끓이세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6828948",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "컵/큰술 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "미소된장은 국내 마트에서 쉽게 구할 수 있으며 일반 된장으로 대체 가능합니다.",
+        "note": "일본식 돼지고기 된장국 돈지루를 국내 가정 재료로 간편하게 만들 수 있도록 구성했습니다."
+      },
+      "baseServings": 3,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "당근·연근·표고버섯",
+          "text": "한입 크기로 썹니다."
+        },
+        {
+          "ingredient": "곤약",
+          "text": "숟가락으로 떼어 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "돼지고기",
+          "amount": 80,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "당근",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "연근",
+          "amount": 60,
+          "unit": "g",
+          "density": 0.5,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "표고버섯",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 25,
+          "mlPerUnit": 30
+        },
+        {
+          "name": "곤약",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.9,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "물",
+          "amount": 450,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "미소",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "된장",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "쪽파",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "고명용으로 생략 가능"
+        },
+        {
+          "name": "참기름",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "연근, 당근, 표고버섯은 한입 크기로 썰고 곤약은 숟가락으로 떼어 준비합니다.",
+          "cue": "재료가 끓이기 좋은 크기로 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "냄비에 참기름을 두르고 돼지고기를 볶다가 소금을 살짝 넣어 간합니다.",
+          "cue": "고기 겉면이 하얗게 익습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "당근, 연근, 곤약 순으로 넣고 볶습니다.",
+          "cue": "채소가 기름에 고르게 볶아집니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 3,
+          "text": "물을 넣고 센 불로 끓입니다.",
+          "cue": "국물이 팔팔 끓어오릅니다."
+        },
+        {
+          "heat": "중약불",
+          "minutes": 10,
+          "text": "끓기 시작하면 중약불로 줄여 10분 정도 끓입니다.",
+          "cue": "채소가 부드럽게 익습니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 3,
+          "text": "미소를 풀어 넣고 간을 봅니다.",
+          "cue": "국물이 구수한 된장 향으로 가득 찹니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 2,
+          "text": "표고버섯을 넣고 살짝 끓인 뒤 불에서 내려 쪽파를 올립니다.",
+          "cue": "버섯이 부드럽게 익고 국물이 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-corn-soup-001",
+      "name": "고소한 옥수수수프",
+      "aliases": [
+        "콘수프",
+        "옥수수스프"
+      ],
+      "cuisine": "양식",
+      "category": "수프",
+      "tags": [
+        "수프",
+        "간식",
+        "아이간식"
+      ],
+      "emoji": "🌽",
+      "color": "#e8c94a",
+      "summary": "볶은 옥수수와 양파를 우유와 함께 갈아 끓인 부드럽고 고소한 옥수수수프입니다.",
+      "safety": "이 레시피는 우유가 들어가므로 유당불내증이 있는 가족은 주의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6832712",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1091412"
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "컵 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "버터와 우유 등 국내 마트에서 흔히 구할 수 있는 재료로 구성했습니다.",
+        "note": "서양식 콘수프를 국내 가정에서 간단하게 만들 수 있도록 구성했습니다."
+      },
+      "baseServings": 2,
+      "timeMinutes": 15,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "양파",
+          "text": "찬물에 담갔다가 다집니다."
+        },
+        {
+          "ingredient": "옥수수",
+          "text": "칼로 알갱이를 분리합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "옥수수",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 300,
+          "mlPerUnit": 330
+        },
+        {
+          "name": "양파",
+          "amount": 0.25,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "버터",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "식용유",
+              "amount": 22.5,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "우유",
+          "amount": 360,
+          "unit": "ml",
+          "density": 1.03
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "간을 보아 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "옥수수는 칼로 알갱이를 분리하고 양파는 다집니다.",
+          "cue": "재료가 볶기 좋게 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "냄비에 버터 절반을 넣고 양파를 볶습니다.",
+          "cue": "양파가 하얗게 투명해집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "남은 버터와 옥수수를 넣어 살짝 더 볶습니다.",
+          "cue": "옥수수에 버터 향이 고르게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "한 김 식힌 뒤 우유를 넣고 믹서에 곱게 갑니다.",
+          "cue": "재료가 부드럽게 갈립니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "냄비에 옮겨 살짝 끓이고 소금으로 간을 맞춥니다.",
+          "cue": "수프가 걸쭉하고 고소하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-pumpkin-soup-001",
+      "name": "부드러운 단호박수프",
+      "aliases": [
+        "단호박수프",
+        "단호박스프"
+      ],
+      "cuisine": "양식",
+      "category": "수프",
+      "tags": [
+        "수프",
+        "다이어트",
+        "간식"
+      ],
+      "emoji": "🎃",
+      "color": "#e8942a",
+      "summary": "찐 단호박과 양파를 우유와 함께 곱게 갈아 끓인 부드럽고 달콤한 단호박수프입니다.",
+      "safety": "단호박은 껍질을 깨끗이 씻은 뒤 전자레인지에 살짝 데워 손질하고, 완전히 익힌 뒤 갈아서 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6840574",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "컵 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "단호박과 우유 등 국내 마트에서 흔히 구할 수 있는 재료로 구성했습니다.",
+        "note": "서양식 단호박수프를 국내 가정에서 간단하게 만들 수 있도록 구성했습니다."
+      },
+      "baseServings": 3,
+      "timeMinutes": 40,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "단호박",
+          "text": "전자레인지에 3분 돌려 껍질을 벗기고 씨를 제거한 뒤 얇게 썹니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "잘게 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "단호박",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 700,
+          "mlPerUnit": 750
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "우유",
+          "amount": 600,
+          "unit": "ml",
+          "density": 1.03
+        },
+        {
+          "name": "버터",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "식용유",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true,
+          "optional": true,
+          "optionalReason": "간을 보아 생략 가능"
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "양파를 잘게 썹니다.",
+          "cue": "양파가 볶기 좋게 썰립니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "단호박은 전자레인지에 3분 돌려 껍질을 벗기고 속을 파낸 뒤 얇게 썹니다.",
+          "cue": "단호박 손질이 한결 수월해집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "냄비에 버터를 두르고 양파가 투명해질 때까지 볶습니다.",
+          "cue": "양파가 부드럽게 볶아집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 10,
+          "text": "단호박을 넣고 우유를 부어 저어가며 끓입니다.",
+          "cue": "단호박이 익으며 색이 노랗게 진해집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "한 김 식힌 뒤 핸드믹서나 믹서로 곱게 갑니다.",
+          "cue": "수프가 곱고 부드럽게 갈립니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 5,
+          "text": "다시 살짝 끓여 소금으로 간을 맞춥니다.",
+          "cue": "수프가 걸쭉하고 달콤하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-herb-roast-chicken-001",
+      "name": "허브 오븐구이 통닭",
+      "aliases": [
+        "로스트치킨",
+        "오븐구이통닭"
+      ],
+      "cuisine": "양식",
+      "category": "오븐요리",
+      "tags": [
+        "오븐요리",
+        "홈파티",
+        "허브"
+      ],
+      "emoji": "🍗",
+      "color": "#c98a3a",
+      "summary": "허브와 마늘, 양파를 채운 통닭에 향신료를 발라 오븐에 노릇하게 구워낸 허브 로스트치킨입니다.",
+      "safety": "닭 속까지 완전히 익도록 충분히 구우세요(중심부 온도 75℃ 이상).",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6887375",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "티스푼/큰술 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "로즈마리, 바질, 오레가노 등은 국내 마트나 온라인몰에서 흔히 구할 수 있는 건조 허브입니다.",
+        "note": "서양식 로스트치킨을 국내 가정 오븐으로 만들 수 있도록 구성했습니다."
+      },
+      "baseServings": 4,
+      "timeMinutes": 100,
+      "difficulty": "쉬움",
+      "defaultTool": "오븐",
+      "defaultToolIcon": "🔥",
+      "preparation": [
+        {
+          "ingredient": "닭",
+          "text": "씻어서 키친타월로 물기를 제거합니다."
+        },
+        {
+          "ingredient": "양념",
+          "text": "소금, 후추, 허브류를 섞습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "닭",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 1200,
+          "mlPerUnit": 1300
+        },
+        {
+          "name": "소금",
+          "amount": 20,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "마늘가루",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "로즈마리",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true,
+          "optional": true,
+          "optionalReason": "다른 허브로 대체하거나 생략 가능"
+        },
+        {
+          "name": "바질",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true
+        },
+        {
+          "name": "오레가노",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "올리브오일",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "식용유",
+              "amount": 30,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "마늘",
+          "amount": 4,
+          "unit": "count",
+          "countLabel": "알",
+          "gramsPerUnit": 5,
+          "mlPerUnit": 5
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "닭을 씻어서 키친타월로 물기를 제거하고, 닭 안에 양파 반쪽과 마늘을 넣습니다.",
+          "cue": "닭 속이 채워지고 물기가 없어집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "소금, 후추, 마늘가루, 로즈마리, 바질, 오레가노, 고춧가루를 섞어 닭 전체에 골고루 발라줍니다.",
+          "cue": "양념이 닭 표면에 고르게 묻습니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "올리브오일을 덧발라줍니다.",
+          "cue": "표면에 윤기가 돕니다."
+        },
+        {
+          "heat": "오븐 200도",
+          "minutes": 75,
+          "text": "200도로 예열한 오븐에서 60~90분간 굽습니다.",
+          "cue": "닭 껍질이 노릇하게 구워지고 속까지 완전히 익습니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-beef-tenderloin-steak-001",
+      "name": "레스토랑급 안심스테이크",
+      "aliases": [
+        "안심스테이크",
+        "소고기스테이크"
+      ],
+      "cuisine": "양식",
+      "category": "구이",
+      "tags": [
+        "스테이크",
+        "손님상",
+        "홈파티"
+      ],
+      "emoji": "🥩",
+      "color": "#7a3a2a",
+      "summary": "실온에 재운 소안심을 센 불에서 짧게 지진 뒤 버터로 베이스팅해 풍미를 살린 안심스테이크입니다.",
+      "safety": "안심은 겉면을 충분히 지져 표면 세균을 익힌 통고기이므로 미디움 레어로 즐길 수 있으나, 다짐육과 달리 취급하고 신선한 고기만 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6873002",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "큰술(T) 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "로즈마리, 오레가노 등 서양 허브는 국내 마트에서 쉽게 구할 수 있습니다.",
+        "note": "레스토랑식 안심스테이크를 국내 가정 팬으로 구울 수 있도록 구성했습니다."
+      },
+      "baseServings": 5,
+      "timeMinutes": 30,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "소안심",
+          "text": "굽기 20~30분 전 실온에 꺼내 소금, 후추로 시즈닝합니다."
+        },
+        {
+          "ingredient": "그린빈·파프리카·양파",
+          "text": "손질해 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "소안심",
+          "amount": 750,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "그린빈",
+          "amount": 30,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 5,
+          "mlPerUnit": 5,
+          "optional": true,
+          "optionalReason": "다른 채소로 대체하거나 생략 가능"
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "통마늘",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 5,
+          "mlPerUnit": 5
+        },
+        {
+          "name": "로즈마리",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "오레가노",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "파프리카",
+          "amount": 1.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 165
+        },
+        {
+          "name": "올리브유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "식용유",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "버터",
+          "amount": 75,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "채소는 손질해 따로 준비합니다.",
+          "cue": "그린빈, 파프리카, 양파가 조리하기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 20,
+          "text": "안심은 굽기 20~30분 전 실온에 두고 소금, 후추를 앞뒤로 뿌린 뒤 올리브유를 발라 로즈마리와 오레가노를 올립니다.",
+          "cue": "고기 속까지 간이 배어들 준비가 됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 1,
+          "text": "팬을 뜨겁게 달궈 연기가 올라오면 올리브유를 두르고 허브 올린 면부터 앞뒤 각 30초씩 굽습니다.",
+          "cue": "겉면이 노릇하게 시어링됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "버터와 반으로 가른 통마늘을 넣고 마늘 위에 스테이크를 올려 녹인 버터를 끼얹으며 익힙니다.",
+          "cue": "버터 향이 고기에 고르게 배어듭니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "중불로 줄여 앞뒤 20초씩 더 구워 미디움 레어로 마무리합니다.",
+          "cue": "젓가락으로 찔렀을 때 따뜻한 온기가 느껴집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "구운 고기는 실온에 잠시 두고, 고기 구웠던 팬에 양파와 채소를 구워 곁들입니다.",
+          "cue": "육즙이 고기 안으로 다시 스며들고 채소에 풍미가 배어듭니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-caprese-salad-001",
+      "name": "상큼한 카프레제샐러드",
+      "aliases": [
+        "카프레제샐러드"
+      ],
+      "cuisine": "양식",
+      "category": "샐러드",
+      "tags": [
+        "샐러드",
+        "브런치",
+        "와인안주"
+      ],
+      "emoji": "🍅",
+      "color": "#c0392b",
+      "summary": "토마토와 브리치즈를 겹겹이 쌓고 발사믹 드레싱을 곁들인 상큼한 카프레제샐러드입니다.",
+      "safety": "이 레시피는 치즈(우유)를 사용하므로 우유 알레르기가 있는 가족은 주의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6829994",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1091412"
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "스푼 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "브리치즈는 모짜렐라나 체다치즈 등 국내에서 구하기 쉬운 치즈로 대체할 수 있습니다.",
+        "note": "이탈리아식 카프레제샐러드를 국내에서 구하기 쉬운 재료로 구성했습니다."
+      },
+      "baseServings": 2,
+      "timeMinutes": 10,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "토마토",
+          "text": "깨끗이 씻어 편으로 썹니다."
+        },
+        {
+          "ingredient": "브리치즈",
+          "text": "먹기 좋게 편으로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "토마토",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160
+        },
+        {
+          "name": "브리치즈",
+          "amount": 150,
+          "unit": "g",
+          "density": 0.9,
+          "alternatives": [
+            {
+              "name": "모짜렐라치즈",
+              "amount": 150,
+              "unit": "g",
+              "density": 0.9,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 편으로 썰어 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "베이비채소",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.15,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "양파",
+          "amount": 0.25,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "발사믹식초",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.05,
+          "household": true
+        },
+        {
+          "name": "올리브유",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.5,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 1.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "토마토는 잘 씻어서 편으로 썹니다.",
+          "cue": "토마토가 고르게 썰립니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "브리치즈도 먹기 좋게 편으로 썹니다.",
+          "cue": "치즈가 토마토와 비슷한 두께로 썰립니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "양파는 곱게 다집니다.",
+          "cue": "양파가 소스에 잘 어우러지도록 다져집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "발사믹식초, 올리브유, 후추, 소금, 다진 양파를 섞어 드레싱을 만들어 냉장고에 잠시 둡니다.",
+          "cue": "드레싱이 시원하고 새콤하게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "토마토와 치즈를 켜켜이 동그랗게 쌓고 중앙에 베이비채소를 올립니다.",
+          "cue": "플레이팅이 보기 좋게 완성됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "차갑게 준비한 드레싱을 뿌려 완성합니다.",
+          "cue": "드레싱이 고르게 뿌려집니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-chicken-vegetable-soup-001",
+      "name": "든든한 치킨수프",
+      "aliases": [
+        "치킨수프",
+        "닭가슴살야채수프"
+      ],
+      "cuisine": "양식",
+      "category": "수프",
+      "tags": [
+        "수프",
+        "감기음식",
+        "다이어트"
+      ],
+      "emoji": "🍲",
+      "color": "#e0a95c",
+      "summary": "닭가슴살 육수에 감자, 양배추, 버섯을 넣고 끓인 든든하고 시원한 치킨수프입니다.",
+      "safety": "닭가슴살은 속까지 완전히 익도록 충분히 삶으세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6843426",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "큰술(T) 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "월계수잎 외에는 국내 가정에서 흔한 채소와 향신료로만 구성했습니다.",
+        "note": "서양식 치킨수프를 국내 가정 재료로 담백하게 구성했습니다."
+      },
+      "baseServings": 4,
+      "timeMinutes": 60,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "닭가슴살",
+          "text": "대파, 양파, 다진마늘과 함께 삶아 육수를 냅니다."
+        },
+        {
+          "ingredient": "양파·감자·양배추·버섯",
+          "text": "적당한 크기로 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "닭가슴살",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 300,
+          "mlPerUnit": 320
+        },
+        {
+          "name": "대파",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "양파",
+          "amount": 1.25,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "다진마늘",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "월계수잎",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 0.2,
+          "mlPerUnit": 0.3,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "양배추",
+          "amount": 150,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "버섯",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "감자",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160,
+          "alternatives": [
+            {
+              "name": "당근",
+              "amount": 150,
+              "unit": "g",
+              "density": 0.6,
+              "samePreparation": true,
+              "preparation": "동일한 크기로 썰어 같은 시점에 넣습니다."
+            }
+          ]
+        },
+        {
+          "name": "물",
+          "amount": 1500,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "소금",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 10,
+          "text": "닭가슴살, 대파 1대, 양파 1/4개, 다진마늘을 넣고 물을 부어 끓입니다.",
+          "cue": "육수가 끓기 시작합니다."
+        },
+        {
+          "heat": "중약불",
+          "minutes": 30,
+          "text": "중약불로 줄여 30분간 끓인 뒤 육수를 체에 걸러줍니다.",
+          "cue": "닭가슴살 육수가 진하게 우러납니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "양파, 감자, 양배추, 버섯은 적당한 크기로 썹니다.",
+          "cue": "재료가 끓이기 좋은 크기로 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "닭가슴살은 건져 적당한 크기로 찢거나 썹니다.",
+          "cue": "닭고기가 먹기 좋게 손질됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "채소와 닭가슴살을 냄비에 담고 소금을 약간 넣은 뒤 걸러둔 육수를 부어 한소끔 끓입니다.",
+          "cue": "국물이 다시 끓어오릅니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 10,
+          "text": "감자가 익을 때까지 끓이다가 버섯을 나중에 넣습니다.",
+          "cue": "감자가 부드럽게 익습니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "소금과 후추로 간을 맞춰 완성합니다.",
+          "cue": "국물이 든든하고 시원하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-eggs-benedict-001",
+      "name": "브런치 에그베네딕트",
+      "aliases": [
+        "에그베네딕트"
+      ],
+      "cuisine": "양식",
+      "category": "빵",
+      "tags": [
+        "브런치",
+        "카페요리",
+        "주말요리"
+      ],
+      "emoji": "🍳",
+      "color": "#e8b23a",
+      "summary": "구운 잉글리시머핀 위에 베이컨과 수란을 올리고 홀랜다이즈소스를 뿌린 브런치 에그베네딕트입니다.",
+      "safety": "이 레시피는 달걀과 밀, 우유(버터)를 사용하므로 관련 알레르기가 있는 가족은 주의하고, 수란과 홀랜다이즈소스는 신선한 달걀로 만들어 바로 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6842886",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1091412"
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "큰술(T) 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "잉글리시머핀과 홀랜다이즈소스 재료는 국내 대형마트나 베이커리에서 구할 수 있습니다.",
+        "note": "서양식 브런치 메뉴 에그베네딕트를 간단한 홀랜다이즈소스로 구성했습니다."
+      },
+      "baseServings": 1,
+      "timeMinutes": 15,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "베이컨·아스파라거스",
+          "text": "팬에 구워 준비합니다."
+        },
+        {
+          "ingredient": "잉글리시머핀",
+          "text": "반으로 갈라 팬에 굽습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "잉글리시머핀",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 60,
+          "mlPerUnit": 65
+        },
+        {
+          "name": "베이컨",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 17
+        },
+        {
+          "name": "달걀",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "식초",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "아스파라거스",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 17,
+          "optional": true,
+          "optionalReason": "다른 채소로 대체하거나 생략 가능"
+        },
+        {
+          "name": "달걀노른자",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 18,
+          "mlPerUnit": 18
+        },
+        {
+          "name": "버터",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "무염버터",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.9,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 녹여 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "바질가루",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "레몬즙",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "달군 팬에 베이컨을 굽고 같은 팬에 아스파라거스도 베이컨 기름으로 굽습니다.",
+          "cue": "베이컨이 노릇하게 구워집니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 3,
+          "text": "물을 끓이고 식초를 넣습니다.",
+          "cue": "물이 팔팔 끓으며 식초 향이 올라옵니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "버터를 녹여 달걀노른자, 소금, 후추, 레몬즙, 바질가루를 넣고 거품기로 잘 섞어 홀랜다이즈소스를 만듭니다.",
+          "cue": "소스가 걸쭉하고 부드럽게 섞입니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "잉글리시머핀을 반으로 갈라 팬에 앞뒤로 굽고, 구운 베이컨을 머핀 위에 올립니다.",
+          "cue": "머핀이 노릇하게 구워집니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 3,
+          "text": "끓는 물에 달걀을 넣고 젓가락으로 원을 그리며 저어 수란을 만듭니다.",
+          "cue": "흰자가 노른자를 감싸며 몽글하게 익습니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "체로 수란을 건져 찬물에 살짝 담갔다가 머핀 위에 올립니다.",
+          "cue": "수란이 반숙 상태로 올라갑니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "아스파라거스를 곁들이고 홀랜다이즈소스를 뿌려 완성합니다.",
+          "cue": "브런치 플레이팅이 먹음직스럽게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-french-fries-001",
+      "name": "바삭한 감자튀김",
+      "aliases": [
+        "감자튀김",
+        "프렌치프라이"
+      ],
+      "cuisine": "양식",
+      "category": "튀김",
+      "tags": [
+        "튀김",
+        "간식",
+        "사이드메뉴"
+      ],
+      "emoji": "🍟",
+      "color": "#e8b83a",
+      "summary": "채 썬 감자를 전분가루에 묻혀 바삭하게 튀긴 뒤 파르메산치즈가루를 곁들인 감자튀김입니다.",
+      "safety": "튀김 기름은 재사용을 최소화하고, 뜨거운 기름을 다룰 때 화상에 유의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-17",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6829901",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "스푼 계량 기준으로 국내 가정에서 쉽게 계량할 수 있게 구성했습니다.",
+        "seasoningPolicy": "파르메산치즈가루는 없으면 생략해도 무방합니다.",
+        "note": "서양식 감자튀김을 국내 가정 팬 튀김으로 간편하게 만들 수 있도록 구성했습니다."
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "감자",
+          "text": "적당한 크기로 채 썰어 물에 담가 전분기를 뺍니다."
+        },
+        {
+          "ingredient": "감자",
+          "text": "채반에 밭쳐 물기를 뺀 뒤 키친타월로 한 번 더 닦습니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "감자",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160
+        },
+        {
+          "name": "전분가루",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true
+        },
+        {
+          "name": "포도씨유",
+          "amount": 500,
+          "unit": "ml",
+          "density": 0.92
+        },
+        {
+          "name": "소금",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "파슬리",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true,
+          "optional": true,
+          "optionalReason": "장식용으로 생략 가능"
+        },
+        {
+          "name": "파르메산치즈가루",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능",
+          "alternatives": [
+            {
+              "name": "그라나파다노가루",
+              "amount": 7.5,
+              "unit": "ml",
+              "density": 0.4,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "감자를 적당한 크기로 채 썰어 물에 담가 전분기를 뺀 뒤 채반에서 물기를 뺍니다.",
+          "cue": "감자 표면의 전분기가 씻겨 나갑니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "키친타월로 물기를 제거한 뒤 비닐봉투에 전분가루와 감자를 넣고 골고루 섞습니다.",
+          "cue": "감자에 전분가루가 얇게 고르게 묻습니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 1,
+          "text": "팬에 포도씨유를 넣고 기름 온도가 오르면 감자 하나를 넣어 바로 떠오르는지 확인합니다.",
+          "cue": "감자가 기름 위로 바로 떠오릅니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "감자를 넣고 바삭해질 때까지 휘젓지 않고 그대로 튀깁니다.",
+          "cue": "겉면이 노릇노릇하게 튀겨집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "체에 건져 기름을 완전히 턴 뒤 소금, 파슬리, 파르메산치즈가루를 뿌려 섞습니다.",
+          "cue": "감자튀김이 바삭하고 고소하게 완성됩니다."
         }
       ],
       "cookerVariants": []
