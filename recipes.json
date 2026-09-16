@@ -1,5 +1,5 @@
 {
-  "version": "5.5.0",
+  "version": "5.6.0",
   "updatedAt": "2026-09-19",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
@@ -94234,6 +94234,1581 @@
           "minutes": 5,
           "text": "마지막에 미나리와 통깨를 넣고 살살 섞어 완성합니다.",
           "cue": "홍어무침이 새콤달콤하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-nakji-horong-001",
+      "name": "매콤달콤 낙지호롱구이",
+      "aliases": [
+        "낙지호롱구이",
+        "낙지호롱"
+      ],
+      "cuisine": "한식",
+      "category": "구이",
+      "tags": [
+        "낙지",
+        "보양식",
+        "술안주"
+      ],
+      "emoji": "🐙",
+      "color": "#c0392b",
+      "summary": "손질한 낙지를 막대에 돌돌 말아 매콤달콤한 양념을 발라가며 구워낸 낙지호롱구이입니다.",
+      "safety": "낙지는 속까지 완전히 익도록 자글자글하게 충분히 구워 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6832006",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 30,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "낙지",
+          "text": "머리를 뒤집어 내장과 먹물을 제거합니다."
+        },
+        {
+          "ingredient": "양념장",
+          "text": "재료를 모두 섞어 미리 만들어 둡니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "낙지",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "밀가루",
+          "amount": 240,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "굵은소금",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "줌",
+          "gramsPerUnit": 20,
+          "mlPerUnit": 25,
+          "optional": true,
+          "optionalReason": "밀가루만으로도 손질 가능해 생략 가능"
+        },
+        {
+          "name": "고추장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "쌈장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "고춧가루",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "맛술",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.35,
+          "household": true
+        },
+        {
+          "name": "매실액",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "다진파",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "고추장, 고춧가루, 간장, 다진마늘, 맛술, 올리고당, 매실액, 다진파, 참기름, 후추를 섞어 양념장을 만듭니다.",
+          "cue": "양념장이 매콤달콤하게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "낙지머리를 뒤집어 내장과 먹물을 빼냅니다.",
+          "cue": "낙지가 깨끗하게 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "밀가루나 굵은소금으로 낙지를 빡빡 문질러 빨판의 이물질을 깨끗한 물이 나올 때까지 2~3번 씻어냅니다.",
+          "cue": "낙지 표면이 미끈함 없이 깨끗해집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "긴 막대에 낙지머리를 끼우고 다리까지 돌돌 말아줍니다.",
+          "cue": "낙지가 꼬치 모양으로 말립니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "팬에 기름을 두르고 낙지 양쪽을 살짝 익힙니다.",
+          "cue": "낙지 겉면이 하얗게 익기 시작합니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 7,
+          "text": "양념장을 골고루 발라가며 뒤집어 자글자글 구워줍니다.",
+          "cue": "양념이 윤기 있게 배어들며 노릇하게 익습니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-jeoneo-gui-001",
+      "name": "가을 전어소금구이",
+      "aliases": [
+        "전어구이"
+      ],
+      "cuisine": "한식",
+      "category": "구이",
+      "tags": [
+        "전어",
+        "가을제철",
+        "생선구이"
+      ],
+      "emoji": "🐟",
+      "color": "#e0a84a",
+      "summary": "손질한 전어에 소금만 뿌려 오븐에 노릇하게 구워내는 고소한 가을철 별미입니다.",
+      "safety": "전어는 속까지 완전히 익도록 충분히 구워 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/4076787",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "오븐",
+      "defaultToolIcon": "🔥",
+      "preparation": [
+        {
+          "ingredient": "전어",
+          "text": "비늘을 벗기고 칼집을 냅니다."
+        },
+        {
+          "ingredient": "오븐",
+          "text": "180도로 예열합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "전어",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 100,
+          "mlPerUnit": 110
+        },
+        {
+          "name": "굵은소금",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "레몬",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 60,
+          "mlPerUnit": 65,
+          "optional": true,
+          "optionalReason": "곁들임용으로 생략 가능"
+        },
+        {
+          "name": "깻잎",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 1.5,
+          "mlPerUnit": 2,
+          "optional": true,
+          "optionalReason": "곁들임용으로 생략 가능",
+          "alternatives": [
+            {
+              "name": "상추",
+              "amount": 5,
+              "unit": "count",
+              "countLabel": "장",
+              "gramsPerUnit": 10,
+              "mlPerUnit": 12,
+              "samePreparation": true,
+              "preparation": "쌈채소로 동량 대체 가능합니다."
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "전어는 비늘을 벗기고 칼집을 낸 후 소금을 골고루 뿌립니다.",
+          "cue": "전어에 소금간이 배어듭니다."
+        },
+        {
+          "heat": "오븐 180도",
+          "minutes": 20,
+          "text": "180도로 예열한 오븐에서 앞뒤로 한 번씩 뒤집어가며 20분 정도 굽습니다.",
+          "cue": "전어 껍질이 노릇하고 바삭하게 구워집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "다 구워지면 그릇에 담고 깻잎과 레몬을 곁들여 완성합니다.",
+          "cue": "고소한 전어구이가 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-byeongeo-hoemuchim-001",
+      "name": "새콤달콤 병어회무침",
+      "aliases": [
+        "병어회무침",
+        "병어회"
+      ],
+      "cuisine": "한식",
+      "category": "무침",
+      "tags": [
+        "병어",
+        "생선회",
+        "여름별미"
+      ],
+      "emoji": "🐟",
+      "color": "#e07a5f",
+      "summary": "얇게 뜬 병어살에 채소를 더해 고추장 양념으로 새콤달콤하게 무쳐낸 병어회무침입니다.",
+      "safety": "이 레시피는 병어를 날것으로 사용하므로 신선한 회감용 병어를 당일 구입해 바로 조리하고, 손질 도구를 청결히 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6910957",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 30,
+      "difficulty": "보통",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "병어",
+          "text": "지느러미를 자르고 비늘을 벗겨 내장을 제거한 뒤 얇게 슬라이스합니다."
+        },
+        {
+          "ingredient": "채소",
+          "text": "오이, 양파, 당근, 깻잎, 미나리를 채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "병어",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 300,
+          "mlPerUnit": 330
+        },
+        {
+          "name": "오이",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "깻잎",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 1.5,
+          "mlPerUnit": 2
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "당근",
+          "amount": 0.33,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160
+        },
+        {
+          "name": "청양고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "홍고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "색을 위한 것으로 생략 가능"
+        },
+        {
+          "name": "미나리",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "레몬",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 60,
+          "mlPerUnit": 65
+        },
+        {
+          "name": "고춧가루",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "고추장",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "초고추장",
+              "amount": 45,
+              "unit": "ml",
+              "density": 1.15,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "식초와 설탕을 줄이고 시판 초고추장으로 대체 가능합니다."
+            }
+          ]
+        },
+        {
+          "name": "설탕",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "간생강",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 1.35,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "매실청",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "연와사비",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1,
+          "household": true,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "통깨",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "오이는 반 갈라 사선으로 썰고 양파와 당근은 채 썹니다. 청양고추는 어슷 썰고 깻잎은 굵게 채 썰며 미나리는 2cm 길이로 자릅니다.",
+          "cue": "채소가 무침에 넣기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "병어는 지느러미를 자르고 비늘을 벗겨 내장을 꺼낸 뒤 머리를 잘라내고 물에 씻습니다.",
+          "cue": "병어가 깨끗하게 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "칼을 눕혀 꼬리 쪽부터 얇게 슬라이스합니다.",
+          "cue": "병어살이 회처럼 얇게 썰립니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "고춧가루, 고추장, 설탕, 식초, 간생강, 올리고당, 다진마늘, 매실청, 연와사비를 섞어 무침 양념장을 만듭니다.",
+          "cue": "양념장이 매콤새콤하게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "양념장에 채 썬 당근, 오이, 양파를 먼저 넣고 버무립니다.",
+          "cue": "채소에 양념이 고르게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "병어를 넣어 살살 버무린 뒤 깻잎, 미나리, 청양고추를 넣어 무칩니다.",
+          "cue": "병어살이 부서지지 않게 양념과 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "레몬즙을 넣고 후추, 통깨, 참기름으로 마무리합니다.",
+          "cue": "병어회무침이 상큼하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-mineo-tang-001",
+      "name": "시원한 민어탕",
+      "aliases": [
+        "민어탕",
+        "민어맑은탕"
+      ],
+      "cuisine": "한식",
+      "category": "탕",
+      "tags": [
+        "민어",
+        "여름보양식",
+        "맑은탕"
+      ],
+      "emoji": "🐟",
+      "color": "#e8dcc0",
+      "summary": "토막 낸 민어를 멸치 육수에 무, 양파와 함께 끓여낸 담백하고 시원한 여름 보양식입니다.",
+      "safety": "민어는 속까지 완전히 익도록 충분히 끓여 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6944262",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 20,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "무",
+          "text": "나박썰기합니다."
+        },
+        {
+          "ingredient": "양파·청양고추",
+          "text": "채 썰거나 어슷 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "민어",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 300,
+          "mlPerUnit": 330
+        },
+        {
+          "name": "다진마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "청양고추",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 양을 줄이거나 생략 가능"
+        },
+        {
+          "name": "새우젓",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "멸치 다시육수",
+          "amount": 1800,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "무",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "국간장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "액젓",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 8,
+          "text": "냄비에 멸치 다시육수를 붓고 나박 썬 무와 국간장을 넣어 끓입니다.",
+          "cue": "육수에 무 맛이 우러납니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "육수가 끓으면 민어와 준비한 양파, 청양고추, 다진마늘, 새우젓을 넣고 뚜껑을 닫아 5분 정도 끓입니다.",
+          "cue": "민어가 뽀얗게 익기 시작합니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "냄비 가장자리에 뜨는 거품을 걷어냅니다.",
+          "cue": "국물이 맑고 깔끔해집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "대파를 넣고 1분 정도 더 끓인 뒤 불을 끕니다.",
+          "cue": "시원한 민어탕이 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-gulbi-gui-001",
+      "name": "대파 마늘 굴비구이",
+      "aliases": [
+        "굴비구이"
+      ],
+      "cuisine": "한식",
+      "category": "구이",
+      "tags": [
+        "굴비",
+        "영광굴비",
+        "손님상"
+      ],
+      "emoji": "🐟",
+      "color": "#c9a84a",
+      "summary": "튀김가루 옷을 입힌 굴비를 대파와 마늘 향이 밴 기름에 노릇하게 구워내는 밥도둑 굴비구이입니다.",
+      "safety": "굴비는 속까지 완전히 익도록 앞뒤로 충분히 구워 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6287546",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 40,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "굴비",
+          "text": "지느러미를 자르고 비늘을 긁어낸 뒤 아가미로 내장을 제거해 씻습니다."
+        },
+        {
+          "ingredient": "대파·마늘",
+          "text": "손질해 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "굴비",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 165
+        },
+        {
+          "name": "튀김가루",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "마늘",
+          "amount": 10,
+          "unit": "count",
+          "countLabel": "쪽",
+          "gramsPerUnit": 5,
+          "mlPerUnit": 5
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45
+        },
+        {
+          "name": "오리엔탈소스",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능",
+          "alternatives": [
+            {
+              "name": "간장",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "찍어 먹는 용도로 동량 대체 가능합니다."
+            }
+          ]
+        },
+        {
+          "name": "포도씨유",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "굴비는 등, 가슴, 배, 꼬리 지느러미를 잘라내고 칼등으로 비늘을 살살 긁습니다. 아가미를 벌려 내장을 꺼내고 깨끗이 씻습니다.",
+          "cue": "굴비가 굽기 좋게 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "손질한 굴비에 튀김가루를 골고루 묻힙니다.",
+          "cue": "굴비 표면에 튀김옷이 고르게 입혀집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "마늘과 대파를 준비합니다.",
+          "cue": "향을 낼 재료가 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "달군 팬에 포도씨유를 두르고 마늘을 볶다가 대파를 넣어 기름에 향이 배게 볶습니다.",
+          "cue": "마늘과 파 향이 기름에 은은하게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "구워진 마늘과 대파는 건져 키친타월에 올려 기름기를 뺍니다.",
+          "cue": "고명이 바삭하게 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 10,
+          "text": "튀김가루 옷을 입힌 굴비를 향이 밴 기름에 앞뒤로 노릇하게 굽습니다.",
+          "cue": "굴비가 노릇하고 바삭하게 구워집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "접시에 담아 구워둔 마늘과 대파를 올려 완성합니다.",
+          "cue": "굴비구이가 향긋하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-changnanjeot-muchim-001",
+      "name": "얼큰한 창난젓무침",
+      "aliases": [
+        "창난젓무침",
+        "창란젓무침"
+      ],
+      "cuisine": "한식",
+      "category": "젓갈",
+      "tags": [
+        "창난젓",
+        "밑반찬",
+        "밥도둑"
+      ],
+      "emoji": "🍲",
+      "color": "#c0392b",
+      "summary": "창난젓에 채소를 더해 고춧가루 양념으로 조물조물 무쳐낸 밥도둑 젓갈반찬입니다.",
+      "safety": "젓갈은 냉장 보관하고 만든 지 며칠 이내에 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/4269881",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=4418&bbs_no=bbs400&ntctxt_no=1068747&menu_grp=MENU_NEW02"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 15,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "당근·양파·청양고추",
+          "text": "잘게 썹니다."
+        },
+        {
+          "ingredient": "양념장",
+          "text": "고춧가루, 식초, 매실청 등 양념 재료를 미리 계량해 둡니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "창난젓",
+          "amount": 250,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "당근",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.6,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "청양고추",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 양을 줄여도 됩니다"
+        },
+        {
+          "name": "양파",
+          "amount": 0.25,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "고춧가루",
+          "amount": 37.5,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "레몬즙",
+              "amount": 22.5,
+              "unit": "ml",
+              "density": 1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "매실청",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "깨",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "당근, 양파, 청양고추는 잘게 썹니다.",
+          "cue": "채소가 무침에 넣기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "창난젓과 썰어둔 채소를 볼에 담습니다.",
+          "cue": "재료가 무치기 좋게 모입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "고춧가루, 식초, 매실청, 설탕, 다진마늘, 참기름, 깨를 넣고 스푼으로 골고루 버무립니다.",
+          "cue": "창난젓무침이 얼큰하고 새콤하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-myeongnanjeot-muchim-001",
+      "name": "짭조름 명란젓무침",
+      "aliases": [
+        "명란젓무침"
+      ],
+      "cuisine": "한식",
+      "category": "젓갈",
+      "tags": [
+        "명란",
+        "밑반찬",
+        "밥도둑"
+      ],
+      "emoji": "🍚",
+      "color": "#e8926a",
+      "summary": "명란젓을 가위로 잘라 청양고추, 참기름, 통깨만 더해 무쳐내는 초간단 젓갈반찬입니다.",
+      "safety": "이 레시피는 명란젓(생선알)을 사용하므로 관련 알레르기가 있는 가족은 주의하고, 냉장 보관해 빠른 시일 내 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6864438",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=4418&bbs_no=bbs400&ntctxt_no=1068747&menu_grp=MENU_NEW02"
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 5,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "명란",
+          "text": "가위로 듬성듬성 자릅니다."
+        },
+        {
+          "ingredient": "청양고추",
+          "text": "반 갈라 씨를 제거하고 잘게 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "명란",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 55
+        },
+        {
+          "name": "청양고추",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "참기름",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "들기름",
+              "amount": 15,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "통깨",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "명란은 가위로 듬성듬성 잘라줍니다.",
+          "cue": "명란이 먹기 좋은 크기로 잘립니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "청양고추는 반 갈라 씨를 제거한 후 송송 잘게 썹니다.",
+          "cue": "고추가 곱게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "명란에 청양고추, 참기름, 통깨를 넣고 섞습니다.",
+          "cue": "짭조름한 명란젓무침이 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-eoriguljeot-001",
+      "name": "즉석 어리굴젓",
+      "aliases": [
+        "어리굴젓"
+      ],
+      "cuisine": "한식",
+      "category": "젓갈",
+      "tags": [
+        "굴",
+        "겨울제철",
+        "밑반찬"
+      ],
+      "emoji": "🦪",
+      "color": "#c0392b",
+      "summary": "손질한 생굴에 고춧가루 양념을 바로 무쳐 먹는 즉석 어리굴젓입니다.",
+      "safety": "이 레시피는 굴을 날것으로 사용하므로 신선한 굴을 소금물에 깨끗이 씻어 사용하고, 냉장 보관해 빠른 시일 내 드세요. 특히 여름철에는 노로바이러스 등 식중독 위험이 있으니 주의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/5623453",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&ntctxt_no=1103498&menu_no=3120"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 15,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "굴",
+          "text": "소금물에 살살 여러 번 씻어 불순물을 제거합니다."
+        },
+        {
+          "ingredient": "고춧가루",
+          "text": "미리 살짝 불려 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "굴",
+          "amount": 500,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "고춧가루",
+          "amount": 22.5,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "멸치액젓",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.2,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "까나리액젓",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.2,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "꽃소금",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "다진생강",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true
+        },
+        {
+          "name": "청양고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "통깨",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "굴은 소금과 물을 섞은 물에 담가 손가락 사이로 살살 여러 번 씻어 불순물을 제거합니다.",
+          "cue": "굴에서 불순물이 깨끗하게 빠져나갑니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "고춧가루, 멸치액젓, 꽃소금, 참기름, 통깨, 청양고추 슬라이스, 다진마늘, 다진생강을 섞어 양념장을 만듭니다.",
+          "cue": "양념장이 고르게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "물기를 잘 뺀 굴을 양념장에 넣어 섞습니다.",
+          "cue": "어리굴젓이 매콤하고 감칠맛 있게 완성됩니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-seonggye-bibimbap-001",
+      "name": "제주 성게비빔밥",
+      "aliases": [
+        "성게비빔밥",
+        "성게알비빔밥"
+      ],
+      "cuisine": "한식",
+      "category": "밥",
+      "tags": [
+        "성게",
+        "제주향토음식",
+        "보양식"
+      ],
+      "emoji": "🍚",
+      "color": "#e8dcc0",
+      "summary": "갓 지은 밥에 오이채와 새싹, 성게알을 듬뿍 올려 가볍게 비벼 먹는 제주식 성게비빔밥입니다.",
+      "safety": "이 레시피는 성게알을 날것으로 사용하므로 신선한 것을 냉장 상태로 구입해 바로 조리하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6849750",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 10,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "오이",
+          "text": "채 썹니다."
+        },
+        {
+          "ingredient": "밥",
+          "text": "갓 지어 뜨거운 상태로 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "성게알",
+          "amount": 90,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "오이",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "새싹채소",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.15,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "김가루",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.2,
+          "alternatives": [
+            {
+              "name": "구운김",
+              "amount": 1,
+              "unit": "count",
+              "countLabel": "장",
+              "gramsPerUnit": 2,
+              "mlPerUnit": 3,
+              "samePreparation": true,
+              "preparation": "부숴서 김가루 대신 동량으로 올립니다."
+            }
+          ]
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "깨소금",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "새싹채소와 채 썬 오이, 김가루를 준비합니다.",
+          "cue": "고명이 비빔밥에 올리기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "갓 지은 밥을 그릇에 담습니다.",
+          "cue": "따뜻한 밥이 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "밥 위에 새싹채소와 오이, 김가루를 올리고 참기름과 깨소금을 소량 뿌립니다.",
+          "cue": "고소한 향이 밥에 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "마지막으로 성게알을 수북하게 올립니다.",
+          "cue": "성게알이 먹음직스럽게 올라갑니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "젓가락으로 가볍게 비벼 완성합니다.",
+          "cue": "성게의 달콤한 바다향이 밥과 어우러집니다."
+        }
+      ],
+      "cookerVariants": []
+    },
+    {
+      "id": "recipe-kkolttugi-muchim-001",
+      "name": "꼴뚜기 즉석젓갈무침",
+      "aliases": [
+        "꼴뚜기무침"
+      ],
+      "cuisine": "한식",
+      "category": "젓갈",
+      "tags": [
+        "꼴뚜기",
+        "밑반찬",
+        "여름별미"
+      ],
+      "emoji": "🦑",
+      "color": "#c0392b",
+      "summary": "생물 꼴뚜기를 살짝 절여 무와 함께 매콤새콤한 양념에 무친 즉석 젓갈무침입니다.",
+      "safety": "이 레시피는 꼴뚜기를 날것으로 사용하므로 신선한 것을 당일 구입해 바로 조리하고, 손질 도구를 청결히 사용하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-16",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/2366485",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 75,
+      "difficulty": "쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "꼴뚜기",
+          "text": "깨끗이 손질해 소쿠리에 밭칩니다."
+        },
+        {
+          "ingredient": "무",
+          "text": "채 썰거나 나박 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "꼴뚜기",
+          "amount": 600,
+          "unit": "g",
+          "density": 0.8
+        },
+        {
+          "name": "무",
+          "amount": 0.33,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 600,
+          "mlPerUnit": 700
+        },
+        {
+          "name": "꽃소금",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "깐마늘",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 5,
+          "mlPerUnit": 5
+        },
+        {
+          "name": "청양고추",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "소주",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true,
+          "optional": true,
+          "optionalReason": "비린내 제거용으로 생략 가능"
+        },
+        {
+          "name": "고운고춧가루",
+          "amount": 60,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "액젓",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "멸치액젓",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.2,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "쌀조청",
+          "amount": 45,
+          "unit": "ml",
+          "density": 1.4,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "통깨",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.65,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 60,
+          "text": "깨끗이 손질한 꼴뚜기는 소쿠리에 받쳐 꽃소금과 소주를 넣고 조물조물 무친 뒤 1시간 동안 절입니다.",
+          "cue": "꼴뚜기가 꼬들꼬들하게 절여집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "무는 채 썰고 마늘과 청양고추도 잘게 썹니다.",
+          "cue": "재료가 무치기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "넓은 볼에 절여진 꼴뚜기와 무, 마늘, 고추를 넣고 고운고춧가루, 액젓, 쌀조청, 다진마늘, 통깨를 넣어 무칩니다.",
+          "cue": "양념이 꼴뚜기에 고르게 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "마지막으로 참기름을 약간 넣고 한 번 더 무쳐 완성합니다.",
+          "cue": "꼴뚜기무침이 매콤새콤하게 완성됩니다."
         }
       ],
       "cookerVariants": []
