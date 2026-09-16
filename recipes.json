@@ -1,5 +1,5 @@
 {
-  "version": "5.2.0",
+  "version": "5.3.0",
   "updatedAt": "2026-09-19",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
@@ -88099,6 +88099,2112 @@
         }
       ],
       "cookerVariants": []
+    },
+    {
+      "id": "recipe-lajoyuk-001",
+      "name": "매콤한 라조육",
+      "aliases": [
+        "라조육",
+        "라조기"
+      ],
+      "cuisine": "중식",
+      "category": "볶음",
+      "tags": [
+        "돼지고기",
+        "매운맛",
+        "손님상"
+      ],
+      "emoji": "🌶️",
+      "color": "#c0392b",
+      "summary": "튀긴 돼지고기와 각종 채소를 매콤한 굴소스 육수에 버무려낸 중화요리 라조육입니다.",
+      "safety": "돼지고기는 튀김과 볶음으로 속까지 완전히 익혀 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6863077",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "돼지안심",
+          "text": "마늘가루, 소금, 후추로 밑간합니다."
+        },
+        {
+          "ingredient": "채소",
+          "text": "브로콜리는 송이째, 느타리버섯은 찢고, 양배추는 굵게 썰고 목이버섯은 불립니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "돼지안심",
+          "amount": 400,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "마늘가루",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "달걀흰자",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 30,
+          "mlPerUnit": 30
+        },
+        {
+          "name": "전분가루",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "브로콜리",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "양배추",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.3
+        },
+        {
+          "name": "느타리버섯",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "불린목이버섯",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "파프리카",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.5,
+          "optional": true,
+          "optionalReason": "색을 위한 것으로 생략 가능"
+        },
+        {
+          "name": "오이",
+          "amount": 0.33,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "대파",
+          "amount": 40,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "굴소스",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "진간장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "육수",
+          "amount": 360,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "고춧가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.46,
+          "household": true
+        },
+        {
+          "name": "생강",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.9,
+          "household": true
+        },
+        {
+          "name": "마늘",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.9,
+          "household": true
+        },
+        {
+          "name": "청양고추",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 500,
+          "unit": "ml",
+          "density": 0.92
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "브로콜리는 송이 부위로, 느타리버섯은 잘게 찢고, 양배추는 굵게 썰며, 목이버섯은 불립니다. 오이와 파프리카도 어슷 썰거나 굵게 썹니다.",
+          "cue": "채소가 볶기 좋게 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "돼지안심은 마늘가루, 소금, 후추로 밑간한 뒤 달걀흰자와 전분을 넣어 튀김옷을 입힙니다.",
+          "cue": "고기에 튀김옷이 고르게 입혀집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "170도로 달군 식용유에 고기를 한 번 튀겨냅니다.",
+          "cue": "고기 겉면이 노릇하게 튀겨집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "팬에 기름을 2스푼 정도만 남기고 파, 마늘, 생강, 고추를 차례로 넣어 향을 냅니다.",
+          "cue": "매콤한 향이 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "목이버섯과 브로콜리를 넣고 볶다가 양배추와 느타리버섯을 넣어 볶습니다.",
+          "cue": "채소가 아삭하게 볶입니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "고춧가루를 넣고 육수를 부어 끓인 뒤 굴소스와 간장으로 간을 맞춥니다.",
+          "cue": "소스가 매콤하게 끓어오릅니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "소스가 끓으면 물전분을 넣어 재빨리 섞고 소스가 졸면 튀긴 고기를 넣어 버무립니다.",
+          "cue": "소스가 고기에 고르게 코팅됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "오이와 파프리카 등 색이 있는 채소는 불을 끄고 넣은 뒤 참기름을 둘러 마무리합니다.",
+          "cue": "라조육이 색감 있게 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-saeu-wanja-twigim-001",
+      "name": "바삭한 새우완자튀김",
+      "aliases": [
+        "새우완자튀김",
+        "새우볼튀김"
+      ],
+      "cuisine": "중식",
+      "category": "튀김",
+      "tags": [
+        "새우",
+        "튀김",
+        "술안주"
+      ],
+      "emoji": "🦐",
+      "color": "#e0a84a",
+      "summary": "다진 새우를 동그랗게 빚어 두 번 튀겨 바삭하게 만든 새우완자튀김으로, 매콤한 칠리소스를 곁들입니다.",
+      "safety": "새우는 속까지 완전히 익도록 튀기고, 튀김 기름은 재사용하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/4469004",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=92&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 40,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "새우",
+          "text": "손질해 칼로 다집니다. 식감을 위해 너무 잘게 다지지 않습니다."
+        },
+        {
+          "ingredient": "당근·청양고추",
+          "text": "곱게 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "새우",
+          "amount": 300,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "다진당근",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "다진청양고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "굴소스",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "밀가루",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "달걀",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "튀김가루",
+          "amount": 100,
+          "unit": "g",
+          "density": 0.5
+        },
+        {
+          "name": "케찹",
+          "amount": 10,
+          "unit": "ml",
+          "density": 1.05,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "토마토소스",
+              "amount": 10,
+              "unit": "ml",
+              "density": 1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "핫소스",
+          "amount": 10,
+          "unit": "ml",
+          "density": 1,
+          "household": true,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "두반장",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "식초",
+          "amount": 5,
+          "unit": "ml",
+          "density": 1.01,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "다진양파",
+          "amount": 15,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "다진마늘",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 500,
+          "unit": "ml",
+          "density": 0.92
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "손질된 새우는 칼로 다져 볼에 담고 굴소스, 소금, 후추, 다진당근, 다진청양고추를 넣어 찰기가 생기도록 치댑니다.",
+          "cue": "반죽에 찰기가 생깁니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "한입에 먹기 좋은 동그란 완자 모양으로 빚습니다.",
+          "cue": "새우완자가 고르게 빚어집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "완자에 밀가루, 달걀, 튀김가루 순서로 튀김옷을 입힙니다.",
+          "cue": "새우완자가 튀김옷으로 고르게 코팅됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "다진마늘, 다진청양고추를 기름에 볶다가 다진양파를 넣고 볶습니다.",
+          "cue": "마늘과 고추 향이 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "케찹, 핫소스, 두반장, 식초, 참기름, 설탕을 넣고 재빨리 섞어 소스를 만듭니다.",
+          "cue": "매콤달콤한 칠리소스가 완성됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "두꺼운 냄비에 새우완자가 반쯤 잠길 만큼 기름을 넣고 앞뒤로 굴려가며 튀깁니다.",
+          "cue": "새우완자가 노릇하고 바삭하게 튀겨집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "키친타월에 올려 기름기를 빼고 칠리소스와 함께 담아냅니다.",
+          "cue": "바삭한 새우완자튀김이 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-broccoli-gesal-sup-001",
+      "name": "든든한 브로콜리게살수프",
+      "aliases": [
+        "브로콜리게살수프",
+        "게살스프"
+      ],
+      "cuisine": "중식",
+      "category": "탕",
+      "tags": [
+        "게맛살",
+        "브로콜리",
+        "중식코스"
+      ],
+      "emoji": "🥣",
+      "color": "#e0c068",
+      "summary": "게맛살과 데친 브로콜리를 달걀과 전분으로 걸쭉하게 끓여낸 중식당 스타일 수프입니다.",
+      "safety": "게맛살은 가열해 속까지 익히고, 남은 것은 냉장 보관 후 빠르게 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6864544",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "게맛살",
+          "text": "결대로 찢어 준비합니다."
+        },
+        {
+          "ingredient": "브로콜리",
+          "text": "작은 송이로 썰어 끓는 물에 살짝 데칩니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "게맛살",
+          "amount": 90,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "브로콜리",
+          "amount": 80,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "멸치 다시마 육수",
+          "amount": 700,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "팽이버섯",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.2,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "달걀",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "전분",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "대파",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "부추",
+          "amount": 10,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "국간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "소금",
+              "amount": 5,
+              "unit": "ml",
+              "density": 0.75,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "국간장 대신 기호에 맞게 소금으로 간을 맞춥니다."
+            }
+          ]
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "게맛살은 결대로 찢어 준비하고 전분과 물을 섞어 전분물을 만듭니다.",
+          "cue": "전분물이 매끈하게 풀립니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "팽이버섯은 한입 크기로 썰고 부추와 대파는 송송 썰며, 브로콜리는 작은 송이로 썰어 끓는 물에 살짝 데칩니다.",
+          "cue": "재료가 수프에 넣기 좋게 준비됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "냄비에 육수를 붓고 게맛살, 팽이버섯, 부추, 브로콜리를 넣고 끓입니다.",
+          "cue": "국물이 끓어오릅니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "끓어오르면 국간장과 후추를 넣고 부족한 간은 소금으로 맞춥니다.",
+          "cue": "국물 간이 맞춰집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "다시 끓어오르면 대파와 풀어둔 달걀을 넣습니다.",
+          "cue": "달걀이 몽글몽글하게 퍼집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "마지막으로 전분물을 넣어 농도를 맞춰 끓여 완성합니다.",
+          "cue": "수프가 걸쭉하게 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-lyusanseul-001",
+      "name": "황금레시피 류산슬",
+      "aliases": [
+        "류산슬",
+        "유산슬"
+      ],
+      "cuisine": "중식",
+      "category": "볶음",
+      "tags": [
+        "해물",
+        "손님상",
+        "중식코스"
+      ],
+      "emoji": "🥘",
+      "color": "#d4863c",
+      "summary": "오징어, 새우, 소고기와 각종 버섯을 가늘게 채 썰어 다시마 육수로 걸쭉하게 볶아낸 중식 코스요리 류산슬입니다.",
+      "safety": "오징어와 새우, 소고기는 속까지 완전히 익도록 충분히 볶아 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6849676",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 40,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "다시마물",
+          "text": "물에 다시마를 10분간 우려 만듭니다."
+        },
+        {
+          "ingredient": "오징어·표고버섯·새송이버섯·부추·소고기",
+          "text": "두께 0.3cm, 길이 6cm로 가늘게 채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "오징어 몸통",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "표고버섯",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 20
+        },
+        {
+          "name": "새송이버섯",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 60,
+          "mlPerUnit": 70
+        },
+        {
+          "name": "팽이버섯",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "부추",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "줌",
+          "gramsPerUnit": 80,
+          "mlPerUnit": 90
+        },
+        {
+          "name": "완두콩",
+          "amount": 20,
+          "unit": "count",
+          "countLabel": "알",
+          "gramsPerUnit": 1,
+          "mlPerUnit": 1,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "칵테일새우",
+          "amount": 20,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 8,
+          "mlPerUnit": 9
+        },
+        {
+          "name": "대파 흰 뿌리",
+          "amount": 0.25,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45
+        },
+        {
+          "name": "소고기 안심",
+          "amount": 50,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "물",
+          "amount": 720,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "다시마",
+          "amount": 3,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 3,
+          "mlPerUnit": 4
+        },
+        {
+          "name": "마늘",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "알",
+          "gramsPerUnit": 5,
+          "mlPerUnit": 5
+        },
+        {
+          "name": "간장",
+          "amount": 6.5,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "진간장",
+              "amount": 6.5,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "굴소스",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "감자전분",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true
+        },
+        {
+          "name": "후추",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "청주",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 3.75,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 45,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "냄비에 물을 붓고 끓으면 불을 끄고 다시마를 넣어 10분간 우려 다시마물을 만듭니다.",
+          "cue": "다시마 육수가 우러납니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "오징어 안쪽면에 1cm 간격으로 칼집을 살짝 낸 뒤 끓는 물에 10초간 데쳐 찬물에 헹구고 0.3cm×6cm 크기로 썹니다.",
+          "cue": "오징어가 돌돌 말리며 손질됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "표고버섯, 새송이버섯, 부추, 소고기 안심도 두께 0.3cm, 길이 6cm로 채 썰고 팽이버섯은 밑동을 잘라 준비합니다.",
+          "cue": "모든 재료가 비슷한 크기로 손질됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "달군 팬에 식용유를 두르고 편 마늘과 대파 흰 뿌리를 노릇해질 때까지 볶습니다.",
+          "cue": "마늘과 파 향이 고소하게 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "청주를 넣고 바로 저어준 뒤 표고버섯과 새송이버섯을 넣습니다.",
+          "cue": "버섯이 향긋하게 볶입니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "소고기 안심과 완두콩을 넣고 칵테일새우를 넣어 30초간 섞어 볶습니다.",
+          "cue": "고기와 새우가 고르게 익습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 1,
+          "text": "간장과 굴소스를 넣고 30초간 볶습니다.",
+          "cue": "양념 향이 재료에 배어듭니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "다시마 우린 물 1컵을 넣고 나머지 채 썬 오징어와 팽이버섯, 부추를 넣습니다.",
+          "cue": "육수가 끓어오르며 재료가 익습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "육수가 끓으면 전분물을 1큰술씩 나눠 넣으며 농도를 맞춥니다.",
+          "cue": "국물이 걸쭉하게 변합니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "농도가 맞으면 불을 끄고 참기름을 둘러 살짝 섞어 완성합니다.",
+          "cue": "류산슬이 윤기 있게 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-nurungji-tang-001",
+      "name": "해물누룽지탕",
+      "aliases": [
+        "누룽지탕"
+      ],
+      "cuisine": "중식",
+      "category": "탕",
+      "tags": [
+        "해물",
+        "누룽지",
+        "손님상"
+      ],
+      "emoji": "🍚",
+      "color": "#d4a95c",
+      "summary": "바삭하게 튀긴 찹쌀 누룽지 위에 해물과 채소를 걸쭉하게 볶은 소스를 부어 먹는 중식당 스타일 누룽지탕입니다.",
+      "safety": "새우, 바지락, 오징어는 속까지 완전히 익히고, 튀김 기름은 재사용하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6869915",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&ntctxt_no=1103498&menu_no=3120"
+        ]
+      },
+      "baseServings": 2,
+      "timeMinutes": 30,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "대파·고추·양파·새송이버섯",
+          "text": "송송 썰거나 어슷 썹니다."
+        },
+        {
+          "ingredient": "청경채",
+          "text": "하나하나 떼어 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "찹쌀누룽지",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "장",
+          "gramsPerUnit": 20,
+          "mlPerUnit": 25
+        },
+        {
+          "name": "새우",
+          "amount": 5,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 17
+        },
+        {
+          "name": "해감된 바지락",
+          "amount": 10,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 8,
+          "mlPerUnit": 9
+        },
+        {
+          "name": "삶은 오징어 몸통",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "마리",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 165
+        },
+        {
+          "name": "돼지고기",
+          "amount": 30,
+          "unit": "g",
+          "density": 1,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "새송이버섯",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 60,
+          "mlPerUnit": 70
+        },
+        {
+          "name": "양파",
+          "amount": 0.25,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45
+        },
+        {
+          "name": "청경채",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "참기름",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        },
+        {
+          "name": "청고추",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "홍고추",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "굴소스",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "진간장",
+              "amount": 7.5,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "물",
+          "amount": 340,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "전분가루",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true
+        },
+        {
+          "name": "설탕",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "식용유",
+          "amount": 500,
+          "unit": "ml",
+          "density": 0.92
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 10,
+          "text": "대파는 송송 썰고 고추는 어슷 썰며, 양파는 채 썰고 새송이버섯은 세로로 갈라 얇게 어슷 썹니다. 청경채는 하나하나 떼어둡니다.",
+          "cue": "재료가 볶기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "굴소스, 간장, 물 90ml, 전분가루, 설탕을 섞어 소스를 만듭니다.",
+          "cue": "소스 재료가 고르게 녹아 섞입니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "예열된 팬에 기름을 두르고 대파를 넣어 2분 정도 볶습니다.",
+          "cue": "파 향이 고소하게 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "돼지고기를 넣고 다 익을 때까지 볶다가 양파와 새송이버섯을 넣어 숨이 죽을 때까지 볶습니다.",
+          "cue": "채소가 부드럽게 볶입니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "물 250ml와 소스, 새우·바지락·오징어를 넣고 끓입니다.",
+          "cue": "해물이 익으며 국물이 끓어오릅니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "거품이 끓어오르고 바지락이 벌어지면 청경채와 고추를 넣고 1분 더 끓인 뒤 참기름을 넣습니다.",
+          "cue": "국물이 걸쭉하고 향긋하게 완성됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "다른 팬에 기름을 끓여 찹쌀누룽지를 넣고 앞뒤 양면을 노릇하게 튀깁니다.",
+          "cue": "누룽지가 바삭하게 튀겨집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "튀긴 누룽지 위에 뜨거운 해물탕을 부어 완성합니다.",
+          "cue": "지글지글 소리와 함께 누룽지탕이 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-chilli-crab-001",
+      "name": "싱가포르 칠리크랩",
+      "aliases": [
+        "칠리크랩"
+      ],
+      "cuisine": "중식",
+      "category": "볶음",
+      "tags": [
+        "꽃게",
+        "매콤달콤",
+        "손님상"
+      ],
+      "emoji": "🦀",
+      "color": "#c0392b",
+      "summary": "손질한 꽃게를 양파, 마늘과 함께 볶다가 칠리크랩소스에 졸이고 달걀을 풀어 걸쭉하게 마무리하는 싱가포르식 칠리크랩입니다.",
+      "safety": "꽃게는 속까지 완전히 익도록 충분히 끓이고, 손질 시 아가미와 내장은 제거해 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6836304",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&ntctxt_no=1103498&menu_no=3120"
+        ]
+      },
+      "baseServings": 3,
+      "timeMinutes": 60,
+      "difficulty": "보통",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "꽃게",
+          "text": "깨끗이 씻어 먹기 좋은 크기로 손질합니다."
+        },
+        {
+          "ingredient": "양파",
+          "text": "채 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "꽃게",
+          "amount": 1000,
+          "unit": "g",
+          "density": 0.6
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "달걀",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "칠리크랩소스",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "봉",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "다진마늘",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "마늘",
+              "amount": 30,
+              "unit": "ml",
+              "density": 0.5,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 다져 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "전분가루",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.6,
+          "household": true,
+          "optional": true,
+          "optionalReason": "농도 조절용으로 생략 가능"
+        },
+        {
+          "name": "물",
+          "amount": 850,
+          "unit": "ml",
+          "density": 1
+        },
+        {
+          "name": "식용유",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 15,
+          "text": "꽃게는 깨끗이 씻어 먹기 좋은 크기로 손질합니다.",
+          "cue": "꽃게가 조리하기 좋게 준비됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 2,
+          "text": "커다란 팬에 기름을 두르고 다진마늘을 넣습니다.",
+          "cue": "마늘 향이 올라옵니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "다진마늘과 채 썬 양파를 넣고 마늘향과 양파향이 올라오도록 볶습니다.",
+          "cue": "양파가 노릇하게 볶입니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "양파와 마늘이 어느 정도 볶아지면 꽃게를 넣고 잘 섞어가며 볶습니다.",
+          "cue": "꽃게 껍질 색이 서서히 변합니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 3,
+          "text": "꽃게 껍질 색이 붉게 변하면 칠리크랩소스 1봉을 넣습니다.",
+          "cue": "매콤한 소스향이 퍼집니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 10,
+          "text": "꽃게가 2/3 정도 잠기도록 물을 붓고 팔팔 끓입니다.",
+          "cue": "국물이 끓어오르며 꽃게가 익습니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "전분가루를 물에 개어 넣고, 매운맛 가루가 있다면 함께 넣습니다.",
+          "cue": "국물이 걸쭉해집니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "풀어둔 달걀을 넣고 잘 섞어가며 5~7분 정도 끓여 완성합니다.",
+          "cue": "국물이 걸쭉하고 부드럽게 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-yeoneo-onigiri-001",
+      "name": "간편한 연어오니기리",
+      "aliases": [
+        "연어오니기리",
+        "연어주먹밥"
+      ],
+      "cuisine": "일식",
+      "category": "밥",
+      "tags": [
+        "연어",
+        "주먹밥",
+        "도시락"
+      ],
+      "emoji": "🍙",
+      "color": "#e07a5f",
+      "summary": "연어와 다진 채소를 밥에 섞어 간편하게 뭉친 도시락용 연어오니기리입니다.",
+      "safety": "연어캔은 기름을 충분히 제거하고 사용하며, 만든 주먹밥은 서늘한 곳에서 빠르게 드세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/5400709",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1100621"
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 15,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "연어캔",
+          "text": "기름을 충분히 빼고 살을 부숩니다."
+        },
+        {
+          "ingredient": "양파·피망",
+          "text": "아주 곱게 다집니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "연어캔",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160
+        },
+        {
+          "name": "양파",
+          "amount": 30,
+          "unit": "g",
+          "density": 0.4
+        },
+        {
+          "name": "청피망",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.4,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "홍피망",
+          "amount": 20,
+          "unit": "g",
+          "density": 0.4,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "소금",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.92,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "들기름",
+              "amount": 5,
+              "unit": "ml",
+              "density": 0.92,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "연어캔은 기름을 빼고, 양파와 피망은 아주 곱게 다집니다.",
+          "cue": "재료가 밥과 섞기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "따끈하게 지은 밥에 연어와 다진 양파, 피망을 모두 넣습니다.",
+          "cue": "재료가 밥에 고르게 섞입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 3,
+          "text": "소금과 참기름으로 간을 맞춘 후 고루 섞어줍니다.",
+          "cue": "밥에 고소한 간이 배어듭니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "한입 크기로 뭉쳐 삼각형이나 동그란 모양으로 빚어 완성합니다.",
+          "cue": "연어오니기리가 도시락용으로 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-menchi-katsu-001",
+      "name": "육즙 가득 멘치카츠",
+      "aliases": [
+        "멘치카츠",
+        "멘치까스"
+      ],
+      "cuisine": "일식",
+      "category": "튀김",
+      "tags": [
+        "다진고기",
+        "튀김",
+        "일본가정식"
+      ],
+      "emoji": "🍖",
+      "color": "#c0602e",
+      "summary": "소고기와 돼지고기를 볶은 양파, 표고버섯과 섞어 동그랗게 빚어 튀긴 일본식 고기튀김입니다.",
+      "safety": "다진 고기는 속까지 완전히 익도록 충분히 튀기고, 튀김 기름은 재사용하지 마세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6853033",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 4,
+      "timeMinutes": 30,
+      "difficulty": "쉬움",
+      "defaultTool": "팬",
+      "defaultToolIcon": "🍳",
+      "preparation": [
+        {
+          "ingredient": "다진 고기",
+          "text": "키친타월에 밭쳐 청주를 뿌려 핏물을 제거합니다."
+        },
+        {
+          "ingredient": "양파·표고버섯",
+          "text": "다져서 팬에 볶아 식힙니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "다진 쇠고기",
+          "amount": 150,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "다진 돼지고기",
+          "amount": 150,
+          "unit": "g",
+          "density": 1
+        },
+        {
+          "name": "다진 양파",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "다진 표고버섯",
+          "amount": 2,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 15,
+          "mlPerUnit": 20
+        },
+        {
+          "name": "달걀 노른자",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 20,
+          "mlPerUnit": 20
+        },
+        {
+          "name": "달걀",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 50,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "밀가루",
+          "amount": 120,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "빵가루",
+          "amount": 360,
+          "unit": "ml",
+          "density": 0.3,
+          "household": true
+        },
+        {
+          "name": "청주",
+          "amount": 30,
+          "unit": "ml",
+          "density": 0.95,
+          "household": true
+        },
+        {
+          "name": "소금",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 0.75,
+          "household": true
+        },
+        {
+          "name": "후춧가루",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 0.4,
+          "household": true
+        },
+        {
+          "name": "다진 마늘",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "스테이크소스",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.05,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "돈까스소스",
+              "amount": 30,
+              "unit": "ml",
+              "density": 1.05,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "마요네즈",
+          "amount": 15,
+          "unit": "ml",
+          "density": 0.9,
+          "household": true,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "식용유",
+          "amount": 500,
+          "unit": "ml",
+          "density": 0.92
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "다진 쇠고기와 돼지고기는 키친타월에 밭친 뒤 청주를 뿌려 핏물을 제거합니다.",
+          "cue": "고기 잡내가 줄어듭니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 5,
+          "text": "다진 양파와 표고버섯을 식용유를 두른 팬에서 완전히 숨이 죽을 때까지 볶아 식힙니다.",
+          "cue": "양파와 버섯이 부드럽게 볶입니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "볼에 다진 고기와 볶은 양파·표고버섯, 소금, 후춧가루, 다진마늘, 달걀노른자를 넣고 치댑니다.",
+          "cue": "반죽에 찰기가 생깁니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "반죽을 동그랗게 빚어 밀가루, 달걀, 빵가루 순으로 튀김옷을 입힙니다.",
+          "cue": "고기 뭉치가 튀김옷으로 고르게 코팅됩니다."
+        },
+        {
+          "heat": "중불",
+          "minutes": 8,
+          "text": "170도로 달군 식용유에 넣고 노릇하게 튀깁니다.",
+          "cue": "겉은 바삭하고 속은 육즙이 가득하게 익습니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "기호에 맞게 스테이크소스나 마요네즈를 곁들여 마무리합니다.",
+          "cue": "멘치카츠가 먹음직스럽게 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-miso-ramen-001",
+      "name": "일본식 챠슈 미소라멘",
+      "aliases": [
+        "미소라멘",
+        "미소라면"
+      ],
+      "cuisine": "일식",
+      "category": "면",
+      "tags": [
+        "라멘",
+        "일본가정식",
+        "챠슈"
+      ],
+      "emoji": "🍜",
+      "color": "#c0602e",
+      "summary": "삼겹살로 만든 챠슈를 올리고 일본식 미소된장으로 국물을 낸 구수한 미소라멘입니다.",
+      "safety": "삼겹살은 속까지 완전히 익도록 충분히 졸이세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6834228",
+          "https://www.foodsafetykorea.go.kr/hazard/rspnsPlanInfo/rspnsPlanInfoDetail.do?start_idx=1&show_cnt=10&injry_situs_dvs_cd=&rspns_plan_seq=57&rspns_plan_nm="
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 60,
+      "difficulty": "보통",
+      "defaultTool": "냄비",
+      "defaultToolIcon": "🍲",
+      "preparation": [
+        {
+          "ingredient": "챠슈 양념",
+          "text": "설탕, 맛술, 간장, 굴소스, 물을 섞어 준비합니다."
+        },
+        {
+          "ingredient": "숙주·팽이버섯·양파",
+          "text": "적당히 썹니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "삼겹살",
+          "amount": 200,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "홍고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "대파",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "대",
+          "gramsPerUnit": 40,
+          "mlPerUnit": 45
+        },
+        {
+          "name": "설탕",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 0.8,
+          "household": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 5,
+          "unit": "ml",
+          "density": 0.5,
+          "household": true
+        },
+        {
+          "name": "맛술",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.04,
+          "household": true
+        },
+        {
+          "name": "간장",
+          "amount": 15,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "진간장",
+              "amount": 15,
+              "unit": "ml",
+              "density": 1.18,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        },
+        {
+          "name": "굴소스",
+          "amount": 7.5,
+          "unit": "ml",
+          "density": 1.1,
+          "household": true
+        },
+        {
+          "name": "라면사리",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 120,
+          "mlPerUnit": 130
+        },
+        {
+          "name": "양파",
+          "amount": 0.25,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 200,
+          "mlPerUnit": 220
+        },
+        {
+          "name": "숙주",
+          "amount": 50,
+          "unit": "g",
+          "density": 0.3,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "팽이버섯",
+          "amount": 0.5,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 150,
+          "mlPerUnit": 160,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "청양고추",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 10,
+          "mlPerUnit": 12,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "일본 미소된장",
+          "amount": 30,
+          "unit": "ml",
+          "density": 1.15,
+          "household": true
+        },
+        {
+          "name": "물",
+          "amount": 550,
+          "unit": "ml",
+          "density": 1
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "설탕, 맛술, 간장, 굴소스, 다진마늘, 물 5스푼을 섞어 챠슈 양념을 만듭니다.",
+          "cue": "양념이 고르게 섞입니다."
+        },
+        {
+          "heat": "약불",
+          "minutes": 15,
+          "text": "팬에 삼겹살, 홍고추, 대파와 양념을 넣고 약한 불에 국물이 자작해질 때까지 졸입니다.",
+          "cue": "삼겹살이 윤기 있게 졸여집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "졸인 챠슈는 먹기 좋게 썰어 고명으로 준비합니다.",
+          "cue": "챠슈가 라멘에 올리기 좋게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 5,
+          "text": "숙주, 팽이버섯, 양파는 적당히 썰어 준비합니다.",
+          "cue": "채소가 라멘에 넣기 좋게 손질됩니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 5,
+          "text": "냄비에 물을 붓고 끓으면 일본식 미소된장을 풀어줍니다.",
+          "cue": "구수한 미소 국물이 우러납니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 3,
+          "text": "물이 끓기 시작하면 양파를 먼저 넣어 익힙니다.",
+          "cue": "양파가 국물에 부드럽게 익습니다."
+        },
+        {
+          "heat": "센불",
+          "minutes": 4,
+          "text": "라면사리를 넣어 익힌 뒤 완성 2분 전 팽이버섯과 숙주를 넣습니다.",
+          "cue": "면이 쫄깃하게 익습니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "챠슈와 청양고추, 대파를 고명으로 올려 완성합니다.",
+          "cue": "구수한 미소라멘이 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
+    },
+    {
+      "id": "recipe-natto-deopbap-001",
+      "name": "간편한 낫토덮밥",
+      "aliases": [
+        "낫토덮밥",
+        "낫또덮밥"
+      ],
+      "cuisine": "일식",
+      "category": "밥",
+      "tags": [
+        "낫토",
+        "일본가정식",
+        "건강식"
+      ],
+      "emoji": "🍚",
+      "color": "#c9a84a",
+      "summary": "저어서 끈끈하게 만든 낫토를 뜨거운 밥에 올리고 달걀노른자와 와사비간장으로 비벼 먹는 낫토덮밥입니다.",
+      "safety": "이 레시피는 달걀노른자를 날것으로 사용하므로 신선한 달걀을 사용하고, 껍질을 깰 때 위생에 유의하세요.",
+      "verification": {
+        "reviewedAt": "2026-09-19",
+        "reviewStandard": "korean-source-v1",
+        "domesticSourceChecked": true,
+        "sources": [
+          "https://www.10000recipe.com/recipe/6838495",
+          "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs001&menu_grp=MENU_NEW01&menu_no=3120&ntctxt_no=21775"
+        ]
+      },
+      "baseServings": 1,
+      "timeMinutes": 5,
+      "difficulty": "매우 쉬움",
+      "defaultTool": "믹싱볼",
+      "defaultToolIcon": "🥣",
+      "preparation": [
+        {
+          "ingredient": "낫토",
+          "text": "젓가락으로 충분히 저어 진액을 냅니다."
+        },
+        {
+          "ingredient": "밥",
+          "text": "따뜻하게 준비합니다."
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "밥",
+          "amount": 210,
+          "unit": "g",
+          "density": 0.9
+        },
+        {
+          "name": "달걀노른자",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "개",
+          "gramsPerUnit": 20,
+          "mlPerUnit": 20
+        },
+        {
+          "name": "낫토",
+          "amount": 1,
+          "unit": "count",
+          "countLabel": "팩",
+          "gramsPerUnit": 45,
+          "mlPerUnit": 50
+        },
+        {
+          "name": "대파",
+          "amount": 5,
+          "unit": "g",
+          "density": 0.4,
+          "optional": true,
+          "optionalReason": "없으면 생략 가능"
+        },
+        {
+          "name": "생와사비",
+          "amount": 1.25,
+          "unit": "ml",
+          "density": 1,
+          "household": true,
+          "optional": true,
+          "optionalReason": "매운맛이 부담되면 생략 가능"
+        },
+        {
+          "name": "간장",
+          "amount": 2.5,
+          "unit": "ml",
+          "density": 1.18,
+          "household": true,
+          "alternatives": [
+            {
+              "name": "쯔유",
+              "amount": 2.5,
+              "unit": "ml",
+              "density": 1.1,
+              "household": true,
+              "samePreparation": true,
+              "preparation": "동량으로 그대로 대체합니다."
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "낫토 한 팩을 젓가락으로 충분히 저어 끈끈한 진액을 냅니다.",
+          "cue": "낫토에서 끈적한 실이 쫙쫙 나옵니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "따뜻한 흰밥 위에 저은 낫토를 올립니다.",
+          "cue": "낫토가 밥 위에 고르게 얹어집니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 1,
+          "text": "가운데에 대파를 얹습니다.",
+          "cue": "낫토덮밥이 먹음직스럽게 준비됩니다."
+        },
+        {
+          "heat": "불 없음",
+          "minutes": 2,
+          "text": "달걀노른자를 올리고 생와사비와 간장으로 간을 맞춰 비벼 먹습니다.",
+          "cue": "고소하고 짭짤한 낫토덮밥이 완성됩니다."
+        }
+      ],
+      "cookerVariants": [],
+      "localization": {
+        "target": "korean_home",
+        "koreanPantry": true,
+        "koreanTaste": true,
+        "measurement": "dad_spoon_15ml_half_7.5ml_paper_cup_180ml",
+        "seasoningPolicy": "msg_dasida_yeondoo_allowed",
+        "note": "원형의 핵심 조리법은 유지하되 한국 마트 재료, 한국 가정 화력과 조리도구, 한국인 입맛에 맞춰 재구성한 레시피입니다."
+      }
     }
   ]
 }
