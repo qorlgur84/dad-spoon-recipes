@@ -1,5 +1,5 @@
 {
-  "version": "5.20.0",
+  "version": "5.21.0",
   "updatedAt": "2026-09-19",
   "recipePolicy": {
     "differentIngredients": "separate_recipe",
@@ -9038,7 +9038,8 @@
               "samePreparation": true,
               "preparation": "별도 손질 없이 원재료와 같은 방법과 시간으로 사용합니다."
             }
-          ]
+          ],
+          "bulkNote": "정육점 기준 소고기 홍두깨살 약 1근(600g) 정도로 준비하면 됩니다"
         },
         {
           "name": "물",
@@ -9160,7 +9161,8 @@
           "name": "달걀",
           "amount": 420,
           "unit": "g",
-          "density": 1.03
+          "density": 1.03,
+          "bulkNote": "달걀 약 9개(한 판의 1/3 정도) 기준입니다"
         },
         {
           "name": "식초",
@@ -17414,7 +17416,8 @@
           "name": "삶아 깐 메추리알",
           "amount": 450,
           "unit": "g",
-          "density": 1.03
+          "density": 1.03,
+          "bulkNote": "삶아 깐 메추리알 한 봉지(약 40~50개) 기준입니다"
         },
         {
           "name": "꽈리고추",
@@ -17555,7 +17558,8 @@
           "name": "백오이",
           "amount": 800,
           "unit": "g",
-          "density": 0.96
+          "density": 0.96,
+          "bulkNote": "백오이 4~5개(약 800g) 기준입니다"
         },
         {
           "name": "부추",
@@ -17703,7 +17707,8 @@
           "name": "알배추",
           "amount": 800,
           "unit": "g",
-          "density": 0.55
+          "density": 0.55,
+          "bulkNote": "알배추 1포기(800g~1kg) 기준입니다. 더 많이 만들려면 재료 전체를 포기 수에 비례해 늘리세요"
         },
         {
           "name": "쪽파",
@@ -18526,7 +18531,8 @@
           "name": "우엉",
           "amount": 350,
           "unit": "g",
-          "density": 0.72
+          "density": 0.72,
+          "bulkNote": "우엉 1대(약 350g) 기준입니다"
         },
         {
           "name": "물",
@@ -19041,7 +19047,8 @@
           "name": "통마늘",
           "amount": 700,
           "unit": "g",
-          "density": 0.62
+          "density": 0.62,
+          "bulkNote": "깐마늘 기준 통마늘 약 4~5통(700g) 기준입니다"
         },
         {
           "name": "진간장",
@@ -19533,7 +19540,8 @@
           "name": "연근",
           "amount": 450,
           "unit": "g",
-          "density": 0.78
+          "density": 0.78,
+          "bulkNote": "연근 1개(중간 크기, 약 450g) 기준입니다"
         },
         {
           "name": "물",
@@ -20797,7 +20805,8 @@
           "name": "깻잎",
           "amount": 120,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "깻잎 약 100장(한 묶음, 120g) 기준입니다"
         },
         {
           "name": "양파",
@@ -35875,7 +35884,8 @@
           "name": "달걀",
           "amount": 140,
           "unit": "g",
-          "density": 1.05
+          "density": 1.05,
+          "bulkNote": "달걀 약 3개 기준의 소량 레시피입니다"
         },
         {
           "name": "꽈리고추",
@@ -36011,7 +36021,8 @@
           "name": "돼지고기",
           "amount": 350,
           "unit": "g",
-          "density": 1.05
+          "density": 1.05,
+          "bulkNote": "돼지고기 앞다리살 약 350g(한 팩) 기준입니다"
         },
         {
           "name": "메추리알",
@@ -43262,7 +43273,8 @@
           "name": "메추리알",
           "amount": 300,
           "unit": "g",
-          "density": 1
+          "density": 1,
+          "bulkNote": "메추리알 약 25~30개 기준입니다"
         },
         {
           "name": "맛간장",
@@ -52580,7 +52592,8 @@
           "name": "쪽파",
           "amount": 400,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "쪽파 2단(약 400g) 기준입니다"
         },
         {
           "name": "설탕",
@@ -52705,7 +52718,8 @@
           "name": "알타리무",
           "amount": 1500,
           "unit": "g",
-          "density": 0.6
+          "density": 0.6,
+          "bulkNote": "알타리무 1단(15~20개, 약 1.5kg) 기준입니다"
         },
         {
           "name": "쪽파",
@@ -58240,7 +58254,8 @@
           "name": "고추",
           "amount": 500,
           "unit": "g",
-          "density": 0.5
+          "density": 0.5,
+          "bulkNote": "풋고추 또는 꽈리고추 약 2봉지(500g) 기준입니다"
         },
         {
           "name": "진간장",
@@ -66366,7 +66381,8 @@
           "name": "무",
           "amount": 1000,
           "unit": "g",
-          "density": 0.6
+          "density": 0.6,
+          "bulkNote": "무 2개(약 1kg) 기준입니다"
         },
         {
           "name": "고춧가루",
@@ -66498,7 +66514,8 @@
           "name": "검은콩",
           "amount": 250,
           "unit": "g",
-          "density": 0.75
+          "density": 0.75,
+          "bulkNote": "서리태(검은콩) 약 1.5컵(250g) 기준입니다"
         },
         {
           "name": "콩 불린 물",
@@ -67544,7 +67561,8 @@
           "name": "열무",
           "amount": 1000,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "열무 1단(약 1kg) 기준입니다"
         },
         {
           "name": "부추",
@@ -67709,7 +67727,8 @@
           "name": "배추잎",
           "amount": 200,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "배추 겉잎 5~6장(약 200g) 기준입니다"
         },
         {
           "name": "무",
@@ -67881,7 +67900,8 @@
           "unit": "count",
           "countLabel": "포기",
           "gramsPerUnit": 2000,
-          "mlPerUnit": 2200
+          "mlPerUnit": 2200,
+          "bulkNote": "배추 1포기(약 2kg) 기준입니다. 여러 포기 담글 땐 포기 수만큼 재료를 비례해서 늘리세요"
         },
         {
           "name": "절임용소금",
@@ -68070,7 +68090,8 @@
           "name": "갓",
           "amount": 1000,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "갓 1단(약 1kg) 기준입니다"
         },
         {
           "name": "쪽파",
@@ -68260,7 +68281,8 @@
           "name": "고들빼기",
           "amount": 900,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "고들빼기 약 2단(900g) 기준입니다"
         },
         {
           "name": "쪽파",
@@ -69057,7 +69079,8 @@
           "name": "부추",
           "amount": 300,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "부추 2단(약 300g) 기준입니다"
         },
         {
           "name": "찹쌀풀",
@@ -83897,7 +83920,8 @@
           "unit": "count",
           "countLabel": "마리",
           "gramsPerUnit": 15,
-          "mlPerUnit": 17
+          "mlPerUnit": 17,
+          "bulkNote": "생새우(중하) 40마리(약 600g~1kg) 기준입니다"
         },
         {
           "name": "양파",
@@ -84858,7 +84882,8 @@
           "unit": "count",
           "countLabel": "개",
           "gramsPerUnit": 200,
-          "mlPerUnit": 220
+          "mlPerUnit": 220,
+          "bulkNote": "양파 2개(약 400g) 기준입니다"
         },
         {
           "name": "물",
@@ -84985,7 +85010,8 @@
           "unit": "count",
           "countLabel": "개",
           "gramsPerUnit": 150,
-          "mlPerUnit": 160
+          "mlPerUnit": 160,
+          "bulkNote": "가지 5개(약 750g) 기준입니다"
         },
         {
           "name": "부추",
@@ -85124,7 +85150,8 @@
           "name": "돌나물",
           "amount": 180,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "돌나물 약 2줌(180g) 기준입니다"
         },
         {
           "name": "무",
@@ -87138,7 +87165,8 @@
           "unit": "count",
           "countLabel": "개",
           "gramsPerUnit": 200,
-          "mlPerUnit": 220
+          "mlPerUnit": 220,
+          "bulkNote": "오이 5개(약 1kg) 기준입니다"
         },
         {
           "name": "부추",
@@ -92157,7 +92185,8 @@
           "unit": "count",
           "countLabel": "마리",
           "gramsPerUnit": 250,
-          "mlPerUnit": 270
+          "mlPerUnit": 270,
+          "bulkNote": "냉동 절단꽃게 4마리(약 1kg) 기준입니다. 대용량(예: 3kg)으로 만들 땐 전체 재료를 무게 비율대로 늘리세요"
         },
         {
           "name": "간장",
@@ -93532,7 +93561,8 @@
           "name": "명이나물",
           "amount": 300,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "명이나물(산마늘) 한 묶음(약 300g) 기준입니다"
         },
         {
           "name": "밀가루",
@@ -95145,7 +95175,8 @@
           "name": "창난젓",
           "amount": 250,
           "unit": "g",
-          "density": 0.9
+          "density": 0.9,
+          "bulkNote": "창난젓 약 250g(한 팩) 기준입니다"
         },
         {
           "name": "당근",
@@ -95304,7 +95335,8 @@
           "unit": "count",
           "countLabel": "개",
           "gramsPerUnit": 50,
-          "mlPerUnit": 55
+          "mlPerUnit": 55,
+          "bulkNote": "명란 3덩이(약 150g) 기준입니다"
         },
         {
           "name": "청양고추",
@@ -95410,7 +95442,8 @@
           "name": "굴",
           "amount": 500,
           "unit": "g",
-          "density": 0.9
+          "density": 0.9,
+          "bulkNote": "생굴 약 500g(한 봉지) 기준입니다"
         },
         {
           "name": "고춧가루",
@@ -95687,7 +95720,8 @@
           "name": "꼴뚜기",
           "amount": 600,
           "unit": "g",
-          "density": 0.8
+          "density": 0.8,
+          "bulkNote": "꼴뚜기 약 600g(한 팩) 기준입니다"
         },
         {
           "name": "무",
@@ -100124,7 +100158,8 @@
           "name": "얼갈이배추",
           "amount": 300,
           "unit": "g",
-          "density": 0.4
+          "density": 0.4,
+          "bulkNote": "얼갈이배추 1단(약 300g) 기준입니다"
         },
         {
           "name": "고춧가루",
@@ -100746,7 +100781,8 @@
           "name": "바지락젓",
           "amount": 330,
           "unit": "g",
-          "density": 0.9
+          "density": 0.9,
+          "bulkNote": "바지락젓 약 330g(한 팩) 기준입니다"
         },
         {
           "name": "양파",
@@ -100926,7 +100962,8 @@
           "name": "오징어젓",
           "amount": 200,
           "unit": "g",
-          "density": 0.9
+          "density": 0.9,
+          "bulkNote": "오징어젓 약 200g(한 팩) 기준입니다"
         },
         {
           "name": "무말랭이",
@@ -101401,7 +101438,8 @@
           "unit": "count",
           "countLabel": "마리",
           "gramsPerUnit": 100,
-          "mlPerUnit": 110
+          "mlPerUnit": 110,
+          "bulkNote": "참가자미 10마리(약 1kg) 기준입니다"
         },
         {
           "name": "좁쌀",
@@ -102558,7 +102596,8 @@
           "amount": 180,
           "unit": "ml",
           "density": 1,
-          "household": true
+          "household": true,
+          "bulkNote": "갈치속젓 약 180ml(한 병) 기준입니다"
         },
         {
           "name": "청양고추",
@@ -102710,7 +102749,8 @@
           "name": "낙지젓",
           "amount": 1000,
           "unit": "g",
-          "density": 0.9
+          "density": 0.9,
+          "bulkNote": "낙지젓 약 1kg 기준입니다"
         },
         {
           "name": "양파",
@@ -105683,7 +105723,8 @@
           "name": "청양고추",
           "amount": 550,
           "unit": "g",
-          "density": 0.7
+          "density": 0.7,
+          "bulkNote": "청양고추 약 2봉지(550g) 기준입니다"
         },
         {
           "name": "진간장",
@@ -108927,7 +108968,8 @@
           "name": "오이",
           "amount": 450,
           "unit": "g",
-          "density": 0.5
+          "density": 0.5,
+          "bulkNote": "오이 2~3개(약 450g) 기준입니다"
         },
         {
           "name": "파프리카",
@@ -109199,7 +109241,8 @@
           "name": "무",
           "amount": 500,
           "unit": "g",
-          "density": 0.6
+          "density": 0.6,
+          "bulkNote": "무 약 1/2개(500g) 기준입니다"
         },
         {
           "name": "청양고추",
@@ -109349,7 +109392,8 @@
           "name": "마늘쫑",
           "amount": 500,
           "unit": "g",
-          "density": 0.5
+          "density": 0.5,
+          "bulkNote": "마늘쫑 1단(약 500g) 기준입니다"
         },
         {
           "name": "간장",
@@ -109493,7 +109537,8 @@
           "name": "삭힌콩잎",
           "amount": 150,
           "unit": "g",
-          "density": 0.3
+          "density": 0.3,
+          "bulkNote": "삭힌 콩잎 약 150g(한 팩) 기준입니다"
         },
         {
           "name": "멸치액젓",
@@ -109659,7 +109704,8 @@
           "name": "양파",
           "amount": 200,
           "unit": "g",
-          "density": 0.6
+          "density": 0.6,
+          "bulkNote": "양파 1개(약 200g) 기준입니다"
         },
         {
           "name": "적양파",
@@ -112799,7 +112845,8 @@
           "unit": "count",
           "countLabel": "개",
           "gramsPerUnit": 50,
-          "mlPerUnit": 48
+          "mlPerUnit": 48,
+          "bulkNote": "달걀 6개(한 판의 1/5) 기준입니다"
         },
         {
           "name": "소금",
@@ -116546,7 +116593,8 @@
           "name": "명란젓",
           "amount": 300,
           "unit": "g",
-          "density": 0.9
+          "density": 0.9,
+          "bulkNote": "명란젓 약 300g(3덩이) 기준입니다"
         },
         {
           "name": "양조간장",
@@ -116696,7 +116744,8 @@
           "name": "매실장아찌",
           "amount": 200,
           "unit": "g",
-          "density": 0.6
+          "density": 0.6,
+          "bulkNote": "매실장아찌 약 200g(한 줌) 기준입니다"
         },
         {
           "name": "고추장",
